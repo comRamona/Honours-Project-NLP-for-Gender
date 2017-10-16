@@ -20,11 +20,11 @@ class NameClassifier():
         self.mylog = open(os.path.join(os.environ["AAN_DIR"],
         "mylog.txt"),"a") 
 
-        with open(male_path,"r") as f:
+        with open(male_path,"r", encoding="utf-8") as f:
             f = f.read()
             self.male_full_firsts = Counter(filter(lambda n: len(n)>3,self.get_first_names_list(f)))
             self.male_single_firsts = Counter(filter(lambda n: len(n)>3,self.get_first_names_list(f,True)))
-        with open(female_path,"r") as f:
+        with open(female_path,"r", encoding="utf-8") as f:
             f = f.read()
             self.female_full_firsts = Counter(filter(lambda n: len(n)>3,self.get_first_names_list(f)))
             self.female_single_firsts = Counter(filter(lambda n: len(n)>3,self.get_first_names_list(f,True)))
@@ -102,33 +102,35 @@ def map_titles():
         "acl-male.txt")
     unknown_path = os.path.join(os.environ["AAN_DIR"],
         "acl-unknown.txt")
-    with open(female_path,"r") as f:
-        females = set(f.read().split("\n"))
-    with open(male_path,"r") as f:
-        males = set(f.read().split("\n"))
-    with open(male_path,"r") as f:
-        males = set(f.read().split("\n"))
-    with open(unknown_path,"r") as f:
-        known_unknowns = set(f.read().split("\n"))
+    with open(female_path,"r",encoding="utf-8") as f:
+        females = set(map(lambda x: x.strip(), f.read().split("\n")))
+    with open(male_path,"r",encoding="utf-8") as f:
+        males = set(map(lambda x: x.strip(), f.read().split("\n")))
+    with open(unknown_path,"r",encoding="utf-8") as f:
+        known_unknowns = set(map(lambda x: x.strip(), f.read().split("\n")))
     new_unkown = set()
     dic = []
     fields = ["id", "authors", "title", "venue", "year","genders"]
     prev=[]
-    with open(ids_path,"r",encoding="ISO-8859-1") as f:
+    known = set()
+    with open(ids_path,"r", encoding="ISO-8859-1") as f:
         paper_data = f.read().split("\n\n")
         for idx,paper in enumerate(paper_data):
             values = paper.split("\n")[:len(fields)-1]
 
-            values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
 
+            values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
+            
             values["authors"] = values["authors"].split(";")
-            for auth in values["authors"][:2]:
-                
+            for auth in values["authors"]:  
+                auth = auth.strip() 
                 gender = Gender.unknown
                 if auth in females:
                     gender = Gender.female
+                    known.add(auth)
                 elif auth in males:
                     gender = Gender.male
+                    known.add(auth)
                 # elif auth not in known_unknowns:
                 else:
                     new_unkown.add(auth.strip())
@@ -137,16 +139,18 @@ def map_titles():
             prev = values
             #if idx==5:
             #    break
+        print(len(known))
           
     df = pd.DataFrame(dic)#.set_index(["id"])
-    with open(os.path.join(os.environ["AAN_DIR"],"new_unknown_first2.txt"),"w") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"new_unknown.txt"),"w", encoding="utf-8") as f:
         f.write("\n".join(new_unkown))
 
 
 
 def main():
-    nc = NameClassifier()
-    print(nc.classify_unknown_from_known_stats())
+    #nc = NameClassifier()
+    #print(nc.classify_unknown_from_known_stats())
+    map_titles()
 
  
  
