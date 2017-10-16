@@ -1,0 +1,28 @@
+26057 papers
+
+##EXPERIMENT 1: 2014 release Looking at first 2 authors only
+17354 unique names
+Unknown: 11067
+Known: 6287
+#Comments: turns out strip() is important
+
+##EXPERIMENT 2: 2008 release, all first names
+13705 papers
+11181 unique names
+10492 are known
+779 are unknown
+
+##EXPERIMENT 3: 2014 release, all first names
+26057 papers
+18946 unique authors
+Known: 11081 
+Unknown: 7865
+
+##EXPERIMENT 4: Using US Census data
+3944f 888m unambiguous names
+....
+
+##EXPERIMENT 5: Using gender.c
+(male:2553, female:1053, uknown:3675, total:7865)
+#Adding bulgarians: male:13, female:6, 3657 left
+#manual work: (34, 45, 3575, 3658): 3575

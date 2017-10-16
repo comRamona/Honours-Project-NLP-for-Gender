@@ -1,0 +1,26 @@
+edu.umich.si.clair.nutch.SimpleSearch
+Author: afader
+
+Summary
+----------
+SimpleSearch is a very simple Nutch query interface. It takes a query, an
+index directory, and an optional maximum number of hits to retrieve and 
+prints the results of the query to standard output. The results of the query 
+are the key and value pairs found in the HitDetails object (see the Nutch
+API docs for more information about this).
+
+Installation
+----------
+To install SimpleSearch, drop it into the $NUTCH_HOME/lib directory.
+
+Usage
+----------
+SimpleSearch is executed through the $NUTCH_HOME/bin/nutch script. Run:
+
+    $NUTCH_HOME/bin/nutch edu.umich.si.clair.nutch.SimpleSearch \
+        dir query [numhits]
+
+where "dir" is a Nutch index directory (you can identify this directory
+because it will contain the segments and db subdirectories), "query" is the
+text query (make sure to enclose multiple words in quotes), and "numhits"
+is the maximum number of hits to return (this is optional).

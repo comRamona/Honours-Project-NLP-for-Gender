@@ -1,0 +1,30 @@
+Reading in directed graph file
+17419 number of nodes
+112018 number of edges
+Network information:
+  nodes: 17419
+  edges: 112018
+  diameter: 15
+  average degree: 12.86
+  largest connected component size: 14606
+  Degree statistics:
+    in degree stats:
+      power law exponent: 3.08 r-squared: 0.91
+      not a power law relationship (p = 2.00)
+      Newman power law exponent: 2.09, error: 0.01
+    out degree stats:
+      power law exponent: 3.08 r-squared: 0.91
+      not a power law relationship (p = 2.00)
+      Newman power law exponent: 2.09, error: 0.01
+    total degree stats:
+      power law exponent: 3.08 r-squared: 0.91
+      not a power law relationship (p = 2.00)
+      Newman power law exponent: 1.72, error: 0.00
+  Strongly connected components: 0
+  Clustering:
+    Watts Strogatz clustering coefficient: 0.6672
+    Newman clustering coefficient (3 * 90678 triangles / 972786 triples): 0.2796
+  clairlib avg. directed shortest path: 5.39
+  Ferrer avg. directed shortest path: 4.65
+  harmonic mean geodesic distance: 7.21
+  harmonic mean geodesic distance with self-loop counted in: 7.21082787920542
