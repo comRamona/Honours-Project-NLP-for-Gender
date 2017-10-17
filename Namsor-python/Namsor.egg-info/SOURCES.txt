@@ -1,0 +1,17 @@
+setup.py
+Namsor/GendreApi.py
+Namsor/GendreListApi.py
+Namsor/OriginApi.py
+Namsor/OriginListApi.py
+Namsor/__init__.py
+Namsor/swagger.py
+Namsor.egg-info/PKG-INFO
+Namsor.egg-info/SOURCES.txt
+Namsor.egg-info/dependency_links.txt
+Namsor.egg-info/top_level.txt
+Namsor/models/ExtractOrigin.py
+Namsor/models/ExtractOriginList.py
+Namsor/models/Genderize.py
+Namsor/models/GenderizerList.py
+Namsor/models/Name.py
+Namsor/models/__init__.py

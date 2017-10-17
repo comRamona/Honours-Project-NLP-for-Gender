@@ -95,8 +95,8 @@ def gender_bulgarian():
 
 def manual_list(unknown, result, mfemales, mmales):
   
-    machine_females = open(os.path.join(os.environ["AAN_DIR"],"machine_females.txt"),"a+", encoding="utf-8")
-    machine_males = open(os.path.join(os.environ["AAN_DIR"],"machine_males.txt"),"a+", encoding="utf-8")
+    machine_females = open(os.path.join(os.environ["AAN_DIR"],"machine_femaless.txt"),"a+", encoding="utf-8")
+    machine_males = open(os.path.join(os.environ["AAN_DIR"],"machine_maless.txt"),"a+", encoding="utf-8")
     result_unknown = open(os.path.join(os.environ["AAN_DIR"],result),"w", encoding="utf-8")
 
     with open(os.path.join(os.environ["AAN_DIR"],unknown),"r", encoding="utf-8") as f:
@@ -113,9 +113,11 @@ def manual_list(unknown, result, mfemales, mmales):
                 if no_initials in mmales:
                     males += 1
                     machine_males.write(name + "\n")
+                    print(name," M")
                 elif no_initials in mfemales:
                     females +=1
                     machine_females.write(name + "\n")
+                    print(name,"F")
                 else:
                     new_unk.add(name)
             except:
@@ -149,6 +151,8 @@ def fnCounter():
 
         for i in a:
             print(i,"\n")
+
+
       
 
 
@@ -178,7 +182,7 @@ def map_us_census():
     machine_males = open(os.path.join(os.environ["AAN_DIR"],"machine_males.txt"),"a+", encoding="utf-8")
     machine_result = open(os.path.join(os.environ["AAN_DIR"],"machine_result.txt"),"w", encoding="utf-8")
 
-    with open(os.path.join(os.environ["AAN_DIR"],"machine_unknown3.txt"),"r", encoding="utf-8") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"machine_unknown4.txt"),"r", encoding="utf-8") as f:
         unknown_names = map(lambda x: x.strip(), f.read().split("\n"))
         males=0
         females=0
@@ -260,5 +264,8 @@ if __name__ == '__main__':
     #     "Javier","Ritwik","Gaël","Kartik","FranÃ§ois","Adrian", "Adri?","Michal", "Dan","Florin","Mihai", "Christian","Nate","João","Jan","Ilia","Vishal","Jesús","Ronan"])
     # indian_names("machine_unknown3.txt","machine_unknown4.txt")
 
+    import genderio
+    gp = genderio.GenderPredictor()
+    manual_list("machine_unknown4.txt","machine_unknown5.txt",gp.females,gp.males)
 
-    fnCounter()
+    #fnCounter()
