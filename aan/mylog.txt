@@ -98,6 +98,7 @@ bulgarian:
 list:
 34 45 3325 3404
 
+
 4612
 11608
 True
@@ -105,6 +106,15 @@ True
 15273
 3045 LEFT WITH 3045
 
+COUNTER + manual:
+60 27 2958 3045  # left with 2958
+
+INDIAN NAMES:
+153 27 2747 2927 # Left with 2738
+
+## 2717 fixing some duplicates
+
+#remove jesus, ronan: left iwth 2739
 
 
 

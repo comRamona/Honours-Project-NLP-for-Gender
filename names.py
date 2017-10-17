@@ -107,10 +107,10 @@ def map_titles():
         "machine_males.txt")
 
     with open(female_path,"r",encoding="utf-8") as f, open(female_path2,"r",encoding="utf-8") as f2:
-        females = set(list(map(lambda x: x.strip(), f.read().split("\n")))+ list(map(lambda x: x.strip(), f2.read().split("\n"))))
+        females = set(list(map(lambda x: x.strip(), f.read().split("\n"))) + list(map(lambda x: x.strip(), f2.read().split("\n"))))
 
     with open(male_path,"r",encoding="utf-8") as g, open(male_path2,"r",encoding="utf-8") as g2:
-        males = set(list(map(lambda x: x.strip(), g.read().split("\n"))) + list(map(lambda x: x.strip(), g2.read().split("\n"))))
+        males = set(list(map(lambda x: x.strip(), g.read().split("\n")))  + list(map(lambda x: x.strip(), g2.read().split("\n"))))
 
     new_unkown = set()
     dic = []

@@ -15,6 +15,12 @@ def gender_machine():
 
     machine_unknown = open(os.path.join(os.environ["AAN_DIR"],"machine_unknown.txt"),"w", encoding="utf-8")
 
+    with open(os.path.join(os.environ["AAN_DIR"],"femalesfn1.txt"),"r", encoding="utf-8") as f:
+        names = f.read()
+        machine_females.write(names)
+    with open(os.path.join(os.environ["AAN_DIR"],"malesfn1.txt"),"r", encoding="utf-8") as f:
+        names = f.read()
+        machine_males.write(names)
     with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown1.txt"),"r", encoding="utf-8") as f:
         unknown_names = set(map(lambda x: x.strip(), f.read().split("\n")))
         males=0
@@ -44,6 +50,9 @@ def gender_machine():
         machine_unknown.write("\n".join(new_unk))
 
         print(males, females, len(new_unk), len(unknown_names))
+
+        machine_females.close()
+        machine_males.close()
 
 #2
 def gender_bulgarian():
@@ -75,52 +84,14 @@ def gender_bulgarian():
                 else:
                     new_unk.add(name)
             except:
-                print(name)
                 new_unk.add(name)
 
         machine_unknown2.write("\n".join(new_unk))
 
         print(males,females,len(new_unk),len(unknown_names))
 
-#3
-def manual_list_old():
-    mfemales = ["Clara","Maria","Diana", "Carmen", "Ramona", "Anne", "Octavia-Maria"]
-    mmales = ["Adrian", "Dan","Florin","Mihai", "Christian"]
-
-    machine_females = open(os.path.join(os.environ["AAN_DIR"],"machine_females.txt"),"a+", encoding="utf-8")
-    machine_males = open(os.path.join(os.environ["AAN_DIR"],"machine_males.txt"),"a+", encoding="utf-8")
-    machine_unknown3 = open(os.path.join(os.environ["AAN_DIR"],"machine_unknown3.txt"),"w", encoding="utf-8")
-
-    with open(os.path.join(os.environ["AAN_DIR"],"machine_unknown2.txt"),"r", encoding="utf-8") as f:
-        unknown_names = map(lambda x: x.strip(), f.read().split("\n"))
-        males=0
-        females=0
-        unk=0
-        total=0
-        regex = re.compile(r"\w+\.", re.IGNORECASE)
-        new_unk = set()
-        for name in unknown_names:
-            name = name.strip()
-            try:
-                total+=1
-                fn = name.split(",")[1].strip().split()[0]
-                no_initials = regex.sub("",fn).strip()
-                if no_initials in mmales:
-                    males += 1
-                    machine_males.write(name + "\n")
-                elif no_initials in mfemales:
-                    females +=1
-                    machine_females.write(name + "\n")
-                else:
-                    new_unk.add(name)
-            except:
-                print(name)
-                new_unk.add(name)
-
-        machine_unknown3.write("\n".join(new_unk))
-
-        print(males,females,len(new_unk),total)
-
+        bulgarian_females.close()
+        bulgarian_males.close()
 
 def manual_list(unknown, result, mfemales, mmales):
   
@@ -129,7 +100,7 @@ def manual_list(unknown, result, mfemales, mmales):
     result_unknown = open(os.path.join(os.environ["AAN_DIR"],result),"w", encoding="utf-8")
 
     with open(os.path.join(os.environ["AAN_DIR"],unknown),"r", encoding="utf-8") as f:
-        unknown_names = map(lambda x: x.strip(), f.read().split("\n"))
+        unknown_names = set(map(lambda x: x.strip(), f.read().split("\n")))
         males=0
         females=0
         regex = re.compile(r"\w+\.", re.IGNORECASE)
@@ -137,7 +108,6 @@ def manual_list(unknown, result, mfemales, mmales):
         for name in unknown_names:
             name = name.strip()
             try:
-                total+=1
                 fn = name.split(",")[1].strip().split()[0]
                 no_initials = regex.sub("",fn).strip()
                 if no_initials in mmales:
@@ -149,18 +119,16 @@ def manual_list(unknown, result, mfemales, mmales):
                 else:
                     new_unk.add(name)
             except:
-                print(name)
                 new_unk.add(name)
 
         result_unknown.write("\n".join(new_unk))
-
-        print(males,females,len(new_unk),total)
+        print(males,females,len(new_unk), len(list(unknown_names)))
 
 
 def fnCounter():
 
 
-    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown3.txt"),"r", encoding="utf-8") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown2.txt"),"r", encoding="utf-8") as f:
         unknown_names = map(lambda x: x.strip(), f.read().split("\n"))
         males=0
         females=0
@@ -236,10 +204,61 @@ def map_us_census():
         print(males,females,unk,total)
 
 
+def indian_names(unknown,result):
+  
+
+    machine_females = open(os.path.join(os.environ["AAN_DIR"],"machine_females.txt"),"a+", encoding="utf-8")
+    machine_males = open(os.path.join(os.environ["AAN_DIR"],"machine_males.txt"),"a+", encoding="utf-8")
+    result_unknown = open(os.path.join(os.environ["AAN_DIR"],result),"w", encoding="utf-8")
+
+  
+    with open(os.path.join(os.environ["AAN_DIR"],"indianmale.txt"),"r", encoding="utf-8") as f:
+        indian_boys = set(map(lambda x: x.strip(), f.read().split("\n")))
+
+    with open(os.path.join(os.environ["AAN_DIR"],"indianfemale.txt"),"r", encoding="utf-8") as f:
+        indian_girls = set(map(lambda x: x.strip(), f.read().split("\n")))
+
+    with open(os.path.join(os.environ["AAN_DIR"],"indianunisex.txt"),"r", encoding="utf-8") as f:
+        names = set(map(lambda x: x.strip(), f.read().split("\n")))
+        indian_girls =  indian_girls.difference(names)
+        indian_boys =  indian_boys.difference(names)
+
+
+    with open(os.path.join(os.environ["AAN_DIR"],unknown),"r", encoding="utf-8") as f:
+        unknown_names = set(map(lambda x: x.strip(), f.read().split("\n")))
+        males=0
+        females=0
+        regex = re.compile(r"\w+\.", re.IGNORECASE)
+        new_unk = set()
+        for name in unknown_names:
+            name = name.strip()
+            try:
+                fn = name.split(",")[1].strip().split()[0]
+                no_initials = regex.sub("",fn).strip()
+                if no_initials in indian_boys:
+                    machine_males.write(name + "\n")
+                    males += 1
+                elif no_initials in indian_girls:
+                    females += 1
+                    machine_females.write(name + "\n")
+                else:
+                    new_unk.add(name)
+            except:
+                new_unk.add(name)
+
+        result_unknown.write("\n".join(new_unk))
+
+        print(males,females,len(new_unk), len(list(unknown_names)))
+
+
 if __name__ == '__main__':
-    gender_machine()
-    gender_bulgarian()
-    manual_list_old()
-    #fnCounter()
-    #manual_list("aclr_unknown3", "machine_unknown4", mfemales, ["Jan","Ga&euml;l","Sandeep","Ben","Jos&eacute","José"])
-    
+    # gender_machine()
+    # gender_bulgarian()
+    # manual_list("machine_unknown2.txt", "machine_unknown3.txt", ["Marion","Stéphane","Whitney","Amy","María",
+    #     "Clara","Elisa", "Maria","Diana", "Carmen", "Ramona", "Anne", "Octavia-Maria","Kelly","Darnes"],
+    #     ["Jean","Will","Sandeep","Ben","Jesus","José","Jose","Deepak","Sandeep",
+    #     "Javier","Ritwik","Gaël","Kartik","FranÃ§ois","Adrian", "Adri?","Michal", "Dan","Florin","Mihai", "Christian","Nate","João","Jan","Ilia","Vishal","Jesús","Ronan"])
+    # indian_names("machine_unknown3.txt","machine_unknown4.txt")
+
+
+    fnCounter()
