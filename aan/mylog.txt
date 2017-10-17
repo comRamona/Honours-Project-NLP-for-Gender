@@ -26,3 +26,9 @@ Unknown: 7865
 (male:2553, female:1053, uknown:3675, total:7865)
 #Adding bulgarians: male:13, female:6, 3657 left
 #manual work: (34, 45, 3575, 3658): 3575
+
+Classify by first name, taking into account just first 2 authors:
+Total unknown: 3558. Managed to classify 257 males and 108 females 
+
+Classify by first name, taking into account just first 2 authors:
+Total unknown: 3558. Managed to classify 257 males and 108 females 

@@ -18,7 +18,7 @@ class NameClassifier():
         "acl-male.txt")
 
         self.mylog = open(os.path.join(os.environ["AAN_DIR"],
-        "mylog.txt"),"a") 
+        "mylog.txt"),"a",encoding="utf-8") 
 
         with open(male_path,"r", encoding="utf-8") as f:
             f = f.read()
@@ -39,9 +39,9 @@ class NameClassifier():
     def classify_name(self, name, further_split = False):
 
         name = name.strip().split(",")
-        if len(name)<2:
+        if len(name)<3:
             return Gender.unknown
-        if(len(name[1])<=2):
+        if(len(name[1])<=3):
             return Gender.unknown
        
         
@@ -57,8 +57,8 @@ class NameClassifier():
 
     def classify_unknown_from_known_stats(self):
         unknown_path = os.path.join(os.environ["AAN_DIR"],
-        "new_unknown_first2.txt")
-        with open(unknown_path,"r") as f:
+        "machine_set2.txt")
+        with open(unknown_path,"r",encoding="utf-8") as f:
             names = set(f.read().split("\n"))
 
         dic = []
@@ -81,9 +81,9 @@ class NameClassifier():
         df = pd.DataFrame(dic)
         cls_m = df[df["gender"]==Gender.male]
         cls_f = df[df["gender"]==Gender.female]
-        with open(os.path.join(os.environ["AAN_DIR"],"males1.txt"),"w") as f:
+        with open(os.path.join(os.environ["AAN_DIR"],"malesfn1.txt"),"w", encoding="utf-8") as f:
             f.write("\n".join(cls_m["name"]))
-        with open(os.path.join(os.environ["AAN_DIR"],"females1.txt"),"w") as f:
+        with open(os.path.join(os.environ["AAN_DIR"],"femalesfn1.txt"),"w", encoding="utf-8") as f:
             f.write("\n".join(cls_f["name"]))
         self.mylog.write("\n\nClassify by first name, taking into account just first 2 authors:\n")
         self.mylog.write("Total unknown: {0}. Managed to classify {1} males and " 
@@ -95,35 +95,42 @@ class NameClassifier():
 def map_titles():
 
     ids_path = os.path.join(os.environ["AAN_DIR"],
-        "release/2014/acl-metadata.txt")
+        "release\\2014\\acl-metadata.txt")
     female_path = os.path.join(os.environ["AAN_DIR"],
         "acl-female.txt")
     male_path = os.path.join(os.environ["AAN_DIR"],
         "acl-male.txt")
-    unknown_path = os.path.join(os.environ["AAN_DIR"],
-        "acl-unknown.txt")
-    with open(female_path,"r",encoding="utf-8") as f:
-        females = set(map(lambda x: x.strip(), f.read().split("\n")))
-    with open(male_path,"r",encoding="utf-8") as f:
-        males = set(map(lambda x: x.strip(), f.read().split("\n")))
-    with open(unknown_path,"r",encoding="utf-8") as f:
-        known_unknowns = set(map(lambda x: x.strip(), f.read().split("\n")))
+    female_path2 = os.path.join(os.environ["AAN_DIR"],
+        "machine_females.txt")
+    male_path2 = os.path.join(os.environ["AAN_DIR"],
+        "machine_males.txt")
+
+    with open(female_path,"r",encoding="utf-8") as f, open(female_path2,"r",encoding="utf-8") as f2:
+        females = set(list(map(lambda x: x.strip(), f.read().split("\n"))))#+list(map(lambda x: x.strip(), f2.read().split("\n"))))
+
+    with open(male_path,"r",encoding="utf-8") as g, open(male_path2,"r",encoding="utf-8") as g2:
+        males = set(list(map(lambda x: x.strip(), g.read().split("\n"))))#+list(map(lambda x: x.strip(), g2.read().split("\n"))))
+
     new_unkown = set()
     dic = []
     fields = ["id", "authors", "title", "venue", "year","genders"]
     prev=[]
     known = set()
-    with open(ids_path,"r", encoding="ISO-8859-1") as f:
+    auths = set()
+    print(len(females))
+    print(len(males))
+    print("Mediani, Mohammed" in males)
+    with open(ids_path,"r", encoding="utf-8") as f:
         paper_data = f.read().split("\n\n")
         for idx,paper in enumerate(paper_data):
             values = paper.split("\n")[:len(fields)-1]
 
-
             values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
             
-            values["authors"] = values["authors"].split(";")
+            values["authors"] = values["authors"].split("; ")
             for auth in values["authors"]:  
                 auth = auth.strip() 
+                auths.add(auth)
                 gender = Gender.unknown
                 if auth in females:
                     gender = Gender.female
@@ -133,16 +140,18 @@ def map_titles():
                     known.add(auth)
                 # elif auth not in known_unknowns:
                 else:
-                    new_unkown.add(auth.strip())
+                    new_unkown.add(auth)
                 values["genders"].append(gender)
-            dic.append(values)
+            #dic.append(values)
             prev = values
             #if idx==5:
             #    break
+        print(len(auths))
         print(len(known))
+        print(len(new_unkown))
           
-    df = pd.DataFrame(dic)#.set_index(["id"])
-    with open(os.path.join(os.environ["AAN_DIR"],"new_unknown.txt"),"w", encoding="utf-8") as f:
+    #df = pd.DataFrame(dic)#.set_index(["id"])
+    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown1.txt"),"w", encoding="utf-8") as f:
         f.write("\n".join(new_unkown))
 
 
