@@ -3,6 +3,7 @@ from enum import Enum
 import pandas as pd
 import re
 from collections import Counter
+from html.parser import HTMLParser
 
 class Gender(Enum):
     male = 0
@@ -106,7 +107,7 @@ def map_titles():
         "machine_males.txt")
 
     with open(female_path,"r",encoding="utf-8") as f, open(female_path2,"r",encoding="utf-8") as f2:
-        females = set(list(map(lambda x: x.strip(), f.read().split("\n"))) + list(map(lambda x: x.strip(), f2.read().split("\n"))))
+        females = set(list(map(lambda x: x.strip(), f.read().split("\n")))+ list(map(lambda x: x.strip(), f2.read().split("\n"))))
 
     with open(male_path,"r",encoding="utf-8") as g, open(male_path2,"r",encoding="utf-8") as g2:
         males = set(list(map(lambda x: x.strip(), g.read().split("\n"))) + list(map(lambda x: x.strip(), g2.read().split("\n"))))
@@ -120,6 +121,7 @@ def map_titles():
     print(len(females))
     print(len(males))
     print("Mediani, Mohammed" in males)
+    pars = HTMLParser()
     with open(ids_path,"r", encoding="utf-8") as f:
         paper_data = f.read().split("\n\n")
         for idx,paper in enumerate(paper_data):
@@ -130,6 +132,7 @@ def map_titles():
             values["authors"] = values["authors"].split("; ")
             for auth in values["authors"]:  
                 auth = auth.strip() 
+                auth = pars.unescape(auth)
                 auths.add(auth)
                 gender = Gender.unknown
                 if auth in females:
@@ -151,7 +154,7 @@ def map_titles():
         print(len(new_unkown))
           
     #df = pd.DataFrame(dic)#.set_index(["id"])
-    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown3.txt"),"w", encoding="utf-8") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown2.txt"),"w", encoding="utf-8") as f:
         f.write("\n".join(new_unkown))
 
 

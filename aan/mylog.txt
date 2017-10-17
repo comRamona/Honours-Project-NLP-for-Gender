@@ -84,5 +84,27 @@ True
 15181
 3218 left to classify!  -aclr1_unknwn3
 
+###REPEAT EVERYTHING WITH HTML PARSE
+3360
+8574
+False
+18318
+11020
+7298
+gender machine:
+2756 1120 3422 7298
+bulgarian:
+12 6 3404 3422
+list:
+34 45 3325 3404
+
+4612
+11608
+True
+18318
+15273
+3045 LEFT WITH 3045
+
+
 
 
