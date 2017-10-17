@@ -77,7 +77,7 @@ class Detector:
             return self.unknown_value
 
         max_count, max_tie = (0, 0)
-        best = self.names[name].keys()[0]
+        best = list(self.names[name].keys())[0]
         # if name is seen with more than one gender, we're not sure
         genders = set()
         for gender, country_values in self.names[name].items():
@@ -97,7 +97,7 @@ class Detector:
             return self.unknown_value
         elif not country:
             def counter(country_values):
-                country_values = map(ord, country_values.replace(" ", ""))
+                country_values = list(map(ord, country_values.replace(" ", "")))
                 return (len(country_values),
                         sum(map(lambda c: c > 64 and c-55 or c-48, country_values)))
             return self._most_popular_gender(name, counter)
