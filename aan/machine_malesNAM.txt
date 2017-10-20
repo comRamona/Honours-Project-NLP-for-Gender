@@ -1,0 +1,671 @@
+Nguyen, Dat P. T.
+Balasubramanian, Sriramkumar
+Ruiz, Nick
+Leibbrandt, Richard E
+Wyse, Brendan
+Melli, Gabor
+Stolerman, Ariel
+Shum, Heung-Yeung
+Long, Bo
+Do, Quoc Khanh
+Pal, Santanu
+Moran, Sean
+Farajian, Mohammad Amin
+Kobayashi, Tetsunori
+Ma, Erlei
+Wilson, Shomir
+Balage Filho, Pedro Paulo
+Biran, Or
+Dou, Zhicheng
+Dan, Avishek
+Hakim, Chairil
+Judea, Alex
+Acero, Alex
+Dou, Yanzhao
+Rastogi, Pushpendre
+Dunietz, Jesse
+Mohamed, Thahir
+Araya, Makoto
+Asudeh, Ash
+Hosseini, Mohammad Javad
+Khanh Do, Quoc
+Rodu, Jordan
+Tagarelli, Andrea
+Benner, Drayton
+Lucero, Cupertino
+Ragheb, Moheb
+Hunter, Starling
+Tan, Qi
+Cankaya, Hakki C.
+Ishikawa, Kai
+Kazemi, Farzindar
+Somasundaram, Aarthy
+Kiela, Douwe
+Sharifi, Beaux
+Exley, Andy
+Dione, Cheikh Bamba
+Manabu, OKUMURA
+Norbu, Sithar
+Kristensson, Per Ola
+Tyers, Francis
+Sugihara, Daigo
+Ganguly, Debasis
+Ruvini, Jean-David
+Marino, Andrea
+Lopes, Gabriel
+Nguyen Truong, Son
+Karampatsis, Rafael - Michael
+Ramanan, SV
+Lau, Jey Han
+Exton, Chris
+Zhicharevich, Alex
+Gompel, Maarten van
+Hatakoshi, Yuto
+Owoputi, Olutobi
+Yener, Bulent
+Bermudez, Josu
+Kolachina, Prasanth
+Solberg, Per Erik
+Lignos, Constantine
+Cabral, Joao P.
+Mandal, Soumik
+Singh, Munindar P.
+Subramaniam, Sethuramalingam
+Vo, Tai
+Hlaing, Tin Htay
+Narisawa, Katsuma
+Addanki, Karteek
+Goodman, Michael Wayne
+Yimam, Seid Muhie
+Stuart, Jesse
+Narroway, George
+Murakami, Jin'ichi
+Karampatsis, Rafael Michael
+Vyas, Yogarshi
+Takaki, MAKINO
+Anderson, Ashton
+Castro Mamani, Richard Alexander
+Filannino, Michele
+Crego, Josep Maria
+Santos, Pedro Bispo
+Radicioni, Daniele P.
+Nghiem Quoc, Minh
+Pasquier, Claude
+Hoque, Enamul
+Raxis, Plovios
+Uchechukwu, Chinedu
+Petrovic, Sasa
+Dandala, Bharath
+Rutherford, Attapol
+Ye, Peng
+Lopes Carvalho, Davi
+Krishnan, Raghava
+Ju, Qi
+Kishore, Sushant
+Bion, Ricardo Augusto Hoffmann
+Georgi, Ryan
+A. R., Balamurali
+Downey, Ryan
+Balasubramanian, Abhinaya
+RK Rao, Pattabhi
+Maron, Yariv
+Ghazi, Diman
+Glass, Jesse
+Ranjbar-Sahraei, Bijan
+Qu, Weiguang
+Ahmed, Mobyen Uddin
+Giannakopoulos, George
+Costa, Hernani
+Tsigas, Philippas
+Oken, Barry
+O'Connor, Brendan
+Cordell, Ryan
+Slayden, Glenn
+Chau, Cuong
+Calvo, Hiram
+Jain, Siddhanth
+Couto, Francisco M
+Reddy, Siva
+Haider, Syed Aqueel
+De Raedt, Luc
+Cointet, Jean-Philippe
+Rizzolo, Nick
+Crawley, Brett
+Filice, Simone
+Kisilevich, Slava
+Salavati, Shahin
+Quinn, Alex
+Thomason, Jesse
+Routoure, Jean-Marc
+Goyal, Pawan
+Pham, Thanh-Binh
+Magno, Gabriel
+Musat, Claudiu Cristian
+Nitze, Max
+Hayward, Ryan
+Bernier-Colborne, Gabriel
+Mizuno, Junta
+Ozell, Benoit
+Fanelli, Daniele
+Plotnick, Alex
+Williams, Jason D
+Kisselew, Max
+Sinha, Debu
+Siemens, George
+Gelling, Douwe
+Saad, Motaz
+Khilnani, Divye Raj
+Ghodke, Sumukh
+Sartiano, Daniele
+Nguyen, Kiem-Hieu
+Yosiyuki, Kobayasi
+M. Dieb, Thaer
+Grant, Ricky
+Nguyen, Thang
+Komandur, Ravikumar
+Libovicky, Jindrich
+Bhowmick, Rishav
+schuetze, hinrich
+Pickhardt, Rene
+Kiran, Yigit
+Abbas, Qaiser
+Kobdani, Hamidreza
+Kukkadapu, Puneeth
+Schmidek, Jordan
+Yosef, Mohamed Amir
+Le, Quoc V.
+South, Brett
+Onyenwe, Ikechukwu
+Sarrafzadeh, Abdolhossein
+PVS, Avinesh
+Trivedi, Rakshit
+Liu, Alex
+Tran, Ke M.
+Fonseca, Alexsandro
+Manine, Alain-Pierre
+Zheng, Thomas Fang
+Ferraro, Francis
+Foster, Ryan
+Vannella, Daniele
+Dubhashi, Devdatt
+Jun, He
+Stanovsky, Gabriel
+Smith, Cameron
+Cai, Ke
+Stiller, Stephan Hyeonjun
+Yasukawa, Hidekl
+Shaikh, Samiulla
+Araki, Jun
+Porta, Andres Osvaldo
+Aloimonos, Yiannis
+An, Aijun
+Khan, Muhammad Usman Ghani
+Ghosh, Debanjan
+Gupta, Piklu
+Novais, Eder
+Howald, Blake Stephen
+Rout, Dominic
+Hoang Nhat, Huy Do
+Duong, Long
+Sievert, Carson
+Peron, Simone
+Shigeto, Yutaro
+Parker, Andy
+Delort, Jean-Yves
+Michel, Jean-Baptiste
+Ghasemi, Alireza
+Scarfini, Daniele
+Thelwall, Mike
+SUMITA, Eichiro
+Tanaka, Katsumi
+Bruck, Tim vor der
+Sato, Shun
+Pailai, Jaruwat
+Wald, Mike
+Jang, Roger Jyh-Shing
+Miyazaki, Rintaro
+Martines, Andrea
+Madasamy, Nagarajan
+Zaiane, Osmar R.
+Cheng, Alex
+Gunes, Omer Farukhan
+Wong, Billy
+Tan, Chuanqi
+Tan, He
+Ramakrishnan, IV
+Jadhav, Nikhilkumar
+Kobayashi, Syumpei
+Satapathy, Shrutiranjan
+Nagi, Magdy
+Athar, Awais
+Q. Zadeh, Behrang
+Hokamp, Chris
+Hirose, Keikichi
+Luu Anh, Tuan
+Tzirkel, Eli
+MINO, Hideya
+Tran, Giang Binh
+Cotterell, Ryan
+May, Chandler
+Pham, Son Bao
+Mihailidis, Alex
+Patra, Braja Gopal
+Zaninello, Andrea
+Otten, Leun J.
+Angrosh, Mandya
+Perkowitz, Mike
+Ghiasvand, Omid
+Hoang, Cong Duy Vu
+Kazuhide, YAMAMOTO
+Poulin, Chris
+Kazemian, Siavash
+Maeta, Hirokuni
+Mitsuda, Koh
+Han, Lushan
+Nawaz, Raheel
+Lim, Tek Yong
+Nardi, Daniele
+Burges, Chris J.C.
+Barman, Utsab
+Rajagopalan, Sridhar
+Bagdouri, Mossaab
+Lam, Khang Nhut
+Boz, Umit
+Fine, Alex
+Kumar, Abhimanu
+Nawab, Rao Muhammad Adeel
+Pateman, Benjamin Mark
+Ring, Lazlo
+Jang, Fong-Lin
+Gulati, Asheesh
+Kundu, Gourab
+Lim, Ee-Peng
+Nemeskey, David Mark
+Noraset, Thanapon
+Leung, Cane Wing-ki
+Laue, Soeren
+Vu, Thanh
+Makrai, Marton
+Schubiner, Gabriel
+Levy, Omer
+Gaillard, Benoit
+Hori, Tomomasa
+Madhappan, Senthil
+Sridharan, Seshadri
+Lewis, Trent W
+Boullosa, Beto
+Finan, Sean
+Contractor, Danish
+Hai, Zhen
+Hawwari, Abdelati
+Green, Spence
+Montazery, Mortaza
+Hutton, Mark-Anthony
+Madhyastha, Pranava Swaroop
+Burton, Mike
+Kirkedal, Andreas S\xc3\xb8eborg
+Chakraborty, Tanmoy
+Chinaei, Hamidreza
+Guevara, Emiliano Raul
+UzZaman, Naushad
+De Araujo, Vitor
+Nimaan, Abdillahi
+Chardon, Baptiste
+Mathieu, Yannick
+Narsale, Sushant
+Weld, Daniel S.?
+Konomi, Oresti
+Monahan, Sean
+Chappelier, Jean-Cedric
+Forbush, Tyler
+Trikalinos, Thomas A
+Hui, Cong
+Sharkey, Mike
+van der Wal, Rene
+Shastri, Nishkarsh
+Senapati, Apurbalal
+Rioux, Cody
+Ho Bao, Quoc
+Kumar, Shaishav
+Miller, Corey
+van Gent, Joop
+Doyle, Gabriel
+Behera, Satyabrata
+Yao, Yao
+Sumita, Eiichro
+Miller, Tristan
+Mas, Josep \xc0ngel
+Davies, Richard F
+Naim, Iftekhar
+Aziz, Wilker
+Gogate, Vibhav
+Gavaldh, Marsal
+Huff, Micah
+Jurie, Pierre Fran\xe7ois
+Rawat, Shourabh
+Almohimeed, Abdulaziz
+Beck, Daniel Emilio
+Bergman, Casey M.
+Norimatsu, Jun-ya
+Yeo, Kheng Hui
+Ordan, Noam
+Savtchev, Boian
+Wicentwoski, Rich
+Putra, Desmond Darma
+Virk, Shafqat Mumtaz
+Hoang, Cuong
+Bui, Trung H.
+Ibn Faiz, Syeed
+Zadeh, Behrang Q.
+Rajan, Vinodh
+Nathan, Senthil
+De Silva, Lalindra
+Wijaya, Derry Tanti
+El-karef, Mohab
+Mohapatra, Hrushikesh
+Green, Jordan
+Nguyen, Viet-An
+Groen, Piet C de
+Goldwater, Micah
+Powers, David MW
+Le, Hai-Son
+Upadhyay, Sid
+Navratil, Jiri
+op den Akker, Rieks
+Hinarejos, Carlos David Mart\xednez
+Ng, Eric Jun Feng
+Albayrak, Sahin
+Sugiyama, Bruno Akio
+Ionescu, Radu Tudor
+Doval, Yerai
+Iwasawa, Shun'ya
+Whitney, Max
+Anderson, Mike
+Salim, Soufian
+White, Mike
+Schraagen, Marijn
+R., Vijayakrishna
+Bodoia, Max
+Villiers, Jacques de
+Albert, Aviad
+de Luca, Ernesto William
+Erhart, George
+Boruta, Luc
+West, Randy
+Saha Roy, Rishiraj
+Rossi, Luca
+Paulus, Max
+Hodosh, Micah
+Toh, Zhiqiang
+Schamoni, Shigehiko
+Cazenave, Tristan
+Yoshimoto, Ippei
+Vaduva, Ionut Paul
+Kitamoto, Asanobu
+Nguyen, Minh Luan
+Ben Amor, Soufian
+Pilehvar, Mohammad Taher
+Arora, Karunesh Kumar
+Si, Jianfeng
+Yu, Mo
+Sporer, Siegfried Ludwig
+Ott, Myle
+Prati, Anton Maria
+Houngbo, Hospice
+Kumar, Nithin
+Schnoebelen, Tyler
+Jelveh, Zubin
+Hara, Shinjiroh
+Tsang, Ivor Wai-Hung
+Zapata Jaramillo, Carlos Mario
+Etter, Peter von
+Pincus, Eli
+Farahmand, Meghdad
+Hermann, Karl Moritz
+Yasunori, Yamamoto
+dos Santos, Cicero
+Sina, Gabriel
+Ganagshetty, Suryakanth V
+Crivaro, Mike
+Ghosh, Swarnendu
+Odobez, Jean-Marc
+Sinha, Rai Mahesh
+Goikoetxea, Josu
+Han, Aaron Li-Feng
+Singh, Sandesh
+Nguyen, Hieu
+Bach, Francis
+Xuan Bach, Ngo
+Malandrakis, NIkos
+Spuy, Andrew van der
+Go, Junho
+Shen, Mo
+Rey, Jean-Francois
+Bin Wasi, Sabih
+Tu, Kewei
+Rajput, Nitendra
+Vishwanath, Vinodh M.
+Perelygin, Alex
+Kepler, Fabio Natanael
+Genest, Pierre-Etienne
+Buntine, Wray
+Shah, Rakshit
+Becker, Lee
+Gyawali, Binod
+Sultan, Md Arafat
+Han, Bo
+Reinanda, Ridho
+Min, Jinming
+Wagner, Paul Georg
+Moro, Andrea
+Saikh, Tanik
+Bayazit, Ulug
+Gallo, Carlos G\xf3mez
+Kalchbrenner, Nal
+Sano, Motoki
+Simonsen, Jakob Grue
+Davies, Ross A
+Jones, Bevan K.
+Vanzo, Andrea
+Jha, Mukund
+Bui, Quoc-Chinh
+Cimino, Andrea
+Rudnick, Alex
+Bisogni, Jesse James
+Afli, Haithem
+Chinprutthiwong, Phakpoom
+Surtani, Nitesh
+Ye, Borui
+Hammer, Hugo Lewi
+Rouhani-Kalleh, Omid
+Mititelu, Catalin
+Hai, DOAN-NGUYEN
+Tsiakoulis, Pirros
+Coppersmith, Glen
+Mizan, Mainul
+Narayanaswamy, Balakrishnan
+Kaliyaperumal, Rajaram
+Gerven, Marcel van
+Lacalle, Oier L\xf3pez de
+Kestemont, Mike
+Agirrezabal, Manex
+Mehta, Sameep
+Gupta, Rajdeep
+Van der Wal, Rene
+Angeli, Gabor
+Adhikari, Ronojoy
+Oliveira, Matheus
+Miceli Barone, Antonio Valerio
+IV, William F. Styler
+Szumlanski, Sean
+Gulcehre, Caglar
+Khan, Tafseer Ahmed
+Patel, Amrish
+Hiemstra, Djoerd
+Worth, Chris
+Hakala, Kai
+Yi, Mun Yong
+Tan, Jiwei
+Ciul, Mike
+Choly, Max
+Lang, Nat
+Stanojevic, Milos
+Anbarjafari, Gholamreza
+Heal, Kristian
+Malmasi, Shervin
+Shaw, Ryan
+Bharadwaj, Sujeeth
+P. V. S., Avinesh
+Mohamed, Alaa
+Smyth, Padhraic
+Bornebusch, Fritjof
+Le, Minh Quang
+Marco, Antonio Di
+Susanto, Raymond Hendy
+Elouazizi, Noureddine
+Elliot, Kyle
+Boer Rookhuiszen, Roan
+Stoop, Wessel
+Crespo, Jean-Francois
+EESLEY, Kenneth R. B
+Machacek, Matous
+Pasupat, Panupong
+Amancio, Diego Raphael
+Nguyen, Thien Huu
+Kannan, Sampath
+Davis, Jesse
+Das, Nibaran
+Wang, William Yang
+Samad Zadeh Kaljahi, Rasoul
+Fahmy, Aly
+Johar, Ravdeep
+Previtali, Daniele
+Van Der Wal, Rene
+Aihara, Ryo
+Goldstein, Ira
+Gadde, Phani
+Nguyen, Dat Quoc
+Levy, Ran
+Haffari, Reza
+Tran Manh, Ke
+Yasuhara, Makoto
+Fortuna, Blaz
+Wuebker, Joern
+Vaudry, Pierre-Luc
+Corrigan, Lee
+Biyani, Prakhar
+Thomas, Chistopher
+Thamrongrattanarit, Attapol
+Achanauparp, Palakorn
+Leggetter, Chris
+Luerssen, Martin H
+Marimpietri, Sean
+Assefa, Beakal Gizachew
+Nguyen, Dong
+AI-Adhaileh, Mosleh Hmoud
+Vaillo, Santiago Cortes
+Chatterjee, Rajen
+Orimaye, Sylvester Olubolu
+Garnett, Alex
+Mannem, Prashanth
+Mansour, Saib
+Parent, Gabriel
+Gonzalez, Marcos Alvarez
+Marin, Alex
+Saharia, Navanath
+Pink, Glen
+Woodsend, Kristian
+Le Minh, Quang
+Perera, Praharshana
+de Jong, Hayco
+Perini, Alpar
+Fuxman, Ariel
+Clemmer, Alex
+Hangyo, Masatsugu
+Dumitrescu, Stefan Daniel
+Cook, Perry
+Broadwell, George Aaron
+Saluja, Avneesh
+Dasgupta, Anirban
+D'Haro, Luis Fernando
+Engkoo Team, Microsoft
+Bruegmann, Soeren
+Takashi, NINOMIYA
+SINGH, VIKRAM
+Rasooli, Mohammad Sadegh
+Kohli, Saiyam
+Luong, Minh-Thang
+Slonim, Noam
+Jain, Mahaveer
+Elkhlifi, Aymen
+Faria, Pablo Picasso Feliciano de
+Richardson, Kyle
+Nakamura, Makoto
+Tran, Nam Khanh
+Welty, Chris
+Hall, Mark Michael
+Alani, Harith
+Sugiura, Komei
+Venigalla, Hareen
+Lewis, Mike
+Hoareau, Yann Vigile
+Oya, Tatsuro
+Evanini, Keelan
+Gebre, Binyam Gebrekidan
+Tadeu, Thiago
+Chan, Kwok-Ping
+Rajkumar, Pujari
+Shiba, Mitsuteru
+Ananthakrishnan, Sankaranarayanan
+Tan, Chenhao
+Shrestha, Prajwol
+Felner, Ariel
+Lamb, Alex
+Jones, Chris
+Lachler, Jordan
+Mazidi, Karen
+Chatterjee, Diptesh
+Rizzo, Albert (Skip)
+Heines, Jesse M.
+Qu, Peng
+Packard, Woodley
+Escalante, Hugo Jair
+Chandramohan, Senthilkumar
+Kaldager, Steinar Vitters\xc3\xb8
+Tuggener, Don
+van Rijn, Hedderik
+Barr, Dale
+Dillon, George
+Lopes, Lucelene
+Bowmani, Robeson
+Sullivan, Ryan
+Synnaeve, Gabriel
+Litkowski, Ken
+Tien Nguyen, Dat
+Papavassiliou, Vassilis
+K., Saravanan
+Kanojia, Diptesh
+Kolari, Pranam
+Raamadhurai, Srikrishna
+Merwe, Brink
+palanisamy, Prabu
+Chai, Kian Ming A.
+Ellis, Nick
+Patel, Pratikkumar
+Kamochi, Shuntaro
+Shrestha, Prajol
+Dodge, Jesse
+Nguyen, Tu Anh T.
+Laxman, Srivatsan
+Bechikh, Chedi
+Han, Xu
+Barbosa, Denilson
+Srirampur, Saikrishna
+Goenaga, Iakes
+Singh, Janardhan
+Yokono, Hikaru
+Ngonga Ngomo, Axel-Cyrille
+Ngo, Quoc Hung
+Saha, Avishek
+Acosta, Otavio
+Doppa, Janardhan Rao

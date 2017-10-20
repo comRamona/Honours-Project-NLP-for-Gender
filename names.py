@@ -95,22 +95,27 @@ class NameClassifier():
 
 def map_titles():
 
+    pars = HTMLParser()
+
     ids_path = os.path.join(os.environ["AAN_DIR"],
         "release/2014/acl-metadata.txt")
-    female_path = os.path.join(os.environ["AAN_DIR"],
-        "acl-female.txt")
-    male_path = os.path.join(os.environ["AAN_DIR"],
-        "acl-male.txt")
-    female_path2 = os.path.join(os.environ["AAN_DIR"],
-        "machine_females.txt")
-    male_path2 = os.path.join(os.environ["AAN_DIR"],
-        "machine_males.txt")
 
-    with open(female_path,"r",encoding="utf-8") as f, open(female_path2,"r",encoding="utf-8") as f2:
-        females = set(list(map(lambda x: x.strip(), f.read().split("\n"))) + list(map(lambda x: x.strip(), f2.read().split("\n"))))
+    female_paths = [os.path.join(os.environ["AAN_DIR"],
+        f) for f in ["acl-female.txt", "machine_females.txt", "machine_femalesNAM.txt"]]
 
-    with open(male_path,"r",encoding="utf-8") as g, open(male_path2,"r",encoding="utf-8") as g2:
-        males = set(list(map(lambda x: x.strip(), g.read().split("\n")))  + list(map(lambda x: x.strip(), g2.read().split("\n"))))
+    male_paths = [os.path.join(os.environ["AAN_DIR"],
+        f) for f in ["acl-male.txt", "machine_males.txt", "machine_malesNAM.txt"]]
+
+    females = set()
+    males = set()
+    for file in female_paths:
+        with open(file, 'r', encoding = "utf-8") as f:
+            females.update(map(lambda x:  pars.unescape(x.strip()), f.read().split("\n")))
+
+    for file in male_paths:
+        with open(file, 'r', encoding = "utf-8") as f:
+            males.update(map(lambda x:  pars.unescape(x.strip()), f.read().split("\n")))
+
 
     new_unkown = set()
     dic = []
@@ -121,7 +126,6 @@ def map_titles():
     print(len(females))
     print(len(males))
     print("Mediani, Mohammed" in males)
-    pars = HTMLParser()
     with open(ids_path,"r", encoding="utf-8") as f:
         paper_data = f.read().split("\n\n")
         for idx,paper in enumerate(paper_data):
