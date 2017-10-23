@@ -3,10 +3,26 @@ Ginsca, Alexandru-Lucian
 Costa, Luciano da Fontoura
 DuÅ¡ek, OndÅ?ej
 Godbout, Jean-François
+Estève, Yannick
+Street, W. Nick
+Strötgen, Jannik
+Lacalle, Oier López de
+Beck, Philip-Daniel
+Zulu, Peleira Nicholas
+AkkuÅ, Burak Kerim
+González, Andy
+Branco, AntÃ³nio
+Foster, Dean
+Codina-Filb, Joan
+Liu, Lemao
+Pinnis, MÄ?rcis
+Séaghdha, Diarmuid Ó
+Samangooei, Sina
 Martins, AndrÃ¨
 Gonçalves, Marcos André
 Jurie, Pierre François
 Ménard, Pierre André
+Sánchez, Joan-Andreu
 Estrada, Rainel
 Gallo, Carlos Gómez
  , Mausam
@@ -280,3124 +296,3125 @@ Parker, Andy
 Williams, Jason D
 n, Jorge Antonio
 , Nikola
-Petkevič, Vladimír
-Niculae, Vlad
-ASBAYOU, Omar
-Szabó, János
-Drechsler, Rolf
-Johri, Nikhil
-Horner, Joshua
-Horn, Colby
-Dávila, Héctor
-Siersdorfer, Stefan
-Schlöder, Julian
-Backus, Ad
-Rondeau, Gilbert
-Yessenbayev, Zhandos
-Akiba, Iwao
-Kose, Tomoya
-Agarwalla, Lalit
-García Flores, Jorge
-Tabolt, Ian
-Hefny, Ahmed
-Ramamoorthy, Subramanian
-Thabet, Ahmed
-Dimitrov, Aleksandar
-Blunsom, Phil
-Gottron, Thomas
-Fabbri, Renato
-Cohen, Paul
-Robledo-Arnuncio, Enrique
-Bharath, Anil
-Bosca, Alessio
-Abdul-Wahab, Mohamed
-Crisafulli, Giuseppe
-Rush, Alexander M.
-Crescenzi, Pierluigi
-Diakopoulos, Nicholas
-Haddad, Hatem
-Noji, Hiroshi
-Lynch, Gerard
-Rushforth, Michael
-Chuang, Jason
-Emadzadeh, Ehsan
-Krause, Sebastian
-Asghari, Habibollah
-Crowston, Kevin
-Boroş, Tiberiu
-Schütze, Hinrich
-Hernault, Hugo
-Jiménez, Santiago
-Katz-Brown, Jason
-Kjersten, Brian
-Llorens, Hector
-Baytin, Alexey
-Gottesman, Benjamin
-Polguère, Alain
-Toivanen, Jukka M.
-Fink, Clayton
-Bergen, Leon
-JÃ¤ger, Gerhard
-Rustamov, Samir
-Summers-Stay, Douglas
-Cogley, James
-Granitzer, Michael
-Can, Matthew
-Bott, Oliver
-Attik, Mohammed
-Hill, Felix
-Falcone, Michael
-Matthews, David
-Al Sallab, Ahmad
-Ben-Dror, Natan
-Nytrø, Øystein
-Kameyama, Wataru
-Wampler, Stephen
-Detre, Greg
-Schoenemann, Thomas
-C. Newton, Marcus
-Byrne, Bill
-Jurish, Bryan
-Kumar, Manish
-Salama, Ahmed
-Bendersky, Michael
-Sigogne, Anthony
-Hummel, Shay
-Obozinski, Guillaume
-Silva, Joaquim
-Krčmář, Lubomír
-Liparas, Dimitris
-Matos, Sérgio
-Verdegem, Dries
-Rothenhäusler, Klaus
-Rink, Bryan
-Stewart, Brandon M.
-Mittal, Vipul
-Rantanen, Esa M.
-Balasubramanian, Krishnakumar
-Silbert, Noah H.
-Crivaro, Michael
-Henserdon, James
-Van Waes, Luuk
-Huet, Gérard
-Savva, Manolis
-Lee, Kenton
-Sharma, Rahul
-Meltzer, Jed A.
-Karami, Amir
-Liverko, Sergey
-Levallois, Clement
-Van Wyk, Curt
-Mayer, Thomas
-Walker, Daniel
-Schlotterbeck, Fabian
-Bellalem, Lotfi
-Santos de la Cámara, Raúl
-Hammond, Jeremy
-Haarslev, Volker
-Cromierès, Fabien
-Aha, David W.
-Hancock, Edwin
-Bauer, Sandro
-Uzdilli, Fatih
-Çobanoglu, Onur
-Smit, Peter
-Flati, Tiziano
-Rosin, Paul
-Dunham, Joel
-Kondo, Shuhei
-Vuillerme, Nicolas
-Toepfer, Martin
-Spaniol, Marc
-Gilmer, John
-Buschmeier, Konstantin
-Turnbull, Rory
-Perera, Prasad
-Silva, David
-Harwood, Aaron
-Schmidt, Stefan
-Morita, Hajime
-Guo, Stephen
-Huang, Bert
-Rodríquez, Horacio
-Vuorinen, Matti
-Mairgup, Mansur
-Falaise, Achille
-O'Gorman, Tim
-Harman, Craig
-Yoshida, Kazushi
-Hieber, Felix
-Ortiz, Roberto
-Denkowski, Michael
-Alhawiti, Khaled
-Remus, Robert
-Kiso, Tetsuo
-Hollowood, Fred
-Prochasson, Emmanuel
-Vitas, Duško
-Procter, Rob
-van Merrienboer, Bart
-Kovachev, Bogomil
-Balderas Posada, Carlos
-Sykora, Martin
-Duvert, Frédéric
-Berman, Alexander
-Izquierdo, Rubén
-Chauché, Jacques
-Yamaguchi, Kota
-Smith, Nathaniel
-Tomlinson, Bill
-Hild, Kenneth
-Garcia Flores, Jorge J.
-Rossi, Gianluca
-Déchelotte, Daniel
-Takase, Sho
-Beltagy, Islam
-Schumaker, Robert
-Geiger, Jonathan
-Villalba, Martin
-Lévy, François
-Wiegand, Karl
-Andrade, Daniel
-Jiménez-Salazar, Héctor
-Tonra, Justin
-Lambin, Xavier
-MilidiÃº, Ruy
-Johnson, Colin
-Köhler, Joachim
-Weinberger, Michael
-Jonathan, Philip
-Judd, Joel
-Agarwal, Manish
-Iruskieta, Mikel
-Aparicio Gali, Fernando
-Tsang, Ivor W.
-Popov, Alexander
-Jacob, David
-Geist, Matthieu
-van Halteren, Hans
-Bodnar, Stephen
-Körner, Martin
-Oliveira, Luís
-Arts, Koen
-Soulet, Arnaud
-Preoţiuc-Pietro, Daniel
-Katare, Rahul
-González, Fabio
-Han, Aydin
-Aamot, Elias
-Freire, Nuno
-Gemulla, Rainer
-Glass, Zachary
-Boden, Christoph
-Tomai, Emmett
-Koch, Mitchell
-Corvey, William J.
-Versloot, Arjen
-Enríquez, Fernando
-Kouse, Tomoya
-Toda, Tomoki
-Lofthus, Robert
-Finger, Marcelo
-Joachims, Thorsten
-Amir, Silvio
-Ben Aharon, Roni
-Tvinnereim, Endre
-Saeed, Muhammad
-Hofmann, Hansjörg
-Yang, Min-Chul
-Hayashi, Katsuhiko
-Semenkin, Eugene
-Laender, Alberto
-Brunello, Marco
-Teichmann, Christoph
-Ashton, Neil
-Sedláček, Radek
-Brychcín, Tomáš
-Matsuyama, Yoichi
-Thomas, Paul
-Moffat, Alistair
-Généreux, Michel
-Letcher, Ned
-Gardner, Gregory
-Löwe, Welf
-Grissom II, Alvin
-MAKINO, Toshiro
-Saerens, Marco
-Dylla, Maximilian
-Derzhanski, Ivan
-Acree, Brice D. L.
-Molchanov, Alexander
-Graf, Thomas
-Zipser, Florian
-Licata, Carlyle
-Mankoff, Robert
-Beaugendre, Frédéric
-Lyons, Kent
-Martinez, Hector
-De Grave, Kurt
-Villena-Román, Julio
-Benjamin, Martin
-Kutuzov, Andrey
-Exner, Peter
-Cohen, Yohai
-Diamantopoulos, Themistoklis
-Stratos, Karl
-Sánchez-Sáez, Ricardo
-Scott, Matthew R.
-Kloetzer, Julien
-Bauer, Bernhard
-Alegria, Iñaki
-Ballesteros, Miguel
-Moritz, Niko
-Tajiri, Toshikazu
-Rocktäschel, Tim
-Chang, Edward Y.
-Cormode, Graham
-Sakaki, Shigeyuki
-Cook, Kevin
-Rowley, Andrew
-Ozaki, Kohei
-Lerner, Uri
-Wirén, Mats
-Anderson, Andrew J.
-Pietquin, Olivier
-Wurfel, Mark
-Smith, Phillip
-Littman, Michael
-Martínez-Hinarejos, Carlos D.
-Lin, Edward
-Cohen, Kevin
-Voyer, Robert
-Groh, Georg
-Teixeira, Jorge
-Erjavec, Tomaž
-Creamer, Germán G.
-Yang, Eugene
-Lynum, André
-Wedekind, Jürgen
-Verbeke, Mathias
-Liberato, Frank
-Echizen'ya, Hiroshi
-Bohnert, Fabian
-Mathur, Prashant
-Jones, Simon
-Dershowitz, Nachum
-Kunc, Ladislav
-Arcan, Mihael
-Embanga Aborobongui, Martial
-FernÃ¡ndez-Lanza, Santiago
-Mueller, Thomas
-Riveros, Alejandro
-di Bari, Alessandro
-Dietterich, Thomas G.
-Chikhi, Salim
-Pak, Alexander
-Boytsov, Leonid
-Stringer, Luke
-Villazon-Terrazas, Boris
-Apers, Peter
-Baly, Ramy
-Alumäe, Tanel
-Stevens, Robert
-Cabaleiro, Bernardo
-Shirley, Kenneth
-Högberg, Johan
-Kuperman, Victor
-Nagai, Takahiro
-Coppola, Greg
-Garrido, Guillermo
-Hasegawa, Takayuki
-Sanders, Robert
-Jimenez, Sergio
-Naumann, Felix
-García-Narbona, David
-Pease, Adam
-Tendulkar, Ashish
-Kratkiewicz, Gary
-Nuhn, Malte
-Vinicombe, Heath
-Wiechmann, Daniel
-Astley, Philip
-Orkin, Jeff
-Macek, Tomas
-D’hoore, Bart
-Sudhof, Moritz
-Vale, Oto
-Marín, Raúl
-Gropp, Martin
-Artzi, Yoav
-Paster, Ferdinand
-Almási, Attila
-Wager, Stefan
-Lluís, Xavier
-Harrison, Karl
-Reddington, Joseph
-Dickfelder, Raphael
-Cerňak, Miloš
-Cadogan, Ross
-Boucher, Mathieu
-O'Keefe, Tim
-Illig, Jens
-Galanis, Dimitris
-Mackillop, Andrew
-Bøgh, Kenneth S.
-Pietrobon, Ricardo
-Ellis, Joe
-Lotan, Amnon
-González, Jorge
-Foulds, James
-Okatiev, Vladimir
-Korenčić, Damir
-Almeida, Miguel
-Pao, Henry
-Mastin, John
-Alrajeh, Abdullah
-El-Hajj, Wassim
-Glinos, Demetrios
-Rastegar-Mojarad, Majid
-Rozenknop, Antoine
-Huang, Brad
-Bossy, Robert
-Pereira, Fernando
-Olovsson, Tomas
-Chang, Jimmy
-Acarturk, Cengiz
-Jasso, Miguel
-Bedrick, Steven
-Figueroa, Alejandro
-Beust, Pierre
-Kriz, Vincent
-Ptáček, Tomáš
-Schwartz, H. Andrew
-Hirsimäki, Teemu
-Huang, Eric H.
-Grozev, Ivan
-Meyer, Timothy J.
-De Benedictis, Flavio
-Gerritsen, David
-Malm, Mats
-Ganesh, Surya
-Kartsaklis, Dimitri
-Zilka, Lukas
-Stratford, Evan
-Rubino, Francesco
-Kääriäinen, Matti
-Hauer, Bradley
-García-Varea, Ismael
-Düring, Marten
-Cunningham, Pádraig
-Salwen, Jeremy
-Yus, Roberto
-Weerman, Fred
-Amsler, Michael
-Luca, Michael
-Shiga, Yoshinori
-Hecht, Ron
-Orhan, Umut
-Ziak, Hermann
-Akegawa, Naoki
-Engonopoulos, Nikos
-Broß, Jürgen
-Brevik, Mikael
-Kovář, Vojtěch
-Akbik, Alan
-Novák, Attila
-Gubanov, Sergey
-Engonopoulos, Nikolaos
-Kapukaranov, Borislav
-Lavaee, Rahman
-Roller, Stephen
-Zapirain, Beñat
-Luciani, Matteo
-van Noord, Gertjan
-Asakura, Takeshi
-Mollá, Diego
-Bhatia, Sumit
-Westerlund, Torbjörn
-Sulubacak, Umut
-Ito, Akinori
-Price, Bob
-Barzdins, Guntis
-Gambäck, Björn
-Bhat, Mohammad
-Zhukov, Eugene
-Mani, Premkumar
-Guadarrama, Sergio
-Espesser, Robert
-Wombacher, Andreas
-DuVall, Scott
-Simões, Alberto
-Moncecchi, Guillermo
-Branco, António H.
-Cormack, James
-Fernando, Samuel
-Alhelbawy, Ayman
-Luna, Andrés
-Lipman, Hagay
-Grimmer, Justin
-Martschat, Sebastian
-De Smet, Wim
-Storch, Valerio
-Richter, Felix
-Fialho, Pedro
-Pöllä, Matti
-Schwarck, Florian
-Chang, Jim
-Amancio, Marcelo
-Lang, Alexander
-Gouws, Stephan
-Díaz-de-Liaño, Enrique
-Mörth, Karlheinz
-Pécheux, Nicolas
-Eckmann, Jean-Pierre
-BejÄek, Eduard
-Jerome, Simon
-Massie, Stewart
-Brun, Yuriy
-Vega, Alejandro
-Lewis, Paul
-Mijinguini, Abdou
-Cantos, Pascual
-Wilson, Phil
-García Pablos, Aitor
-Görnerup, Olof
-Bräutigam, Christof
-Ebert, Sebastian
-Jourde, Julien
-Muñoz, Rafael
-Poch, Marc
-Bošnjak, Matko
-Klasinas, Ioannis
-Liska, Adam
-Proisl, Thomas
-Sidorov, Grigori
-Shayganfar, Mohammad
-Acedański, Szymon
-McCaffery, Martin
-Ustalov, Dmitry
-Gärtner, Markus
-Tezuka, Satoshi
-Wallis, Peter
-Maqsud, Umar
-Schnurrenberger, Martin
-Michael, Thilo
-Recski, Gábor
-Peterson, Daniel W.
-Brixtel, Romain
-Hahn, Michael
-Rösener, Christoph
-Boudabous, Mohamed
-Martínez-Cámara, Eugenio
-MajliÅ¡, Martin
-Strik, Helmer
-Amri, Amine
-Zampieri, Marcos
-Pietschmann, Stefan
-Fagerlund, Martin
-Labutov, Igor
-Kluegl, Peter
-Hassan, Youssef
-Collazo, Armando
-Bruno, James
-Wheeler, Adam
-Salaberri, Haritz
-Penman, Richard
-Yilmaz, Okan
-Pepper, Steve
-Moen, Hans
-Lebret, Rémi
-Marlin, Benjamin M.
-Kashyap, Abhay
-Oda, Yusuke
-LeÃ³n, Saul
-Ó Séaghdha, Diarmuid
-Stanley, Alexander W.
-Unal, Erdem
-Matrouf, Driss
-Fairon, Cédrick
-Ahuja, Arun
-Rösner, Dietmar
-Archambeau, Cedric
-Mitchell, Christopher M.
-Blythe, James
-Hegde, Darshan
-Crabbé, Benoît
-Wibberley, Simon
-Kummerfeld, Jonathan K.
-Abdul-Mageed, Muhammad
-Ruokolainen, Teemu
-Gilbert, Mazin
-Reberšek, Peter
-Salway, Andrew
-Whitt, Richard J.
-Keim, Daniel A.
-Baumgaertner, Bert
-Johnson, Leif
-Garcia, Marcos
-Schäler, Reinhard
-Nose, Takashi
-Healey, Patrick G. T.
-Bhagwani, Sumit
-Mackaness, William
-Löser, Alexander
-Ettlinger, Marc
-Bills, Aric
-Camara, Franc
-Weisser, Martin
-Argueta, Carlos
-May, Wesley
-Götz, Thilo
-King, Simon
-Mögele, Hannes
-Lembersky, Gennadi
-Jönsson, Arne
-Peitsch, Manuel
-Søgaard, Anders
-Calvo, Marcos
-Torki, Marwan
-Nuseibeh, Bashar
-Martins, André F. T.
-Seno, Masakazu
-Devlin, Jacob
-Kamp, Hans
-Sennrich, Rico
-Baugh, Wesley
-McGuinness, Kevin
-Koukourikos, Antonis
-Neumann, Günter
-Flor, Michael
-Németh, Géza
-Yazdani, Majid
-Silva, Fabio
-Çiçekli, İlyas
-Barbieri, Francesco
-Edlund, Jens
-Solti, Imre
-Hernández Gomez, Luis A.
-Murray, Kenton
-Dolan, Bill
-Buttler, David
-White, James P.
-Farkas, Richárd
-Miháltz, Márton
-Nicolai, Garrett
-Köprü, Selçuk
-Almberg, Jørn
-Ortiz Rojas, Sergio
-Bracewell, David
-Oiwa, Hidekazu
-Hender, Paul
-Cuayahuitl, Heriberto
-Melnikov, Michail
-Franco-Salvador, Marc
-Tresp, Volker
-Tchambo, Fred
-Beckley, Russell
-Wallhoff, Frank
-Hülfenhaus, Michael
-Weidlich, Michael
-Adalı, Eşref
-Zahran, Mohamed
-Banaee, Hadi
-Kronrod, Yakov
-Ajot, Jerome
-Park, Gregory
-EsplÃ -Gomis, Miquel
-Furuhashi, Takeshi
-Tagliamonte, Sali
-Zalmout, Nasser
-Suster, Simon
-Sánchez-Cartagena, Víctor M.
-Milajevs, Dmitrijs
-E. Banchs, Rafael
-Morbini, Fabrizio
-Perry, Jason
-Tomasoni, Mattia
-Elghafari, Anas
-Hysom, David
-Palm, Günther
-Zarrouk, Manel
-Maillette de Buy Wenniger, Gideon
-K, Marimuthu
-Marschall, Thomas
-Kimelfeld, Benny
-Keller, Nicholas
-Gratch, Jonathan
-Narasimhan, Karthik
-Tomalin, Marcus
-Tzouridis, Emmanouil
-Nilsson, Peter
-Popescu, Vladimir
-Reffin, Jeremy
-Plüss, Brian
-Khan, Arif Md.
-Chen, David
-Grivolla, Jens
-Umeda, Shuichi
-Darvill, Jonathan
-Tiepmar, Jochen
-Taei, Ahmed
-Hatem, Matthew
-Tadepalli, Prasad
-Delgado, Agustín D.
-Rizzolo, Nicholas
-Gorinski, Philip
-Rodrigues, Filipe
-O'Keefe, Timothy
-Zamparelli, Roberto
-Sasaki, Kentaro
-Zhang, Owen
-Slud, Eric
-Castellucci, Giuseppe
-Schmitz, Sylvain
-Phillips, Aaron
-Konrad, Manuel
-Skala, Matthew
-Makino, Toshiro
-van der Goot, Erik
-Svendsen, Torbjørn
-Pan, Jeff Z.
-Afzal, Naveed
-Rogers, Jim
-Marujo, Luis
-Béchet, Nicolas
-Ipsic, Ivo
-Dugast, Loïc
-Tse, Daniel
-Sevens, Leen
-Matoušek, Jindřich
-Pander Maat, Henk
-Bronner, Amit
-Sanchis, Germán
-Uduka, Kunihiro
-Sulger, Sebastian
-J. Silva, Mário
-Schulze, Gunnar
-Talley, Edmund
-Adamson, David
-Mott, Justin
-Manion, Steve
-Östling, Robert
-Vaassen, Frederik
-Davis, Lawrence
-Vicic, Jernej
-Topić, Goran
-Pater, Joe
-Saad El Din, Ahmed
-Veber, Philippe
-Adjogah, Richard
-Corcoran, Thomas
-Rossi, Riccardo
-Rak, Rafal
-O’Donnell, Timothy J.
-Mahamood, Saad
-Kothari, Alok
-Raykar, Vikas
-Scholz, Thomas
-Mejer, Avihai
-Gafos, Adamantios I.
-Jorge, Alipio
-McFarland, Daniel A.
-Bhardwaj, Vikas
-Constable, James W. D.
-Schouten, Ronald
-Stieglitz, Stefan
-Kho, Alvin
-Rangarajan, Sudarshan
-Butler, Keith
-Hahn, Florian
-Sameti, Hossein
-Karsdorp, Folgert
-Ebrahim, Mohamed
-Feist, Rico
-Rankel, Peter
-Berzak, Yevgeni
-Uijlings, Jasper
-Andreas, Jacob
-Caines, Andrew
-Servan, Christophe
-Hancock, Jeffrey T.
-Ullman, Edvin
-Rood, Travis
-Grundkiewicz, Roman
-Geisler, Daniel
-Sawaf, Hassan
-Quernheim, Daniel
-Heimerl, Florian
-Crone, Phil
-Silva, Mário J.
-Snoek, Conor
-McFate, Clifton
-Winner, Kevin
-Magri, Giorgio
-Gerner, Martin
-Tozer, Martin
-Hallgren, Thomas
-Stabler, Edward P.
-Israel, Ross
-Dei Rossi, Stefano
-Babani, James
-Pinto, Francisco
-Dines, John
-Paltoglou, Georgios
-Maly, Ivo
-Senuma, Hajime
-Dittmann, Henrik
-Hartmann, William
-Raskovsky, Iván
-Furche, Tim
-Iglesias, Aquiles
-Almeida, Virgilio
-Szummer, Martin
-León Silverio, Saul
-Farajian, M. Amin
-Torregrosa, Daniel
-Jørgensen, Fredrik
-Banjade, Rajendra
-Cua, Jeffrey
-Faralli, Stefano
-Désilets, Alain
-Yoshino, Koichiro
-Thaul Lehrman, Michael
-Nenadić, Goran
-Broscheit, Samuel
-Malmaud, Jonathan
-Collet, Christophe
-Coecke, Bob
-Trieschnigg, Dolf
-Borisov, Alexey
-Vilares, David
-Kalair, Aaron
-Yatskar, Mark
-Dingemanse, Mark
-Slade, Jonathan
-Faltings, Boi
-Heie, Matthias H.
-Maldavsky, David
-Hazure, Daiki
-Varga, Dániel
-VasiÄ¼jevs, Andrejs
-Bottou, Léon
-Agić, Željko
-Huck, Matthias
-Narayan, Badri
-Burgos, Diego
-Neelakantan, Arvind
-Hoeksema, Jesper
-Borodin, Yevgen
-Raghunathan, Karthik
-Ben Gur, Assaf
-Abbott, Rob
-Vanrompay, Yves
-Lippincott, Thomas
-Wang, Josiah
-Slaski, Adam
-Sokokov, Artem
-Rinard, Martin
-Stadtfeld, Tobias
-Reichel, Sven
-Franconi, Enrico
-Shilon, Reshef
-McCallum, Anthony
-Nickerson, Jeffrey
-Sartorio, Francesco
-Kågebäck, Mikael
-Mihaila, Claudiu
-Alexopoulos, Panos
-Silfverberg, Miikka
-Bauer, Daniel
-Inoue, Seiki
-Geva, Shlomo
-Fürstenau, Hagen
-Sadeh, Norman
-Sánchez, Sebastián
-Purtee, Adam
-Goldhahn, Dirk
-Campbell, William
-Klaper, David
-Halgrim, Scott
-Vasiljevs, Andrejs
-Comeau, Donald C.
-Zséder, Attila
-Weiss, Guy
-Bouchard, Hugues
-Raganato, Alessandro
-Novotny, Jakub
-Danso, Samuel
-Kinnunen, Tomi
-Riesa, Jason
-Björkelund, Anders
-Fernández Slezak, Diego
-Terada, Hiroshi
-Tapiovaara, Tero
-Koster, Cornelis
-Aakhus, Mark
-Malandrakis, Nikolaos
-Bjødstrup Jensen, Peter
-Kruszewski, German
-Hanamoto, Atsushi
-Lindén, Krister
-Finin, Tim
-Maurel, Fabrice
-Toader, Mihai
-Torget, Andrew
-Müller, Christof E.
-Spiegler, Sebastian
-Kirk, Nicholas H.
-Vydiswaran, V. G. Vinod
-Hohensee, Matt
-Nanchen, Alexandre
-Lekvam, Torvald
-Fernandes, Hilário
-Berrocal Rojas, Allan
-Sundermeyer, Martin
-Gerber, Adam
-Jimeno Yepes, Antonio
-Harth, Andreas
-Beňuš, Štefan
-Arkhangelskiy, Timofey
-Ariki, Yasuo
-Wilson, Andrew T.
-Tsuchida, Masaki
-Chaudhri, Vinay
-Pirinen, Tommi A.
-Leskovec, Jure
-Carroll, Lucien
-Lagoze, Carl
-Vertanen, Keith
-Petinot, Yves
-Klenner, Alexander
-Kipersztok, Oscar
-Mesnard, Olivier
-Gómez-Rodríguez, Carlos
-Darányi, Sándor
-Varga, István
-Ruths, Derek
-Hartshorne, Joshua K.
-Morin, Jason
-Pavlopoulos, John
-Abdul Hamid, Ahmed
-Jansen, Aren
-Esplà-Gomis, Miquel
-Roller, Roland
-Rittberger, Marc
-Saito, Akihiro
-Meyer, Anthony
-Garner, Philip N.
-Mourad, Ahmed
-Forbell, Eric
-Tsuchida, Masaaki
-Wetzel, Dominikus
-Yaghoubzadeh, Ramin
-Al Tarouti, Feras
-Zulaica-Hernández, Iker
-Skjærholt, Arne
-Masip, Jaume
-Ichikawa, Hiroshi
-Žilka, Lukáš
-Libbus, Bisharah
-Shaw, Jason A.
-Martins, Bruno
-Kowadlo, Gideon
-Bui, Marc
-Abrahamsson, Emil
-Ghoneim, Mahmoud
-Gondek, David
-Shareghi, Ehsan
-Wilkens, Rodrigo
-Hare, Jonathon
-Ahmed, Zeeshan
-Halácsy, Péter
-Steunenberg, Bas
-Lee, Adam
-Mizukami, Etsuo
-Blanchon, Hervé
-Kumar, Vinay
-Halevy, Alon
-Nisioi, Sergiu
-Lawson, Nolan
-Dosch, Benjamin
-Jayapal, Arun
-Pichotta, Karl
-Kliche, Fritz
-Kopeć, Mateusz
-Alarfaj, Fawaz
-FitzGerald, Nicholas
-Symeonidis, Andreas
-Sizov, Gleb
-Tanaka, Hiroki
-Pinkwart, Niels
-Parish, Tim
-Takaku, Yohei
-Lewis, Justin
-Dufour, Richard
-Fan, James
-Steffen, Jörg
-Figueiredo, Mario
-Maldonado Guerra, Alfredo
-King, Levi
-McCrae, John
-Li, Daren
-Gilmanov, Timur
-Chan, Joel
-Buß, Okko
-Gershman, Anatole
-Hunter, David
-Peterson, Daniel
-Granada, Roger
-Özertem, Umut
-Hiraoka, Takuya
-Rodrigue, Jeremy
-Banchs, Rafael
-Pennaccchiotti, Marco
-Puranam, Dinesh
-Marchetti, Alessandro
-Ramasamy, Loganathan
-Pollák, Petr
-Swiezinski, Leonard
-Ittycheriah, Abe
-Alzate, Carlos
-Ljunglöf, Peter
-Kasneci, Gjergji
-Dell'Arciprete, Lorenzo
-Thiele, Gregor
-Renaud, Alfred
-Ganesalingam, Mohan
-Vulić, Ivan
-Rohrbach, Marcus
-Nawar, Michael
-Kogut, Bruce
-Szántó, Zsolt
-Anisimoff, Ilya
-Cornudella, Miquel
-Rosenfeld, Binyamin
-Cattelan, Alessandro
-Peña Saldarriaga, Sebastian
-Lamprecht, Andreas
-Zaytsev, Vladimir
-Erbs, Nicolai
-Miyazaki, Taro
-Gordon, Jonathan
-Riordan, Brian
-Denton, Richard
-Orosz, György
-Yamaguchi, Hiroshi
-Yoshioka, Masaharu
-Alfter, David
-Xu, Yushi
-Grego, Tiago
-Rychlý, Pavel
-Moreira, Silvio
-Sergienko, Roman
-Moulder, Brad
-Hewlett, Daniel
-Lintean, Mihai
-Kardes, Hakan
-Escudeiro, Nuno
-Schäfer, Ulrich
-Graells, Eduardo
-Tyndall, Stephen
-Barthélemy, François
-Yu, Clement
-Lundälv, Mats
-Gaspari, Federico
-Mohania, Mukesh
-Waldhauser, Christoph
-Hernández H., Adolfo
-Eckart, Thomas
-Diaz, Fernando
-Torrent, Tiago
-Radeck-Arneth, Stephan
-Suchomel, Vít
-Cases, Ignacio
-Bucci, Stefano
-Mansikkaniemi, Andre
-Zell, Julian
-Goulian, Jérôme
-Schneider, Oliver
-Atiya, Amir
-Naish-Guzman, Andrew
-Modi, Ashutosh
-Kollar, Thomas
-Rubino, Raphael
-Briggs, Gordon
-Lin, Thomas
-Matchen, Paul
-Vaswani, Ashish
-Tanaka, Toru
-Letard, Vincent
-Chaudri, Vinay
-Schlögl, Stephan
-Mazziotta, Nicolas
-Postma, Marten
-Meira Jr., Wagner
-Irsoy, Ozan
-Wood, Frank
-Fujiwara, Yasuhiro
-Orland, Luke
-Blain, Frederic
-Upadhyay, Vivek
-Ziering, Patrick
-Ethis, Emmanuel
-Cranenburgh, Andreas
-Hunter, Larry
-Zerrouki, Taha
-Phandi, Peter
-Kouhestani, Manouchehr
-Woolford, John L.
-Huber, Torsten
-Kumamoto, Tadahiko
-Golland, Dave
-Besançon, Romaric
-Mukherjee, Sankar
-Kundu, Amitava
-Raymond, Geoffrey
-O'Brien-Strain, Eamonn
-Jensen, Jacob
-Débowski, Łukasz
-Sanchez-Cisneros, Daniel
-Boros, Tiberiu
-López-Cózar, Ramón
-Dobrinkat, Marcus
-Cruz-Lara, Samuel
-Frank, Stefan
-Tsakalidis, Stavros
-Potter, Walter D.
-Béchet, Denis
-Vaz, Colin
-Maamouri, Mohammed
-Howcroft, David
-Vreeke, Joris
-van Oosten, Philip
-Boudy, Jérôme
-Tanaka, Shohei
-Jones, Evan
-Vasilieff, Brant
-Allen, Colin
-Ott, Niels
-Abad, Alberto
-Bailly, Raphaël
-Hoffmann, Achim
-S., Rajendran
-Cabulea, Cosmin
-Venkataraman, Vivek
-Skiba, David
-Silvestrov, Sergei
-Ivanov, Vladimir
-Al-Haj, Hassan
-Kasterka, Uwe
-Clark, Robert A. J.
-Dell' Amerlina Ríos, Matías
-Ester, Martin
-Jarrold, William
-Pereira, Francisco
-Wintrode, Jonathan
-Johnson, Brian
-Kabashi, Besim
-Green, Matthew J.
-Szidarovszky, Ferenc
-Mediani, Mohammed
-Barbaresi, Adrien
-Rizzo, Albert
-Stein, Benno
-Nguyen, Antony
-Barrault, Loïc
-Lewis, William D.
-Engelfriet, Joost
-Moore, Joshua
-Crook, Paul A.
-Guerra, Raul
-Elkan, Charles
-Gupta, Anand
-Redlawsk, David P.
-Wettig, Hannes
-Eichstaedt, Johannes
-Simmons, Reid
-Nezamfar, Hooman
-Knauth, Jürgen
-Peñas, Anselmo
-Baucom, Eric
-Dalton, Adam
-O Donnaile, Caoimhin
-Bersini, Hugues
-Polnarov, Anatoly
-Casamayor, Gerard
-Kleinschmidt, Dave
-Sagot, Benoît
-Hayes, Jeff
-Glass, Jim
-Mermer, Coşkun
-Laali, Majid
-Smith, Aaron
-Wienke, Johannes
-Ganjigunte Ashok, Vikas
-Salloum, Wael
-van der Werff, Laurens
-Kočiský, Tomáš
-Sündermann, David
-Kayser, Michael
-Boot, Peter
-Pennington, Jeffrey
-SAFI, Waseem
-Whitehead, Simon
-Ortega Bueno, Reynier
-Kanemoto, Atsushi
-Neuman, Yair
-Sidorenko, Wladimir
-Akram, Misbah
-Guzmán, Francisco
-Ezra, Jefferson
-Hardisty, Eric
-Pobar, Miran
-Morchid, Mohamed
-Valencia-GarcÃ­a, Rafael
-Hammond, Adam
-Kilias, Torsten
-Matten, Mark
-Squillante, Luigi
-Dietterich, Tom
-Compton, Paul
-Harada, Tatsuya
-Blei, David M.
-Tschuggnall, Michael
-Schatz, Thomas
-de Groc, Clément
-NasrEsfahani, Mohammad
-Chollet, Gérard
-Selmer, Øyvind
-Lamar, Michael
-Neumann, Arne
-Dlougach, Jacob
-Hsu, William
-Gormley, Matthew R.
-Shacham, Ron
-Shindo, Hiroyuki
-Khare, Prashant
-Ferrández-Tordera, Jorge
-Ferschke, Oliver
-Gusev, Andrey
-Ebrahimi, Javid
-Beller, Charley
-Prévot, Laurent
-Muñiz Cuza, Carlos
-Malon, Christopher
-Echizen-ya, Hiroshi
-Nakano, Masahiro
-Vilenius, Mikko
-Plank, Frans
-Velichkov, Boris
-Mudge, Raphael
-Hajj, Hazem
-Hirst, Daniel
-Silver, David
-Mielens, Jason
-Pouzyrevsky, Ivan
-Yvon, François
-Wing, Benjamin
-Brefeld, Ulf
-Gyawali, Bikash
-Espinoza, Mauricio
-Nishino, Masaaki
-Barteld, Fabian
-Alkhouli, Tamer
-Völske, Michael
-de la Higuera, Colin
-Tomás, David
-Köhn, Arne
-Math, Rafael
-Mann, Jason
-Fountain, Trevor
-Grieve-Smith, Angus
-Pustejovsky, James
-Heer, Jeffrey
-Quintard, Ludovic
-Ng, Dominick
-Staiano, Jacopo
-PreoŢiuc-Pietro, Daniel
-Lunney, Tom
-François, Thomas
-Vassilivitskii, Sergei
-Kröll, Mark
-Fourtassi, Abdellah
-Lindberg, David
-Stepanov, Evgeny
-Milton, John
-Mandel, Benjamin
-Perozzi, Bryan
-Mikovec, Zdenek
-Shein, Fraser
-Blinov, Pavel
-Roque, Francisco
-Ehrig, Heiko
-Johnson, W. Lewis
-Novotney, Scott
-Gehringer, Edward
-Nalisnick, Eric T.
-Francq, Pascal
-Third, Allan
-Raymond, Rudy
-Eliasson, Anders
-GÃ?Â³mez-RodrÃ?Â, Carlos
-Wright, Jonathan
-Sieber, Gregor
-Wueest, Bruno
-Bekavac, Marko
-Smaïli, Kamel
-León, Saul
-Pool, Jonathan
-Daxenberger, Johannes
-Choi, Edward
-Bada, Michael
-Trenkmann, Martin
-Haggerty, James
-Bougares, Fethi
-Johnson, Rob
-Saraçlar, Murat
-Kimball, Anthony
-Carter, Simon
-Wallstrom, Garrick
-Tchechmedjiev, Andon
-Lamb, William
-Jung, Sung-Jae
-Trotman, Andrew
-El Kholy, Ahmed
-Tsubaki, Masashi
-Dobnik, Simon
-Hupp, Andrew
-Samih, Younes
-de Cordoba, Ricardo
-Eskander, Ramy
-Arppe, Antti
-Putois, Ghislain
-Moreth, Julian
-Reshetnikov, Kirill
-Goetze, Stefan
-Cross, Ernest
-Anechitei, Daniel
-Vasilev, Dimitar
-Woliński, Marcin
-Kivimäki, Ilkka
-K. Tsou, Benjamin
-Makazhanov, Aibek
-Hunter, Tim
-van Deemter, Kees
-Glavaš, Goran
-Minack, Enrico
-Höge, Harald
-Vinson, Mark
-Michelony, Aaron
-Grefenstette, Edward
-Laur, Sven
-Kanuparthi, Nikhil
-Kwiatkowski, Tom
-Lawrence, John
-Michael, Marc
-Koppermann, Christopher
-Beaufort, Richard
-Schulder, Marc
-McAlister, Simon
-Seeker, Wolfgang
-Homan, Christopher
-Byrne, William
-Landauer, Thomas K.
-Astigarraga, Aitzol
-K., Sankar
-Gleim, Rüdiger
-Felice, Mariano
-Patterson, Gary
-Yahya, Mohamed
-Flego, Federico
-Massidda, Alberto
-Fleury, Serge
-Kos, Kamil
-Warner, William
-Guzmán, Rafael
-Gonzalez-Agirre, Aitor
-Wawer, Aleksander
-Bär, Daniel
-Glöckner, Ingo
-Greenberg, Clayton
-Oussalah, Mourad
-McCreadie, Richard
-Molnár, Zsolt
-Matthies, Franz
-Mukhin, Mikhail
-Leaman, Robert
-Medved, Dennis
-López de Lacalle, Oier
-Kisiel, Bryan
-Hasanuzzaman, Mohammed
-Wellens, Pieter
-Ahat, Murat
-Lund, William B.
-Rafea, Ahmed
-Oliveira, Francisco
-Reiss, Frederick
-Abu-Jbara, Amjad
-Calvo, Rafael A.
-SÃ¡nchez-MartÃ¬nez, Felipe
-Bouma, Gerlof
-Lebani, Gianluca E.
-Stüber, Torsten
-Clark, Tom
-Petrenz, Philipp
-Abney, Steven
-Jean-Louis, Ludovic
-Lofi, Christoph
-Romeo, Salvatore
-Eichmann, David
-L. Kashyap, Abhay
-Raafat, Hazem
-Gonzalez, Antonio
-Jardine, James
-Max, Aurélien
-Marelli, Marco
-Frostig, Roy
-Pal, Christopher
-Dušek, Ondřej
-Pendus, Cezar
-Korvas, Matej
-Vale, Daniel
-Ageev, Mikhail
-Zhang, David
-Pfeffer, Jürgen
-Spitkovsky, Valentin I.
-Gaillard, Julien
-Cunha, Evandro
-Štajner, Tadej
-Nothdurft, Florian
-Kruger, Justin
-van Huyssteen, Gerhard B.
-Magdon-Ismail, Malik
-Torii, Yoshimitsu
-Lee, Matthias
-Rubin, David
-Perez-Tellez, Fernando
-Schuster, Sebastian
-Fék, Márk
-LoBue, Peter
-Nürnberger, Andreas
-Aguiar, Pedro
-Potter, Tim
-Nakatani, Kazuhide
-Schober, Michael F.
-Berton, André
-Yadav, Kabir
-Mosquera, Alejandro
-Lauder, Rob
-Gaschler, Andre
-Kiprov, Yasen
-Elshamy, Wesam
-Müller, Jens
-Di Caro, Luigi
-Couto Vale, Daniel
-Luksch, David
-Benevenuto, Fabricio
-Sperber, Matthias
-Henriksson, Aron
-Balage Filho, Pedro
-Blessing, Andre
-Olariu, Andrei
-Ortiz-Martínez, Daniel
-Sistla, Prasad
-Arnold, Sebastian
-Radomski, Stefan
-De Vine, Lance
-Kontonatsios, Georgios
-Kawai, Takao
-Whittaker, Edward
-Grimm, Robert
-Riedl, Martin
-Watrin, Patrick
-Sensoy, Hüsnü
-Berberich, Klaus
-Candido Jr., Arnaldo
-Bisk, Yonatan
-Drewes, Frank
-Ishiguro, Hiroshi
-Toscani, Domenico
-AlTantawy, Mohamed
-R. McGrath, Liam
-Piergallini, Mario
-Silcox, Lucian
-Jans, Bram
-Mukherjee, Arjun
-Ercegovčević, Miloš
-Boyd, Andrew
-Perronnin, Florent
-van Schijndel, Marten
-Täckström, Oscar
-Toivonen, Hannu
-Raz, Yishay
-Maskharashvili, Aleksandre
-Tyrefors Hinnerich, Björn
-Hadian, Hossein
-Eichhorn, Ole
-Wong, Derek F.
-Dermouche, Mohamed
-Guta, Andreas
-Ribeyre, Corentin
-Goth, Julius
-Shardlow, Matthew
-Sanchis Trilles, Germán
-Mohammady, Ehsan
-ten Hacken, Pius
-Gemmeke, Jort F.
-Davis, Alexandre
-Bessho, Fumihiro
-Singh, Amit
-Specht, Günther
-Fülöp, Zoltán
-Basterrechea, Eduardo
-Ćavar, Damir
-Vrochidis, Stefanos
-Gatti, Lorenzo
-Almeida, Miguel B.
-Kramár, János
-Dewdney, Nigel
-Shah, Kashif
-Schabus, Dietmar
-Erickson, Brad
-Schatz, Benjamin
-Tamchyna, Aleš
-Ioris, Antonio
-Weiss, Benjamin
-Nørvåg, Kjetil
-Bolaños, Daniel
-Chavez, Alexander
-Gao, Byron J.
-Chou, Andrew
-Clarke, Alasdair
-Lazer, David
-McDowell, Bill
-Lugaresi, Camillo
-Hovy, Eduard
-Meur, André
-Neubig, Graham
-Mesa-Lao, Bartolomé
-Smeaton, Alan
-Tadić, Marko
-Scheutz, Matthias
-Fancellu, Federico
-Lussier, Yves
-Martin-Brualla, Ricardo
-Gutiérrez, Yoan
-de Paiva Alves, Eduardo
-Lejeune, Gael
-Simianer, Patrick
-Werge, Thomas
-Snover, Matthew
-Rodríguez Zivic, Pablo
-Papageorgiou, Haris
-Klubička, Filip
-de Rijke, Maarten
-Socher, Richard
-Kuboň, Vladislav
-Harihara, Ganesh
-Forni, Timothy
-Mellebeek, Bart
-Hofmann-Apitius, Martin
-Durrell, Martin
-Baumer, Eric P. S.
-Stiehler, Felix
-Durrett, Greg
-Reisert, Paul
-Tanner, Herbert G.
-Cheng, Justin
-Castillo, Julio
-Roth, Benjamin
-Diuk, Carlos
-Mulholland, Matthew
-Eger, Steffen
-Zitnik, Slavko
-Gruzitis, Normunds
-Verlinde, Serge
-de Haan, Ferdinand
-Mairesse, François
-Bastianelli, Emanuele
-Hammon, Matthias
-Kozhevnikov, Mikhail
-Hakenberg, Jörg
-Barnes, Derek
-Nasir, Jamal A.
-Mittelman, Roni
-Smith, Dustin
-Rubino, Raphaël
-Deléglise, Paul
-Cohen, David
-Engelbrecht, Herman A.
-Žmak, Lovro
-Ombui, Edward
-Murnane, William
-Lagun, Dmitry
-Verhagen, Arie
-Busa-Fekete, Róbert
-Szarvas, György
-Fernández-González, Daniel
-Bienenstock, Elie
-Bouchard, Guillaume
-Baker, Simon
-Jelasity, Márk
-Rettinger, Achim
-McMahan, Brian
-Gupta, Manish
-Shannon, Matt
-Schnelle-Walka, Dirk
-Reyes, J. Alejandro
-Duma, Daniel
-Abeel, Thomas
-Salameh, Mohammad
-Racz, Peter
-van der Goot, Rob
-Kiciman, Emre
-Flanigan, Jeffrey
-Ryan, James O.
-Morris, David
-Kreuzthaler, Markus
-Altman, Eitan
-Schmidt, Christoph
-Petran, Florian
-Bouallegue, Mohamed
-Dragut, Eduard
-DeYoung, Jay
-Eldén, Lars
-Effelsberg, Wolfgang
-Gonçalo Oliveira, Hugo
-Kohonen, Oskar
-Morgan, John
-RÃ©, Christopher
-Armstrong, Jackson
-Szymanik, Jakub
-Bessières, Philippe
-Trnka, Marián
-Lupinetti, Domenico
-Avanço, Lucas
-Kumar, Vineet
-Doherty, Gavin
-Whang, Steven
-Mesgar, Mohsen
-Doherty, Stephen
-Yamauchi, Takashi
-Del Corro, Luciano
-Smith, Jason R.
-Goldstein, Guy
-León, Carlos
-Meyer, Thomas
-Rouhizadeh, Masoud
-Jha, Rahul
-Christodoulopoulos, Christos
-Dubuisson, Jimmy
-Yoshimoto, Akifumi
-Grandvalet, Yves
-Gleize, Martin
-Marecek, David
-Mubarak, Hamdy
-Mizumoto, Tomoya
-Gordon, Joshua B.
-Hinote, David
-Salgueiro, Agostinho
-Väyrynen, Jaakko
-Somin, Anton
-Nualart, Jaume
-Choi, Frederick
-Gilbert, Eric
-Visweswariah, Karthik
-Kachaev, Dmitry
-Raybaud, Sylvain
-Bahdanau, Dzmitry
-Takamatsu, Shingo
-Bosch, Vicente
-Osborne, Richard
-Chi, Ed
-Zawadowski, Marek
-Delpeuch, Antonin
-Kobayashi, Kazuki
-Mott, Bradford
-Labaka, Gorka
-Anderson, Timothy
-Badaro, Gilbert
-Huval, Brody
-Flores, Enrique
-Mordowanec, Michael T.
-Moreno-Ortiz, Antonio
-Barrón-Cedeño, Alberto
-Sinclair, David
-Komatsu, Takanori
-Bokharaeian, Behrouz
-Bechet, Frédéric
-Iomdin, Boris
-Bandhakavi, Anil
-Jarvis, Scott
-Mogadala, Aditya
-Deveaud, Romain
-Revuelta-MartÃ­nez, Alejandro
-Pastusiak, Andrzej
-Petrov, Martin
-Mattelaer, Willem
-Pellow, David
-Potamianos, Alexandros
-Herder, Eelco
-Madan, Sumit
-Tomlinson, Marc
-Ré, Christopher
-Takegoshi, Daisuke
-Yamana, Hayato
-Kozat, S. Serdar
-Vickers, Lucas
-Nishikawa, Hitoshi
-Bradshaw, William
-Leisma, Henri
-Papalexakis, Evangelos
-Fornaciari, Tommaso
-Poursepanj, Hamid
-Straka, Milan
-Ceballo, Alberto
-Léger, Serge
-Germesin, Sebastian
-Nakata, Yosuke
-Machida, Yuichiro
-Strömqvist, Sven
-Fresko, Moshe
-Nasir, Jamal
-Milios, Evangelos
-Weissbock, Josh
-Schlaikjer, Andrew
-Nilsson, Gunnar
-Brandes, Jasper
-Krupavicius, Algis
-Finlayson, Mark
-Oura, Keiichiro
-Brown, Gavin
-Paulo, Sérgio
-Cronin, Ernest
-Torres Martins, André
-Jakob, Niklas
-Gibbons, Christopher
-Tran, Andrew
-Rákosi, György
-Alizadeh, Mehrdad
-Pfeiffer, Thies
-Makhambetov, Olzhas
-Blondin Massé, Alexandre
-Büchse, Matthias
-Peeters, Geert
-Menini, Stefano
-King, Joseph
-Roy, Matthew
-Shibuki, Hideyuki
-Scicluna, James
-Leixa, Jérémy
-Schamper, Julian
-Henderson, Matthew
-Tihanyi, László
-Pate, John
-Al Obaidli, Fahad
-Matuschek, Michael
-Wallace, Byron
-Kalisch, Nicolai
-Muhr, Markus
-Crossley, Scott
-Ross, Robert
-Karhila, Reima
-Monteleone, Mario
-Mehta, Neville
-Holyoak, Keith
-Onishi, Takashi
-Martinez, William
-Ell, Basil
-Pasini, Tommaso
-Rodríguez, Horacio
-Azab, Mahmoud
-Newman, David
-Katsos, Napoleon
-Garcia, Jorge L.
-Sarmento, Luís
-Hall, Mark
-Dawes, Martin
-Schlü"ter, Ralf
-Ferguson, Michael
-Alkharashi, Ibrahim
-White, Jerome
-Blacoe, William
-Harshfield, Benjamin
-Ginter, Thomas
-Ahmed, Amr
-Mareček, David
-Mailhot, Fred
-Johannsen, Anders
-Nagy, István
-Dzifcak, Juraj
-Bryant, Christopher
-Cortis, Keith
-Barth, Tassilo
-Guzman, Francisco
-O'Brien, Ron
-Kruit, Benno
-Schlünder, Björn
-Snyder, Justin
-Iosif, Elias
-Zemánek, Petr
-Przybyła, Piotr
-Kleinbauer, Thomas
-Chang, Joseph Z.
-Lamar, Thomas
-Friedman, Menahem
-Potthast, Martin
-Mitchell, Christopher
-Cosejo, David
-Kirschnick, Johannes
-Kettunen, Kimmo
-Zamora-Martinez, Francisco
-Detienne, Boris
-Sakaguchi, Keisuke
-Hanke, Florian R.
-Morstatter, Fred
-Dela Rosa, Kevin
-Gross, Justin H.
-Kuniyoshi, Yasuo
-Fattal, Raanan
-Bullard, Joseph
-Efstathiou, Ioannis
-Alexe, Bogdan
-Kapre, Nikhil
-Winne, Phil
-Cirik, Volkan
-Körner, Allan
-Hart, Michael
-Dagnelies, Arnaud
-Hintz, Gerold
-Ytrestl, Gisle
-Dubiner, Moshe
-Sak, Haşim
-Belinkov, Yonatan
-Heuss, Timm
-de Kok, Daniël
-Krupavičius, Algis
-Schulze Wettendorf, Clemens
-de Oliveira, Rodrigo
-Makowiecki, Filip
-McCoy, Wilson
-Ashok, Vikas
-Belanger, David
-Fernández-Orquín, Antonio
-Bilu, Yonatan
-Abd El-Wahab, Mohamed
-Misyurev, Alexey
-Hagen, Matthias
-McAlister, Isaac
-Nouri, Javad
-Summer-Stay, Douglas
-Chrupała, Grzegorz
-Marín, Rafael
-Gomes, Paulo
-Bak, Peter
-Velcin, Julien
-Akabe, Koichi
-Scaiano, Martin
-Mesiano, Francesco
-Khallash, Mojtaba
-Babaeian Jelodar, Ahmad
-Kazemi, Mohammad
-Sjöbergh, Jonas
-Berglund, Martin
-Greiner, Paul
-van Cranenburgh, Andreas
-Nesbit, John
-Haugereid, Petter
-Proano, Ruben A.
-Schütte, Niels
-Baird, Henry S.
-Hodson, James
-Lasecki, Walter
-Aletras, Nikolaos
-Nunes, Tiago
-Chakraborty, Amit
-Crego, Elvis
-Dürr, Oliver
-Roche, Mathieu
-Schler, Jonathan
-Cristi?, Maximiliano
-Galgani, Filippo
-Flach, Peter A.
-Black, Donald
-Figueira, Luís
-Karandikar, Anand
-Görgün, Onur
-Wagner, Earl
-D’hanens, Kristof
-van Gompel, Maarten
-Díaz, Alberto
-Gonçalves, Diogo
-Weitz, Benjamin
-Karnick, Harish
-Valentín, Oriol
-Townsend, Richard
-Aharoni, Roee
-Darling, William M.
-Mill, Simon
-Möbius, Bernd
-Rosa, Rudolf
-Kaneji, Kengo
-Wallace, Byron C.
-Yalçinkaya, Ihsan
-Carreno-fuentes, Arnaldo
-Selfridge, Ethan
-Davis, Anthony
-Williams, Philip
-Souza, Bruno
-Kadlec, Rudolf
-Kyle, Kristopher
-Miranda-Jiménez, Sabino
-Cláudio, Pedro
-Srivastava, Mahesh
-Vogel, Adam
-Sánchez-Vega, Fernando
-Nicosia, Massimo
-Bretier, Philippe
-Barner, Dave
-Uthus, David C.
-Langlais, Phillippe
-Wiebe, Eric
-Bodenstab, Nathan
-Van Liefferinge, Stefaan
-Lang, Joel
-Segouat, Jérémie
-Rodríguez Hernández, Miguel
-Henríquez Q., Carlos A.
-Marcińczuk, Michał
-Boltužić, Filip
-Tarelkin, Alexander
-Streicher, Alexander
-Savarese, Silvio
-van den Bosch, Antal
-Hiruma, Nobuyuki
-Wilde, Lorin
-Graves, Roger
-Obeid, Ossama
-Bartie, Phil
-Tsioutsiouliklis, Kostas
-Mika, Peter
-Mills, Daniel P.
-Kozlowski, Marek
-Beckley, Russ
-Piotrowski, Michael
-Greenhill, Simon J.
-Price, Timothy
-Gertz, Michael
-Ho, Howard
-Keshet, Joseph
-Christiansen, Thomas
-Marius, Tamas
-Haidar, Md. Akmal
-Diatka, Vojtěch
-Crasborn, Onno
-Cross, James
-Crowgey, Joshua
-Prettenhofer, Peter
-Velikovich, Leonid
-Bordes, Antoine
-Bauer, John
-Schlund, Maximilian
-MartÃ¬nez-CÃ¡mara, Eugenio
-Ouchi, Hiroki
-García-Cuesta, Esteban
-Novák, Václav
-Goto, Hayato
-Ziai, Ramon
-Cohen, Raphael
-Cerisara, Christophe
-Hough, Julian
-Speicher, Till
-Oberkampf, Heiner
-Choudhary, Narayan
-Fukumochi, Yoji
-Azaoui, Brahim
-Sperr, Henning
-Krug, Wayne
-Górski, Rafał
-Canny, John
-Chatzitheodorou, Konstantinos
-Roturier, Johann
-Trombetti, Marco
-Dubbin, Gregory
-Varga, Viktor
-M. Raafat, Hazem
-Skory, Adam
-Revert, Ricardo
-Otrusina, Lubomir
-Csirik, János
-Chang, Joseph
-Bart, Robert
-Agarwal, Ankit
-Varlamis, Iraklis
-Gerow, Aaron
-Silenzio, Vincent
-Jurgens, David
-Borschinger,Benjamin
-Joinson, Adam
-Van der Goot, Erik
-Seidman, Shachar
-Cortés Vaíllo, Santiago
-Váradi, Tamás
-Engels, Gregor
-Bonev, Boyan
-Gupta, Kalyan
-Moraliyski, Rumen
-Coster, William
-Westerhof, Gerben J.
-Calapodescu, Ioan
-Green, Nathan
-Beekhuizen, Barend
-Dunn, Jonathan
-Porta, Jordi
-Albatal, Rami
-Kalyanpur, Aditya
-Lemaire, Benoît
-Felt, Paul
-Ashwell, Peter
-Lohk, Ahti
-Jackson, Tom
-Stührenberg, Maik
-Sap, Maarten
-Dousset, Laurent
-Kousidis, Spyros
-Rousseau, Anthony
-Macdonald, Craig
-de Cao, Diego
-Lohmann, Steffen
-Strope, Brian
-Zhikov, Valentin
-Cooper, Doug
-Balle, Borja
-Rivera, Robert
-Stamborg, Marcus
-Severyn, Aliaksei
-Fabbrizio, Giuseppe
-Marie, Benjamin
-El-Bèze, Marc
-Hammarström, Harald
-Kenter, Tom
-Štefankovič, Daniel
-Mitsuzawa, Kensuke
-Desclés, Julien
-Nagesh, Ajay
-EngstrÃ¶m, Christopher
-Saralegi, Xabier
-Lecorvé, Gwénolé
-Gupta, Rakesh
-Horvat, Matic
-Korkmaz, Turgay
-Bungum, Lars
-Flaounas, Ilias
-Dillenbourg, Pierre
-Lim, Suk Hwan
-Cuayáhuitl, Heriberto
-Jacobs, Robert
-Panzner, Maximilian
-Möller, Sebastian
-Wärnestål, Pontus
-Sipos, Ruben
-Ordonez, Vicente
-Provoost, Thomas
-Frank, Austin F.
-Grave, Edouard
-van Hamme, Hugo
-Gung, James
-Müller, Stefan
-Elkins, Aaron
-Harel, David
-Souček, Milan
-Bajec, Marko
-Bowman, Samuel R.
-Jakubíček, Miloš
-Munaka, Tatsuji
-Berlin, Sebastian
-Strañák, Pavel
-Brunak, Søren
-Berend, Gábor
-Kottmann, Jörn
-McDonough, John
-Hashimoto, Kazuma
-Gwinnup, Jeremy
-Loh, Stanley
-O'Donnell, Tim
-Lapponi, Emanuele
-Korayem, Mohammed
-Raman, Karthik
-Barbella, David
-Ramteke, Ankit
-Luttenberger, Michael
-Baeza-Yates, Ricardo
-Dittmar, Jeremiah
-Kitagawa, Kotaro
-Carrillo de Albornoz, Jorge
-Libovický, Jindřich
-Durrani, Nadir
-Thomas, Philippe
-Rios, Miguel
-Zupan, Blaž
-Joshi, Gautam
-Görnitz, Nico
-Mc Kevitt, Paul
-Gaffney, Scott
-Tompa, Frank
-O'Donnell, Mick
-Fischer, Sven
-Furrer, Lenz
-Stewart, Ian
-von Waldenfels, Ruprecht
-McKinley, Nathan
-Chatzikyriakidis, Stergios
-Mihaylov, Todor
-Breimyer, Paul
-Habernal, Ivan
-Anastasiu, David C.
-Khalidov, Vasil
-Lipson, Hod
-Obin, Nicolas
-Cromières, Fabien
-Kramer, Jared
-Moreno-Schneider, Julián
-MacAuslan, Joel
-McConvell, Patrick
-Björklund, Henrik
-Huijsmans, Dionysius
-Kruszewski, Germán
-Novak, Josef R.
-Mittmann, Roland
-Kawamoto, Shinichi
-Stöckel, Andreas
-Suárez, Armando
-Silva-Schlenker, Emilio
-Crestana, Carlos
-Yen, John
-Boulahanis, John
-Samad Zadeh Kaljahi, Rasul
-Clifford, Jim
-Vihavainen, Arto
-Smolentzov, André
-Underwood, Ted
-Dakota, Daniel
-Singh, Mukesh
-Cauchi, Benjamin
-Saniee Abadeh, Mohammad
-Yoshida, Yasuhisa
-Bykh, Serhiy
-El-Desoky, Amr
-Galstyan, Aram
-Sánchez-Martínez, Felipe
-Golenia, Bruno
-Gödde, Florian
-Tanigaki, Koichi
-Maas, Andrew L.
-Bildhauer, Felix
-Wisniewski, Guillaume
-Schaeffer, Moritz
-Radziszewski, Adam
-de Groote, Philippe
-Hruschka, Eduardo
-Mousser, Jaouad
-Lampos, Vasileios
-Morgan, Jonathan T.
-Giorgolo, Gianluca
-Hazelbeck, Gregory
-Chuchunkov, Alexander
-Stark, Anthony
-Rhouma, Rafik
-Tayeb, Aharon
-Mitsui, Matthew
-Kasch, Niels
-Basu, Sumit
-Nitti, Davide
-Karan, Mladen
-Zwick, Matthias
-Zastrow, Thomas
-Koychev, Ivan
-Lecouteux, Benjamin
 Montes-y-Gomez, Manuel
-PreoÅ£iuc-Pietro, Daniel
-Conrad, Alexander
-Lyu, Michael R.
-Burnham, Denis
-Prószéky, Gábor
-Hekler, Eric
-Žabokrtský, Zdeněk
-Beckner, Clayton
-Hazem, Amir
-Adams, Oliver
-Croset, Samuel
-Joseph, Josh
-Kegelmeyer, Philip
-Sheth, Amit
-Minematsu, Nobuaki
-Moxley, Joe
-Vasile, Flavian
-Germann, Daniel
-Bryan, Craig
-Hernández, Donato
-Plátek, Ondřej
-Smith, Mason
-Annesi, Paolo
-Kokke, Pepijn
-Richardson, Matthew
-Hutchinson, Brian
-Sert, Enis
-Kamigaito, Hidetaka
-Waite, Aurelien
-Phillips, Lawrence
-Hamdi, Ahmed
-Minor, Michael
-Szymanski, Terrence
-Chávez, Alexander
-Marcheggiani, Diego
-Hülscher, Olaf
-Hutchins, W. John
-Fernandez Orquín, Antonio
-Freitag, Markus
-Shakhnarovich, Gregory
-Peldszus, Andreas
-Castillo, Esteban
-Stanojević, Miloš
-Martínez-Gómez, Pascual
-Aly, Mohamed
-Frasincar, Flavius
-Rüd, Stefan
-Bar, Kfir
-Issac, Fabrice
-Hoppe, Dennis
-KrÃ­Å¾, Vincent
-Umanski, Daniil
-Kuipers, Benjamin
-Bartz, Thomas
-Stern, Roni
-Martínez Alonso, Héctor
-Kubina, Jeff
-Mikolov, Tomas
-Gader, Nabil
-Trevisan, Marco
-MacGlashan, James
-Å ariÄ?, Frane
-Garg, Nikhil
-Mairal, Julien
-Fowler, Andrew
-Avanzi, Mathieu
-El Maarouf, Ismail
-Bollmann, Marcel
-Harrington, Brian
-de Beaumont, William
-Koirala, Cesar
-Bringert, Björn
-Günther, Tobias
-Toledo, Assaf
-Niekler, Andreas
-Ceausu, Alexandru
-Lehmann, Jens
-Von Lunen, Alexander
-Kutlak, Roman
-Kolovratník, David
-Németh, Péter
-Garley, Matt
-Moore, Coleman
-Elliott, Desmond
-Sorower, Mohammad
-Milička, Jiří
-Lindsey, Robert
-Corlett, Eric
-Kamran, Amir
-Stevens, Keith
-Balla, Amar
-Scannell, Kevin
-Derrick, Douglas
-Ford, Michael
-Remus, Steffen
-Mohamed, Muhidin
-Haase, Jens
-Kopack, Michael
-Naresh, Ram
-Nagy T., István
-Forsberg, Markus
-Edelstam, Fredrik
-Leiva, Luis A.
-Choi, DongHyun
-Krilavičius, Tomas
-Khan, Mohammad
-Mamitimin, Samat
-Saz, Oscar
-Franky, Franky
-Basile, Valerio
-Voigt, Rob
-Viljanen, Timo
-Gelas, Hadrien
-Ó Raghallaigh, Brian
-Nøklestad, Anders
-Hedegaard, Steffen
-Hangya, Viktor
-Scotch, Matthew
-Rusko, Milan
-Vald, Ed
-Hennig, Leonhard
-Laws, M. Barton
-Gardner, Matt
-Hamdan, Hussam
-Hughes, Mark
-Manion, Steve L.
-Koolen, Ruud
-Mungi, Ashish
-Hasan, Ragib
-Fernández, Rubén
-Ammar, Waleed
+Hayes, Jeff
+Barth, Tassilo
+Sagot, Benoît
+Polnarov, Anatoly
+Ester, Martin
+Laender, Alberto
+Vassilivitskii, Sergei
+Papageorgiou, Haris
+Nouri, Javad
+Robichaud, Benoît
+Albatal, Rami
+Mathur, Prashant
+Mitchell, Christopher
 Saint-Amand, Hervé
-Rǎschip, Marius
-Maney, Tucker
-Lawrence, Neil
-Littauer, Richard
-Messiant, Cédric
-Boyce, Richard
-Strauss, Benjamin
-Antoun, Christopher
-Cornolti, Marco
-Ackermans, Paul
-Chernobrov, Daniel
-Figueroa, David
-Hollingsworth, Charles
-Schmitz, Michael
-Funatomi, Takuya
-Jaggi, Martin
-Bederson, Benjamin B.
-Hoffart, Johannes
-Hershcovich, Daniel
-Lai, Albert
-Dessy, Adrien
-FernÃ¡ndez-GonzÃ¡lez, Daniel
-Ormándi, Róbert
-Warnier, Pierre
-Ali, Wajid
-Kaye, Jeffrey
-Rao, Rajesh P. N.
-Rokhlenko, Oleg
-Götze, Michael
-Niswar, Arthur
-Montoyo, Andrés
-Conrad, Frederick G.
-Tschirsich, Martin
-Dunlop, Aaron
-Reschke, Kevin
-Filardo, Nathaniel W.
-Paperno, Denis
-Tkatšenko, Aleksandr
-Ziegler, Henning
-Schulam, Peter
-Davis, Alan
-Sobral, Bruno
-Abowd, Gregory
-Lucas, Michael
-Gibson, Matthew
-Calders, Toon
-Richardson, John
-Cagan, Tomer
-Conkie, Alistair
-Lawless, Seamus
-Grappy, Arnaud
-Rashtchian, Cyrus
-Dawborn, Tim
-Ali, Ahmed
-Capman, François
-Fette, Georg
-Soldano, Henry
-Arizmendi, Iker
-Hawes, Timothy
-Høyland, Bjørn
-Perek, Florent
-Meek, Christopher
-Lemme, Andre
-Jurčíček, Filip
-Kuznetsov, Vitaly
-Harpalani, Manoj
-Vogler, Heiko
-ChÃ¡vez, Alexander
-Grycner, Adam
-Kleinberg, Jon
-BÖrschinger, Benjamin
-Grothendieck, John
-Zdrahal, Zdenek
-Valitutti, Alessandro
-Segal-haLevi, Erel
-Düwiger, Holger
-Beschke, Sebastian
-Bjerva, Johannes
-Musat, Claudiu
-Nooralahzadeh, Farhad
-Anastasopoulos, Antonios
-Feely, Weston
-Conrad, Stefan
-Chapelle, Olivier
-Knoth, Petr
-Schneider, Nathan
-Jarrar, Mustafa
-Izuha, Tatsuya
-Zobel, Justin
-Pasternack, Jeff
-Wives, Leandro
-De Bona, Fabio
-Leeman-Munk, Samuel
-Luotolahti, Juhani
-Manterola, Iker
-Dai, Andrew
-Jaakkola, Tommi
-Gollub, Tim
-Jörwall, Jakob
-Babbar, Uday
-Vilnis, Luke
-van de Guchte, Maarten
-Nagashima, Yuji
-Müller, Henning
-Botvinick, Matthew
-van Mulligen, Erik
-Goodwin, Travis
-Cruz, Fermín L.
-Gubbins, Joseph
-Dehkharghani, Rahim
-Treharne, Kenneth
-Lefèvre, Fabrice
-Mustafayev, Elshan
-Clematide, Simon
-Touheed, Nasir
-Marcinek, Bradley
-Dames, Nicholas
-Zapata-Jaramillo, Carlos M.
-Baskaya, Osman
-Sabyrgaliyev, Islam
-Crowell, Richard
-Fell, Michael
-Kornai, András
-Klotz, David
-Gascó, Guillem
-San-Segundo, Rubén
-D'Eredita, Michael A.
-Van Horenbeeck, Eric
-Stein, Cliff
-Schiele, Bernt
-Vetere, Guido
-Çöltekin, Çağrı
-Avalos, Santiago
-Adams, Keith
-Meder, Theo
-Merhav, Yuval
-Kretzschmar, Florian
-Karpathy, Andrej
-Puppe, Frank
-Enns, Peter
-Voevodski, Konstantin
-Bozhanov, Bozhidar
-Haulrich, Martin
-Behrooz, Morteza
-Bordignon, Ulisse
-Rusk, Bryan
-Singh, Anupam
-Leal, André
-Burchfiel, Benjamin
-Melamud, Oren
-Marek, David
-Kompatsiaris, Ioannis
-Shvartsman, Michael
-Evans, James
-Wolfe, Travis
-Weber, Michael
-Rhulmann, Mathieu
-Weld, Daniel S.
-Falkenjack, Johan
-Amigó, Enrique
-Schnabel, Tobias
-González-Ibáñez, Roberto
-SchÜtze, Hinrich
-Nasiruddin, Mohammad
-Maharjan, Suraj
-Merigaud, Nicolas
-Laki, László
-Artières, Thierry
-Yasuhara, Masaaki
-Papangelis, Alexandros
-Aguilar, Cesar
-Walker, Vern
-Gianfortoni, Philip
-Kern, Roman
-Burnett, Neil
-Cecchi, Guillermo A.
-Alotaibi, Fahd
-Sonntag, Jonathan
-Shinoda, Koichi
-Humayoun, Muhammad
-Strebkov, Dmitry
-Yokoi, Keisuke
-Konopnicki, David
-Obrebski, Tomasz
-Fitz, Hartmut
-Santus, Enrico
-Curto, Sérgio
-Stillwell, David
-Hoffmann, Raphael
-Hanaki, Kentaro
-Sasada, Tetsuro
-Barrena, Ander
-Bonner, Joshua
-Arzt, Sebastian
-Aransa, Walid
-Wu, Leon
-Teichert, Adam
-Lutz, Rudi
-Ong, Nathan
-Martineau, Justin
-Schwartz, Roy
-Schäfer, Roland
-Bossard, Aurélien
-Littell, Patrick
-Piperski, Alexander
-Solt, Illés
-Ward, Nicolas
-Materna, Jiří
-Sontag, David
-Hattori, Keigo
-San Vicente, Iñaki
-Villaseñor, Luis
-GlavaÅ¡, Goran
-Graff, Dave
-Sugiyama, Hiroaki
-Roller, Stefan
-Berg, Alexander C.
-Whitebread, Kenneth
-Kawai, Hisashi
-Rei, Marek
-Joshi, Aditya
-Paassen, Benjamin
-Spagnola, Steve
-Brown, Gregory
-Chaib-draa, Brahim
-Kloft, Marius
-Fernandes, Eraldo
-Hofmann, Florian
-Peitz, Stephan
-Ultes, Stefan
-Passos, Alexandre
-AlGhamdi, Fahad
-Mihăilă, Claudiu
-Orr, J. Walker
-van Zaanen, Menno
-Cooke, Martin
-Isemann, Daniel
-Mort, Alasdair
-Daumé III, Hal
-Baikadi, Alok
-Staton, Jeffrey
-Mohsen, Jamal
-Forbus, Kenneth
-Landwehr, Niels
-Alotaiby, Fahad
-Gervás, Pablo
-Emerson, Guy
-Martzoukos, Spyros
+Wiegand, Karl
+Nakano, Masahiro
+Kayser, Michael
+Beaugendre, Frédéric
+Dershowitz, Nachum
+Swanson, Benjamin
+Prettenhofer, Peter
+Mastin, John
+Grandvalet, Yves
+Toader, Mihai
+Skory, Adam
+Pate, John
+Hancock, Jeffrey T.
 Salton, Giancarlo
-Daly, Raymond E.
-Feldman, Jonathan
-Buczyński, Aleksander
-Farina, Antonio
-Kotelnikov, Eugeny
-Rietig, Felix
+Mustafayev, Elshan
+Gonçalo Oliveira, Hugo
+Leeman-Munk, Samuel
+Daumé, Hal
+Kothari, Alok
+Forni, Timothy
+Zamparelli, Roberto
+Rankel, Peter A.
+Harshfield, Benjamin
+Glass, Zachary
+Bowman, Samuel R.
+Lemme, Andre
+Grego, Tiago
+Rodríquez, Horacio
+Slade, Jonathan
+Khalidov, Vasil
+Minematsu, Nobuaki
+Wyner, Adam
+Passos, Alexandre
+Touheed, Nasir
+Raganato, Alessandro
+Bruno, James
+Carrillo de Albornoz, Jorge
+Weitz, Benjamin
+Bryant, Christopher
+Rastegar-Mojarad, Majid
+Dietterich, Tom
+Conrad, Alexander
+Kose, Tomoya
+Sugiyama, Hiroaki
+Müller, Christof E.
+Nuseibeh, Bashar
+Singh, Mukesh
+Burnett, Neil
+Bergen, Leon
+Sánchez-Martínez, Felipe
+Bui, Marc
+Dzifcak, Juraj
+Huang, Bert
+Francq, Pascal
+Ziegler, Jürgen
+Backus, Ad
+Felice, Mariano
+Curto, Sérgio
+Proisl, Thomas
+Lynum, André
+Zahran, Mohamed
+Iglesias, Aquiles
+Nilsson, Gunnar
+Ćavar, Damir
+Anastasiu, David C.
+D’hanens, Kristof
+Stabler, Edward P.
+Roy, Matthew
+Bullard, Joseph
+Alhawiti, Khaled
+Hohensee, Matt
+Götze, Michael
+McCreadie, Richard
+Pietschmann, Stefan
+Venant, Antoine
+Pease, Adam
+Farkas, Richárd
+Collazo, Armando
+Wolfe, Travis
+Martinez, Hector
+Martins, André F. T.
+Torget, Andrew
+Kawada, Takuya
+Bungum, Lars
+Forsberg, Markus
+Wallstrom, Garrick
+Echizen'ya, Hiroshi
+Broß, Jürgen
+Nesbit, John
+Steyvers, Mark
 Sawada, Hiroshi
-Cortes, Santiago
+Baucom, Eric
+Abdul-Wahab, Mohamed
+Garron, Anderson
+Winne, Phil
+Buczyński, Aleksander
+Hoppe, Dennis
+Abrahamsson, Emil
+Kouse, Tomoya
+Trombetti, Marco
+Buttler, David
+Tsakalidis, Stavros
+Kuznetsov, Vitaly
+Moore, Coleman
+Butler, Keith
+Matusevych, Yevgen
+LoBue, Peter
+Denkowski, Michael
+Petrov, Martin
+Whitebread, Kenneth
 Mesquita, Filipe
-Richter, Georg
-Wilkins, David
-Ferrone, Lorenzo
-Maruyama, Ichiro
+Hazure, Daiki
+Yamauchi, Takashi
+Abeel, Thomas
+Valitutti, Alessandro
+Astley, Philip
+Bernick, Charles
+Moritz, Niko
+Mohsen, Jamal
+Burchfiel, Benjamin
+Mikolov, Tomas
+Makazhanov, Aibek
+Chen, David
+Chan, Joel
+de Cao, Diego
+Naumann, Felix
+Agarwal, Manish
+Huang, Eric H.
+Wallhoff, Frank
+Otrusina, Lubomir
+Armstrong, Jackson
+Romeo, Salvatore
+Al Sallab, Ahmad
+Meur, André
+Jaggi, Martin
+Rösener, Christoph
+Skjærholt, Arne
+Morbini, Fabrizio
+Enríquez, Fernando
+Chahuneau, Victor
+Canny, John
+Pirinen, Tommi A.
+Grundkiewicz, Roman
+Hangya, Viktor
+Nagashima, Yuji
+Merigaud, Nicolas
+Mesgar, Mohsen
+Lampos, Vasileios
+Stemle, Egon
+Schlotterbeck, Fabian
+Krčmář, Lubomír
+Eckmann, Jean-Pierre
+de la Peña González, Santiago
+Veber, Philippe
+Crook, Paul A.
+Ziak, Hermann
+Ashton, Neil
+Gardner, Matt
+Mulholland, Matthew
+Toledo, Assaf
+Ortiz Rojas, Sergio
+Krawczyk, Stefan
+Wives, Leandro
+Fukumochi, Yoji
+van den Bosch, Antal
+Garain, Utpal
+Snoek, Conor
+Huet, Gérard
+Pappas, Nikolaos
+Rivera, Robert
+Ali, Wajid
+Nanchen, Alexandre
+Chatzikyriakidis, Stergios
+Vertanen, Keith
+Boudy, Jérôme
+Emadzadeh, Ehsan
+Dickfelder, Raphael
+Skala, Matthew
+Kliche, Fritz
+Bucci, Stefano
+Treharne, Kenneth
+Crivaro, Michael
+Bellalem, Lotfi
+Wing, Benjamin
+Kasch, Niels
+Ferrández-Tordera, Jorge
+Hattori, Keigo
+Byrne, William
+Ptáček, Tomáš
+Kirschnick, Johannes
+Kiso, Tetsuo
+Høyland, Bjørn
+Kratkiewicz, Gary
+Voionmaa, Kaarlo
+Woliński, Marcin
+Yamana, Hayato
+Mukherjee, Arjun
+Shaw, Jason A.
+Dunlop, Aaron
+Rink, Bryan
+Gershman, Anatole
+Kuboň, Vladislav
+Ronzano, Francesco
+Toivonen, Hannu
+Rubino, Francesco
+Dittmann, Henrik
+Israel, Ross
+Kerimov, Ruslan
+Maas, Andrew L.
+Crowston, Kevin
+Harwood, Aaron
+Schlund, Maximilian
+Szabó, János
+Stadtfeld, Tobias
+Orhan, Umut
+Alzate, Carlos
+Diuk, Carlos
+Orkin, Jeff
+C. Newton, Marcus
+Dittmar, Jeremiah
+Semenkin, Eugene
+Phandi, Peter
 Klinger, Roman
+Höge, Harald
+Harada, Tatsuya
+Mörth, Karlheinz
+Raskovsky, Iván
+Yamaguchi, Hiroshi
+Reichel, Sven
+Ettlinger, Marc
+Cecchi, Guillermo A.
+Wetzel, Dominikus
+Sasaki, Kentaro
+Dousset, Laurent
+Singh, Anupam
+Matthies, Franz
+McFate, Clifton
+Sevens, Leen
+Munaka, Tatsuji
+Kwiatkowski, Tom
+Bodnar, Stephen
+Sergienko, Roman
+Lerner, Uri
+Hoffart, Johannes
+Babaeian Jelodar, Ahmad
+Silfverberg, Miikka
+Ellis, Joe
+Seeker, Wolfgang
+Lohk, Ahti
+Kröll, Mark
+Mitchell, Christopher M.
+Spiegler, Sebastian
+Maurel, Fabrice
+Hanaki, Kentaro
+Jiménez, Santiago
+Dai, Andrew
+Müller, Stefan
+Cosejo, David
+Schlünder, Björn
+Riordan, Brian
+Silva, Fabio
+Enns, Peter
+Ceausu, Alexandru
+Rouquet, David
+Stewart, Ian
+Gatti, Lorenzo
+Luciani, Matteo
+Lin, Thomas
+Gianfortoni, Philip
+Tanigaki, Koichi
+Kopack, Michael
+Szummer, Martin
+Fék, Márk
+Littell, Patrick
+Smith, Dustin
+Lewis, Paul
+Fairon, Cédrick
+FitzGerald, Nicholas
+Mousser, Jaouad
+Milička, Jiří
+Daxenberger, Johannes
+Strauss, Benjamin
+Lebani, Gianluca E.
+Richter, Felix
+Vuorinen, Matti
+Cooper, Doug
+Wagner, Earl
+Elbassuoni, Shady
+Soeken, Mathias
+Schoenemann, Thomas
+McFarland, Daniel A.
+Kondo, Shuhei
+Gratch, Jonathan
+Aly, Mohamed
+Makhambetov, Olzhas
+Capman, François
+Burgos, Diego
+Castillo, Esteban
+Müller, Jens
+EsplÃ -Gomis, Miquel
+Barrón-Cedeño, Alberto
+Mika, Peter
+Bada, Michael
+Penman, Richard
+Cross, Ernest
+Marschall, Thomas
+Alumäe, Tanel
+Abdul-Mageed, Muhammad
+Sánchez-Sáez, Ricardo
+Bersini, Hugues
+Basterrechea, Eduardo
+Stamborg, Marcus
+Köhler, Joachim
+Srivastava, Mahesh
+Cunha, Evandro
+Kluegl, Peter
+Béchet, Nicolas
+Nunes, Tiago
+Hart, Michael
+de Malézieux, Guillaume
+Dagnelies, Arnaud
+Sperber, Matthias
+Mellebeek, Bart
+Lamar, Michael
+Velichkov, Boris
+Dosch, Benjamin
+Pendus, Cezar
+Uthus, David C.
+Akegawa, Naoki
+Liparas, Dimitris
+Börschinger, Benjamin
+Akabe, Koichi
+Ben Jannet, Mohamed
+Matrouf, Driss
+Bronner, Amit
+Frasincar, Flavius
+Mohamed, Muhidin
+Brun, Yuriy
+Bildhauer, Felix
+Rogers, Jim
+Vasiljevs, Andrejs
+Haarslev, Volker
+Ferrari, Vittorio
+Haase, Jens
+Frank, Austin F.
+Hollingsworth, Charles
+Peintner, Bart
+Stratos, Karl
+Xu, Yushi
+Isemann, Daniel
+Moreno-Schneider, Julián
+Schmitz, Sylvain
+Fernando, Samuel
+King, Joseph
+Ziering, Patrick
+Ariki, Yasuo
+Hough, Julian
+Eliasson, Anders
+Cohen, David
+Hülscher, Olaf
+Thomas, Paul
+Pollák, Petr
+Balage Filho, Pedro
+Laws, M. Barton
+Winner, Kevin
+Grissom II, Alvin
+Torii, Yoshimitsu
+Joshi, Aditya
+Bougares, Fethi
+Mairal, Julien
+Ré, Christopher
+Johnson, Rob
+Potter, Walter D.
+Avanzi, Mathieu
+Materna, Jiří
+Pelz, Jeff B.
+Vogel, Adam
+Groh, Georg
+Bederson, Benjamin B.
+Ultes, Stefan
+Kilias, Torsten
+Silva, David
+Stern, Asher
+Tompa, Frank
+Cagan, Tomer
+Musat, Claudiu
+Simões, Alberto
+Kramár, János
+Mizukami, Etsuo
+Farajian, M. Amin
+Drechsler, Rolf
+Warnier, Pierre
+Watrin, Patrick
+Osborne, Richard
+Snyder, Justin
+Desclés, Julien
+Valentín, Oriol
+Kogut, Bruce
+Branco, António H.
+Radomski, Stefan
+Geisler, Daniel
+Ebrahim, Mohamed
+Kamigaito, Hidetaka
+de Rijke, Maarten
+Bouma, Gerlof
+Paster, Ferdinand
+Gravano, Agustín
+Sawaf, Hassan
+Cruz, Fermín L.
+DuVall, Scott
+Schmidt, Stefan
+Tomás, David
+Crego, Elvis
+van de Guchte, Maarten
+Novotny, Jakub
+Cardiff, John
+Cieliebak, Mark
+Koukourikos, Antonis
+V., Krishnakumar
+Cooke, Martin
+Knoth, Petr
+San-Segundo, Rubén
+Roth, Benjamin
+Burnham, Denis
+Solak, Ercan
+Rubin, David
+Zhang, David
+Pal, Christopher
+Atiya, Amir
+Martinez, William
+Jimenez, Sergio
+Joshi, Gautam
+Hamdan, Hussam
+Jiménez-Salazar, Héctor
+Babani, James
+Cabaleiro, Bernardo
+Körner, Martin
+Aiden Lieberman, Erez
+Rush, Alexander M.
+Camara, Franc
+Anderson, Andrew J.
+Kanemoto, Atsushi
+Kirchhoffer, Tarek
+Jurish, Bryan
+Erjavec, Tomaž
+Coster, William
+Mailhot, Fred
+Dessy, Adrien
+Novák, Attila
+Roche, Mathieu
+Popescu, Vladimir
+Strik, Helmer
+Black, Donald
+Liverko, Sergey
+van Mulligen, Erik
+McGuinness, Kevin
+Quintard, Ludovic
+Rowe, Jonathan
+Seidman, Shachar
+Schneider, Oliver
+Yus, Roberto
+Jansen, Aren
+Smith, Aaron
+Allauzen, Alexander
+Plátek, Ondřej
+Jorge, Alipio
+Massó, Guillem
+Cláudio, Pedro
+Riesa, Jason
+Venkataraman, Vivek
+Doherty, Stephen
+Ho, Howard
+Rubino, Raphael
+de Cordoba, Ricardo
+Hashimoto, Atsushi
+Mourad, Ahmed
+Rosin, Paul
+Fischer, Sven
+Morin, Jason
+Cortés Vaíllo, Santiago
+Peitsch, Manuel
+Izuha, Tatsuya
+Martínez-Gómez, Pascual
+Ross, Robert
+Ito, Masashi
+Pichotta, Karl
+Boyce, Richard D.
+Martin-Brualla, Ricardo
+Kunneman, Florian
+Wampler, Stephen
+Cauchi, Benjamin
+Kos, Kamil
+Mizumoto, Tomoya
+Jerome, Simon
+Castillo, Julio
+Amsler, Michael
+Andrade, Daniel
+Remus, Robert
+Lawless, Seamus
+Rinard, Martin
+Chaib-draa, Brahim
+Marujo, Luis
+Martínez-Cámara, Eugenio
+Généreux, Michel
+Marek, David
+Chang, Edward Y.
+Görnitz, Nico
+Garner, Philip N.
+Bykh, Serhiy
+Sidorov, Grigori
+Knöbl, Ralf
+Math, Rafael
+Giorgolo, Gianluca
+Staiano, Jacopo
+Müller, Henning
+Zastrow, Thomas
+Khouzaimi, Hatim
+van Hamme, Hugo
+Faralli, Stefano
+Mayer, Thomas
+Chuang, Jason
+Shayganfar, Mohammad
+Stanley, Alexander W.
+Bouchard, Hugues
+Berrocal Rojas, Allan
+Goulian, Jérôme
+Quernheim, Daniel
+Cambria, Erik
+El Kholy, Ahmed
+Thiele, Gregor
+Artzi, Yoav
+Remus, Steffen
+de Beaumont, William
+Leisma, Henri
+Urieli, Assaf
+Embanga Aborobongui, Martial
+Skiba, David
+Crowell, Richard
+Babbar, Uday
+Freitag, Markus
+Sameti, Hossein
+Barthélemy, François
+Duma, Daniel
+Coecke, Bob
+Knauth, Jürgen
+Rettinger, Achim
+Oliveira, Luís
+Harihara, Ganesh
+Mesa-Lao, Bartolomé
+Kozhevnikov, Mikhail
+Doclo, Simon
+Koirala, Cesar
+Smith, Nathaniel
+Gupta, Rakesh
+Vulić, Ivan
+Vogler, Heiko
+Bjødstrup Jensen, Peter
+Barrena, Ander
+Gilmanov, Timur
+Bošnjak, Matko
+Vreeke, Joris
+Corvalan, Augusto
+Anisimoff, Ilya
+Aharoni, Roee
+Berlin, Sebastian
+López de Lacalle, Oier
+Duvert, Frédéric
+Varga, Dániel
+Gilbert, Eric
+Fabbri, Renato
+Redlawsk, David P.
+Okatiev, Vladimir
+Zapata-Jaramillo, Carlos M.
+Schmidt, Christoph
+Schaeffer, Moritz
+Specht, Günther
+Carroll, Lucien
+Hirsimäki, Teemu
+Phillips, Lawrence
+Wrede, Sebastian
+Verdegem, Dries
+Flor, Michael
+Niculae, Vlad
+Steffen, Jörg
+Menini, Stefano
+Machida, Yuichiro
+Severyn, Aliaksei
+Bahdanau, Dzmitry
+Fabbrizio, Giuseppe
+Cohen, Paul
+Choi, Edward
+Duric, Adnan
+Onishi, Takashi
+Khare, Prashant
+Danso, Samuel
+Weinberger, Michael
+Stark, Anthony
+Santos de la Cámara, Raúl
+Staton, Jeffrey
+RÃ©, Christopher
+Pennington, Jeffrey
+Görnerup, Olof
+Kočiský, Tomáš
+Beekhuizen, Barend
+Tezuka, Satoshi
+Hammarström, Harald
+Raghunathan, Karthik
+Luotolahti, Juhani
+Lai, Albert
+Raafat, Hazem
+Mattelaer, Willem
+Weiss, Guy
+Strañák, Pavel
+Nasiruddin, Mohammad
+Dimitrov, Stefan
+Palm, Günther
+Harpalani, Manoj
+Marie, Benjamin
+Park, Gregory
+Nualart, Jaume
+Yessenbayev, Zhandos
+Móntes y Gomez, Manuel
+Rodrigues, Filipe
+Soulet, Arnaud
+Hysom, David
+Michael, Thilo
+Chakraborty, Amit
+Lucas, Michael
+Attik, Mohammed
+Blythe, James
+Kawamoto, Shinichi
+Gonçalves, Diogo
+van Merrienboer, Bart
+Afzal, Naveed
+Hill, Felix
+Klotz, David
+Beckley, Russell
+Brosseau-Villeneuve, Bernard
+Yvon, François
+Dines, John
+O'Donnell, Matthew
+Cheng, Justin
+Vald, Ed
+Darvill, Jonathan
+Tozer, Martin
+Efstathiou, Ioannis
+Hall, Mark
+François, Thomas
+Eichstaedt, Johannes
+Nørvåg, Kjetil
+Hermo, Miguel
+Trevisan, Marco
+Raman, Karthik
+Voyer, Robert
+Kronrod, Yakov
+Valencia-GarcÃ­a, Rafael
+Cormack, James
+Iomdin, Boris
+Sharma, Rahul
+Gilbert, Mazin
+Silvestrov, Sergei
+Grafsgaard, Joseph
+Maqsud, Umar
+May, Wesley
+Narasimhan, Karthik
+Grozev, Ivan
+Finger, Marcelo
+Mejer, Avihai
+Gordon, Jonathan
+Sperr, Henning
+Hieber, Felix
+Summer-Stay, Douglas
+Kyle, Kristopher
+Marelli, Marco
+Klubička, Filip
+Reffin, Jeremy
+Fernández, Rubén
+Falcone, Michael
+Hasegawa, Takayuki
+Torres Martins, André
+Prószéky, Gábor
+Granitzer, Michael
+Bjerva, Johannes
+Van Liefferinge, Stefaan
+Wilkins, David
+Huijsmans, Dionysius
+Mihaylov, Todor
+Talley, Edmund
+Gorinski, Philip
+de Groc, Clément
+Hirst, Daniel
+Eichhorn, Ole
+Slud, Eric
+Hasan, Ragib
+Gupta, Manish
+Makowiecki, Filip
+Mordowanec, Michael T.
+Štajner, Tadej
+Reddington, Joseph
+Yu, Clement
+Joshi, Salil
+Bisk, Yonatan
+Rector, Alan
+Adjogah, Richard
+Goto, Hayato
+Hodson, James
+Díaz-de-Liaño, Enrique
+Pierce, Doug
+Marlin, Benjamin M.
+Weiss, Benjamin
+Lawrence, Neil
+Rustamov, Samir
+Jones, Simon
+Krishnaswamy, Nikhil
+Miyazaki, Taro
+Choi, Frederick
+Déchelotte, Daniel
+Freire, Nuno
+Lagun, Dmitry
+Moreira, Silvio
+Rizzolo, Nicholas
+Lupinetti, Domenico
+Zséder, Attila
+Ioris, Antonio
+Bendersky, Michael
+Hashimoto, Kazuma
+Moen, Hans
+Holyoak, Keith
+Neubig, Graham
+Lugaresi, Camillo
+Ittycheriah, Abe
+León Silverio, Saul
+Wilson, Phil
+Berman, Alexander
+Magdon-Ismail, Malik
+Geiger, Jonathan
+Judd, Joel
+Jha, Rahul
+Berzak, Yevgeni
+Guzmán, Francisco
+Fossati, Marco
+Schäfer, Ulrich
+Landwehr, Niels
+Macdonald, Craig
+Silva, Joaquim
+Potamianos, Alexandros
+Galstyan, Aram
+Puppe, Frank
+Zipser, Florian
+Kamp, Hans
+Gondek, David
+Dewdney, Nigel
+Wisniewski, Guillaume
+Buß, Okko
+Ferschke, Oliver
+Dubuisson, Jimmy
+Kompatsiaris, Ioannis
+Darling, William M.
+Lansdall-Welfare, Thomas
+K. Tsou, Benjamin
+Walker, Vern
+Cross, James
+Ashok, Vikas
+Strömqvist, Sven
+Vega, Alejandro
+Silbert, Noah H.
+Mansikkaniemi, Andre
+Ali, Ahmed
+Zaytsev, Vladimir
+Hanaoka, Hiroki
+Silenzio, Vincent
+Morris, David
+Ebert, Sebastian
+Moir, Tom
+Richardson, John
+Muller, Daniel
+Lee, Matthias
+Hamdi, Ahmed
+Haulrich, Martin
+Minor, Michael
+O'Keefe, Tim
+Lambin, Xavier
+Serafini, Luciano
+Dell' Amerlina Ríos, Matías
+Kabashi, Besim
+Lamprecht, Andreas
+Ribeyre, Corentin
+Price, Timothy
+Johannsen, Anders
+Solt, Illés
+Hofmann, Hansjörg
+Furrer, Lenz
+Finin, Tim
+Stührenberg, Maik
+Marcińczuk, Michał
+Silver, David
+Béchet, Frederic
+Manion, Steve
+Montoyo, Andrés
+Yasuhara, Masaaki
+Hefny, Ahmed
+De Grave, Kurt
+Chou, Andrew
+Kousidis, Spyros
+Trotman, Andrew
+Artières, Thierry
+Chuchunkov, Alexander
+Yilmaz, Okan
+Devlin, Jacob
+Feist, Rico
+Habernal, Ivan
+Cuayáhuitl, Heriberto
+Filardo, Nathaniel W.
+Pashalis, John
+Paltoglou, Georgios
+Jonathan, Philip
+SÃ¡nchez-MartÃ¬nez, Felipe
+Ginter, Thomas
+Shannon, Matt
+Beloborodov, Alexander
+Poch, Marc
+Gómez-Rodríguez, Carlos
+Marín, Raúl
+McDonough, John
+Johnson, Colin
+Nakata, Yosuke
+Mohania, Mukesh
+Streicher, Alexander
+Ford, Michael
+Cadogan, Ross
+Hagen, Matthias
+L. Kashyap, Abhay
+González, Jorge
+Balle, Borja
+Konrad, Manuel
+Akiba, Iwao
+Chávez, Alexander
+Niswar, Arthur
+Graf, Thomas
+Sap, Maarten
+Górski, Rafał
+Vale, Oto
+Barner, Dave
+Meinedo, Hugo
+Ahmed, Zeeshan
+Takase, Sho
+Haugereid, Petter
+Saad El Din, Ahmed
+Dubbin, Gregory
+Engonopoulos, Nikolaos
+Velikovich, Leonid
+Boulahanis, John
+Luttenberger, Michael
+Yang, Eugene
+Cruz-Lara, Samuel
+Schumaker, Robert
+Crestana, Carlos
+Topić, Goran
+Salameh, Mohammad
+Briesch, Douglas
+Laali, Majid
+Sulger, Sebastian
+SchÜtze, Hinrich
+Chatzitheodorou, Konstantinos
+Cormode, Graham
+Garcia, Marcos
+Van der Goot, Erik
+Vilnis, Luke
+Mc Kevitt, Paul
+Tkachenko, Alexander
+Campbell, William
+Loh, Stanley
+Nishino, Masaaki
+Arcan, Mihael
+Matos, Sérgio
+Argueta, Carlos
+Basile, Valerio
+Sanchis, Germán
+Ahuja, Arun
+Rodríguez Hernández, Miguel
+Lefèvre, Fabrice
+Korayem, Mohammed
+Skiena, Steven
+Flego, Federico
+Faltings, Boi
+Yalçinkaya, Ihsan
+Mijinguini, Abdou
+Özertem, Umut
+Sokolov, Artem
+Van Wyk, Curt
+Cerisara, Christophe
+van der Goot, Rob
+Smeaton, Alan
+Souček, Milan
+King, Levi
+Gyawali, Bikash
+Johri, Nikhil
+Davis, Alexandre
+Fleury, Serge
+Glöckner, Ingo
+Aguilar, Cesar
+Nagy, István
+Recski, Gábor
+Upal, Afzal
+López-Cózar, Ramón
+Hutchins, W. John
+Ravenscroft, Andrew
+Hecht, Ron
+Lim, Suk Hwan
+Stern, Roni
+Greiner, Paul
+Ramanath, Rohan
+Storch, Valerio
+Hinote, David
+Ashwell, Peter
+Sieber, Gregor
+Gropp, Martin
+Slaski, Adam
+Weissbock, Josh
+Engonopoulos, Nikos
+Schnurrenberger, Martin
+Teichert, Adam
+Choi, DongHyun
+Fink, Clayton
+Tsioutsiouliklis, Kostas
+Piergallini, Mario
+Sündermann, David
+Zupan, Blaž
+Alkhouli, Tamer
+Jaakkola, Tommi
+Hupp, Andrew
+Feldman, Jonathan
+O'Brien, Ron
+Nenadić, Goran
+Derrick, Douglas
+Dürr, Oliver
+Bilu, Yonatan
+Ercegovčević, Miloš
+Novak, Josef R.
+Christodoulopoulos, Christos
+Lang, Joel
+Suchomel, Vít
+Tily, Harry
+Forbell, Eric
+Labsky, Martin
+Detre, Greg
+Marius, Tamas
+Mairgup, Mansur
+Blain, Frederic
+Karan, Mladen
+Alegria, Iñaki
+Kolovratník, David
+Deléglise, Paul
+Mukhin, Mikhail
+Borodin, Yevgen
+Dell'Arciprete, Lorenzo
+Pobar, Miran
+Abbott, Rob
+Blinov, Pavel
+Singh, Sameer
+Derzhanski, Ivan
+Alfter, David
+Wilson, Andrew T.
+Alexopoulos, Panos
+Yaghoubzadeh, Ramin
+Werge, Thomas
+Lipman, Hagay
+Pfeffer, Jürgen
+Baker, Simon
+Zemánek, Petr
+Björklund, Henrik
+Komatsu, Takanori
+Molnár, Zsolt
+McCallum, Anthony
+Dávila, Héctor
+Gervás, Pablo
+Formiga, Lluis
+Jardine, James
+Blondin Massé, Alexandre
+White, Jerome
+Szántó, Zsolt
+MilidiÃº, Ruy
+Hülfenhaus, Michael
+Wachsmuth, Henning
+Toscani, Domenico
+Beckley, Russ
+Ortiz-Martínez, Daniel
+Schlaikjer, Andrew
+Möller, Sebastian
+Lieberman, Henry
+van Schijndel, Marten
+Matthews, David
+Gaschler, Andre
+Smit, Peter
+Effelsberg, Wolfgang
+Roos, Patrik
+Tran, Andrew
+Arizmendi, Iker
+Hoffmann, Raphael
+Kokke, Pepijn
+Dershowitz, Idan
+Peitz, Stephan
+García-Narbona, David
+Gemulla, Rainer
+Voevodski, Konstantin
+Hanamoto, Atsushi
+Franco-Salvador, Marc
+Kalair, Aaron
+Davis, Lawrence
+M. Raafat, Hazem
+Gubanov, Sergey
+Stevens, Keith
+Diakopoulos, Nicholas
+Ziai, Ramon
+Aguiar, Pedro
+Gascó, Guillem
+Martzoukos, Spyros
+Pustejovsky, James
+Tomai, Emmett
+Heie, Matthias H.
+Löwe, Welf
+Gafos, Adamantios I.
+Price, Bob
+Lagos, Nikolaos
+Pinto, Francisco
+D'Eredita, Michael A.
+Busa-Fekete, Róbert
+Oda, Yusuke
+Boroş, Tiberiu
+Yoshida, Kazushi
+Minack, Enrico
+Wibberley, Simon
+Shafir, Michael
+Healey, Patrick G. T.
+Constable, James W. D.
+Fernández Slezak, Diego
+Wallis, Peter
+Garcia Flores, Jorge J.
+De Benedictis, Flavio
+Korenčić, Damir
+Arppe, Antti
+Tvinnereim, Endre
+McAlister, Isaac
+Fernandez Orquín, Antonio
+Wilcox, Alastair
+Perozzi, Bryan
+Ishiguro, Hiroshi
+Malm, Mats
+Sokokov, Artem
+Préa, Pascal
+Durrett, Greg
+Harrington, Brian
+Dušek, Ondřej
+Mamitimin, Samat
+Peeters, Geert
+Dimitrov, Aleksandar
+Dei Rossi, Stefano
+Nagy T., István
+BejÄek, Eduard
+Hancock, Edwin
+Kozat, S. Serdar
+Erbs, Nicolai
+GlavaÅ¡, Goran
+Poulis, Alexandros
+Weidlich, Michael
+Kettunen, Kimmo
+Görgün, Onur
+Nagesh, Ajay
+Suster, Simon
+Pastusiak, Andrzej
+Karsdorp, Folgert
+Ageev, Mikhail
+De Bona, Fabio
+Mittelman, Roni
+Kirk, Nicholas H.
+Tkatšenko, Aleksandr
+Chebotar, Yevgen
+Karhila, Reima
+Joseph, Josh
+Spagnola, Steve
+Nakatani, Kazuhide
+Everson, Richard
+Villena-Román, Julio
+Brouwer, Harm
+Golenia, Bruno
+Choudhary, Narayan
+Milhorat, Pierrick
+Tsang, Ivor W.
+Scotch, Matthew
+Senuma, Hajime
+Brychcín, Tomáš
+Niebuhr, Oliver
+Schütze, Hinrich
+Laczkó, Tibor
 Ghesquière, Pol
+Léger, Serge
+Cortes, Santiago
+Ortega Bueno, Reynier
+Shareghi, Ehsan
+Bosch, Vicente
+Fernández-Orquín, Antonio
+Sánchez-Cartagena, Víctor M.
+Ordonez, Vicente
+Kanuparthi, Nikhil
+Stewart, Brandon M.
+Mukherjee, Sankar
+Hahn, Michael
+Gaspari, Federico
+Yoshikawa, Tomohiro
+Sakaki, Shigeyuki
+Hallgren, Thomas
+Van Horenbeeck, Eric
+Beňuš, Štefan
+Asghari, Habibollah
+Fujiwara, Yasuhiro
+Aparicio Gali, Fernando
+Hazelbeck, Gregory
+Savarese, Silvio
+Hauer, Bradley
+Kretzschmar, Florian
+Sasada, Tetsuro
+Lemaire, Benoît
+Jørgensen, Fredrik
+Leiva, Luis A.
+Klasinas, Ioannis
+Kutlak, Roman
+Felt, Paul
+Sheth, Amit
+Mihăilă, Claudiu
+Sulubacak, Umut
+Stieglitz, Stefan
+Daumé III, Hal
+Gibbons, Christopher
+Ganesh, Surya
+Henserdon, James
+Klaper, David
+Ziegler, Henning
+Ajot, Jerome
+PreoŢiuc-Pietro, Daniel
+Hadian, Hossein
+MAKINO, Toshiro
+Postma, Marten
+Engelfriet, Joost
+Katare, Rahul
+Lasecki, Walter
+Amri, Amine
+Mogren, Olof
+Tadepalli, Prasad
+Flores, Enrique
+Nitti, Davide
+Casamayor, Gerard
+Brixtel, Romain
+Pouzyrevsky, Ivan
+Geva, Shlomo
+Gemmeke, Jort F.
+Espinoza, Mauricio
+Escudeiro, Nuno
+Chauché, Jacques
+Gouws, Stephan
+Toivanen, Jukka M.
+Meek, Christopher
+Lluís, Xavier
+Hernández H., Adolfo
+Fan, James
+Poursepanj, Hamid
+Rozenknop, Antoine
+Uijlings, Jasper
+Jung, Sung-Jae
+Väyrynen, Jaakko
+Fornaciari, Tommaso
+Pak, Alexander
+Sharafudinov, Anuar
+Roller, Stephen
+Gaffney, Scott
+Sabyrgaliyev, Islam
+Lyu, Michael R.
+Mermer, Coşkun
+Rhouma, Rafik
+Sánchez-Vega, Fernando
+Morgan, Jonathan T.
+Wintrode, Jonathan
+Masip, Jaume
+Gubbins, Joseph
+Clifford, Jim
+Khallash, Mojtaba
+Marcinek, Bradley
+Bringert, Björn
+Kawai, Hisashi
+Oiwa, Hidekazu
+Alarfaj, Fawaz
+Neumann, Günter
+Dames, Nicholas
+Sartorio, Francesco
+Hernault, Hugo
+Högberg, Johan
+Jönsson, Arne
+Karandikar, Anand
+Bouchard, Guillaume
+Németh, Péter
+Aletras, Nikolaos
+Raykar, Vikas
+Ahat, Murat
+Grothendieck, John
+Simianer, Patrick
+Wiebe, Eric
+Boyce, Richard
+Cohen, Raphael
+Heer, Jeffrey
+Boot, Peter
+Trogkanis, Nikolaos
+Luksch, David
+McCrae, John
+Langlais, Phillippe
+Simmons, Reid
+Schäfer, Roland
+Murray, Kenton
+Foulds, James
+Shindo, Hiroyuki
+Comeau, Donald C.
 Ozturel, Adnan
 Bell, Peter
-Mohamed, Emad
-Yeh, Peter
-Nordgård, Torbjørn
-Trabelsi, Amine
-Lansdall-Welfare, Thomas
-Johanssen, Anders
-Alonso, Rafael
-Lieske, Jay
-Rankel, Peter A.
-Fothergill, Richard
-Campos, David
-Laczkó, Tibor
-Khouzaimi, Hatim
-Ramanath, Rohan
-Dimitrov, Stefan
-Lieberman, Henry
-Drude, Sebastian
-Ronzano, Francesco
-Béchet, Frederic
-Krishnaswamy, Nikhil
-Juárez, Antonio
-Yoshikawa, Tomohiro
-Ha Thuc, Viet
-Trogkanis, Nikolaos
-Chahuneau, Victor
-Takegata, Seiji
-Speriosu, Michael
-Niehr, Thomas
-Tkachenko, Alexander
-Tylenda, Tomasz
-Meinedo, Hugo
-Matthews, Austin
-Garron, Anderson
-Minaei-Bidgoli, Behrouz
-Corici, Marius
-Petmanson, Timo
-Pfeifer, Craig
-Stipicevic, Michael
-Wilcox, Alastair
-Martínez-Barco, Patricio
-Jermann, Patrick
-Stern, Asher
-López, Eduardo
-Kerimov, Ruslan
-Gravano, Agustín
-Klapaftis, Ioannis P.
-Corvalan, Augusto
-Mogren, Olof
-Brosseau-Villeneuve, Bernard
-Boyce, Richard D.
-Tiedemann, Jörg
-Robichaud, Benoît
-Hashimoto, Atsushi
-Wrede, Sebastian
-van Beek, Peter
-Allauzen, Alexander
-Stemle, Egon
-Skiena, Steven
-Cappé, Olivier
-Ravenscroft, Andrew
-Kok, Stanley
-Poulis, Alexandros
-Swanson, Benjamin
-Brouwer, Harm
-Allman, Tod
-Duric, Adnan
-Couto, Francisco
-Formiga, Lluis
-Eustice, Kevin
-Rector, Alan
-Kirchhoffer, Tarek
-Fukumizu, Kenji
-Milhorat, Pierrick
-Ilvovsky, Dmitry
+Takaku, Yohei
+Boudabous, Mohamed
+Gonzalez, Antonio
+Tomasoni, Mattia
+Fernandes, Hilário
+Schulze, Gunnar
+Milton, John
+Muñiz Cuza, Carlos
+Al-Haj, Hassan
+Kawai, Takao
+Olariu, Andrei
+Arkhangelskiy, Timofey
+Peñas, Anselmo
+Mitsui, Matthew
+Hassan, Youssef
+Nytrø, Øystein
+Lutz, Rudi
+Terada, Hiroshi
+Shacham, Ron
+Bottou, Léon
+Fitz, Hartmut
+Eckart, Thomas
 Rizzo, Albert A.
-Shafir, Michael
-Battersby, Stuart
-Kunneman, Florian
-VÃµhandu, Leo
-Sharafudinov, Anuar
-Duneld, Martin
-Niebuhr, Oliver
-Beloborodov, Alexander
-Cardiff, John
-Luís, Tiago
-Preotiuc-Pietro, Daniel
-Temel, Tanel
-Troncy, Raphael
-McDonald, David W.
-FernÃ¡ndez-MartÃ­nez, Fernando
-Ferrari, Vittorio
-Cerruti, Julian
-Zachry, Mark
-Makino, Takuya
-Bruno, Emmanuel
-Henestroza Anguiano, Enrique
-Chebotar, Yevgen
-Benson, Edward
-Lui, Marco
-Kawada, Takuya
-Kobayashi, Hayato
-Pashalis, John
-Qureshi, M. Atif
-Pelz, Jeff B.
-Evans, Dave
-Singh, Sameer
-Rouquet, David
-Laroche, Romain
-Goudbeek, Martijn
-Barlacchi, Gianni
-Lagos, Nikolaos
-V., Krishnakumar
-Cieliebak, Mark
-Börschinger, Benjamin
-Carter, Jacob
-Pham, Peter T.
-Urieli, Assaf
-Prasad, Vinay
-Cambria, Erik
-Curiel, Arturo
-Barsanti, Igor
-Dukes, Kais
-O'Donnell, Matthew
+Shvartsman, Michael
+Lofi, Christoph
+Brevik, Mikael
+Manterola, Iker
+Düwiger, Holger
+Sarmento, Luís
+Weber, Michael
+Ramteke, Ankit
+Jurčíček, Filip
+Rowley, Andrew
+Schabus, Dietmar
+Hernández, Donato
+Piperski, Alexander
+Ivanov, Vladimir
+Zulaica-Hernández, Iker
+Fourtassi, Abdellah
+Graff, Dave
+Barnes, Derek
+Underwood, Ted
+Amigó, Enrique
+Galanis, Dimitris
+López, Eduardo
+Khan, Arif Md.
+Howcroft, David
+Bokharaeian, Behrouz
+Kok, Stanley
+Soldano, Henry
+Wettig, Hannes
+Zdrahal, Zdenek
+Stringer, Luke
+Edlund, Jens
+Hunter, Larry
+Wienke, Johannes
+Kiprov, Yasen
+Petinot, Yves
+Avanço, Lucas
+Lindsey, Robert
+Lamb, William
+Forbus, Kenneth
+Çiçekli, İlyas
+Kobayashi, Kazuki
+McConvell, Patrick
+Dragut, Eduard
+SAFI, Waseem
+Phillips, Aaron
+Maldavsky, David
+Eichmann, David
+Sanchis Trilles, Germán
+Amancio, Marcelo
+FernÃ¡ndez-Lanza, Santiago
+Vasile, Flavian
+Dillenbourg, Pierre
+Sinclair, David
+Purtee, Adam
+Melnikov, Michail
+Green, Matthew J.
+Snover, Matthew
+Chang, Joseph Z.
 van Durme, Benjamin
-Hdez., S. David
-Mercer, Robert E.
-Orwant, Jon
-Al-Rfou, Rami
-Wachsmuth, Henning
-Beña, Peter
-El-Haj, Mahmoud
-Serafini, Luciano
-Veloso, Adriano
-Ito, Masashi
-van Keulen, Maurice
-Chopra, Sumit
-Pierce, Doug
-Moshtaghi, Masud
-Fresno, Víctor
-Everson, Richard
-Krawczyk, Stefan
-Heskes, Tom
-Sloot, Peter M. A.
-Daumé, Hal
-Archer, Vincent
-Claudino, Leonardo
-Rowe, Jonathan
-Comarela, Giovanni
-Young, Peter
-Venant, Antoine
-Gerighausen, Daniel
-Grafsgaard, Joseph
-Csernel, Marc
-Slater, Mark
-Matusevych, Yevgen
-Rudolph, Sebastian
-O’Keefe, Tim
-de Mori, Renato
-Seligman, Martin
-de la Peña González, Santiago
-Voionmaa, Kaarlo
-Wyner, Adam
-Fossati, Marco
-Hanaoka, Hiroki
-Joshi, Salil
-Soeken, Mathias
-Ben-Ami, Zvi
-Lai, Albert M.
-Upal, Afzal
-Préa, Pascal
-Usunier, Nicolas
-Centelles, Jordi
-Rizzo, Giuseppe
-Rennie, Steven
-Hrúz, Marek
-Sokolov, Artem
-Peintner, Bart
-Moir, Tom
-Labsky, Martin
-Garain, Utpal
-Briesch, Douglas
-LeBrun, Jean-Luc
-Yazıcı, Adnan
-Roos, Patrik
-Aharoni, Ehud
-Farré, Jacques
-Massó, Guillem
-Hermo, Miguel
-Móntes y Gomez, Manuel
-Sainz, Iñaki
-Ignat, Eugen
-Bernick, Charles
-Doclo, Simon
-Solak, Ercan
-Kronlid, Fredrik
-Lassalle, Emmanuel
-Harnly, Aaron
-Björne, Jari
-Ziegler, Jürgen
-Morley, Eric
-Green, Matthew
-Höglin, Erik
-Aiden Lieberman, Erez
-Knöbl, Ralf
-Pappas, Nikolaos
-Whyatt, Daniel
-Steyvers, Mark
-Keshet, Ezra
-Muller, Daniel
+Madan, Sumit
+di Bari, Alessandro
+Engels, Gregor
+Jelasity, Márk
+Smaïli, Kamel
+Cappé, Olivier
+Plüss, Brian
+Sak, Haşim
+Han, Aydin
+Glinos, Demetrios
+Grimmer, Justin
+Bienenstock, Elie
+Sobral, Bruno
+Chrupała, Grzegorz
+Guo, Stephen
+Lecorvé, Gwénolé
+Harrison, Karl
+Savva, Manolis
+Miháltz, Márton
+Rákosi, György
+Letcher, Ned
+Jean-Louis, Ludovic
+Drewes, Frank
+Candido Jr., Arnaldo
+Allman, Tod
+Koolen, Ruud
+Carter, Jacob
+Teixeira, Jorge
+Maruyama, Ichiro
+Carreno-fuentes, Arnaldo
+Schlöder, Julian
 Martell, Craig
-Chaudhari, Dipak L.
+Upadhyay, Vivek
+Perez-Tellez, Fernando
+Vaz, Colin
+Huck, Matthias
+Kleinschmidt, Dave
+Muhr, Markus
+Pander Maat, Henk
+Funatomi, Takuya
+Gardner, Gregory
+Zhikov, Valentin
+Rennie, Steven
+Cua, Jeffrey
+Szidarovszky, Ferenc
+Tabolt, Ian
+Symeonidis, Andreas
+Keshet, Joseph
+Rantanen, Esa M.
+Bohnert, Fabian
+Straka, Milan
+Calvo, Rafael A.
+Moreth, Julian
+Strope, Brian
+Blacoe, William
+Baytin, Alexey
+MacAuslan, Joel
+Bollmann, Marcel
+Rouhizadeh, Masoud
+GÃ?Â³mez-RodrÃ?Â, Carlos
+Haidar, Md. Akmal
+Delgado, Agustín D.
+Nawar, Michael
+Körner, Allan
+Medved, Dennis
+Labutov, Igor
+Suárez, Armando
+Kasneci, Gjergji
+Adamson, David
+Lang, Alexander
+Sipos, Ruben
+Martschat, Sebastian
+Mani, Premkumar
+Bandhakavi, Anil
+Ortiz, Roberto
+Dingemanse, Mark
+Cook, Kevin
+Pietrobon, Ricardo
+Bartz, Thomas
+Ong, Nathan
+Rak, Rafal
+Davis, Alan
+Mesiano, Francesco
+Slater, Mark
+Minaei-Bidgoli, Behrouz
+Morita, Hajime
+Figueiredo, Mario
+Peterson, Daniel W.
+Raz, Yishay
+Huang, Brad
+Tonra, Justin
+Nishikawa, Hitoshi
+Stillwell, David
+Scaiano, Martin
+Gilmer, John
+Berglund, Martin
+Wilde, Lorin
+Kenter, Tom
+Hershcovich, Daniel
+Schulze Wettendorf, Clemens
+Dela Rosa, Kevin
+Krause, Sebastian
+Fukumizu, Kenji
+Bräutigam, Christof
+Naish-Guzman, Andrew
+Molchanov, Alexander
+Rodríguez Zivic, Pablo
+Cranenburgh, Andreas
+Mahamood, Saad
+Abdul Hamid, Ahmed
+Yoshida, Yasuhisa
+Iosif, Elias
+PreoÅ£iuc-Pietro, Daniel
+Obrebski, Tomasz
+Yamaguchi, Kota
+Rietig, Felix
+Aakhus, Mark
 Reyes, Antonio
-Junczys-Dowmunt, Marcin
-Tily, Harry
-Dershowitz, Idan
-Elbassuoni, Shady
-Móra, György
-Simion, Andrei
+Echizen-ya, Hiroshi
+Béchet, Denis
+Anechitei, Daniel
+Barrault, Loïc
+Lippincott, Thomas
+Gerritsen, David
+Falaise, Achille
+Sontag, David
+Frostig, Roy
+Götz, Thilo
+Ó Raghallaigh, Brian
+Désilets, Alain
+Schamper, Julian
+Nasir, Jamal
+Barlacchi, Gianni
+Stratford, Evan
+Kartsaklis, Dimitri
+Schouten, Ronald
+Fattal, Raanan
+Riveros, Alejandro
+Acedański, Szymon
+Peldszus, Andreas
+Pavlopoulos, John
+Lembersky, Gennadi
+Daly, Raymond E.
+Gonzalez-Agirre, Aitor
+Hatem, Matthew
+Racz, Peter
+Llorens, Hector
+Nguyen, Antony
+Roller, Roland
+Mueller, Thomas
+Veloso, Adriano
+Barzdins, Guntis
+Fernandes, Eraldo
+O Donnaile, Caoimhin
+Krupavičius, Algis
+Varlamis, Iraklis
+Diaz, Fernando
+Chaudri, Vinay
+Nagai, Takahiro
+Nezamfar, Hooman
+Aamot, Elias
+Tylenda, Tomasz
+Haddad, Hatem
+van Oosten, Philip
+Abu-Jbara, Amjad
+Belanger, David
+Usunier, Nicolas
+Ott, Niels
+K, Marimuthu
+Humayoun, Muhammad
+Pool, Jonathan
+Ryan, James O.
+Labaka, Gorka
+Speicher, Till
+Matsuyama, Yoichi
+Thaul Lehrman, Michael
+Eustice, Kevin
+de Mori, Renato
+Centelles, Jordi
+Trabelsi, Amine
+Matten, Mark
+Stepanov, Evgeny
+Gupta, Kalyan
+Tsubaki, Masashi
+Clematide, Simon
+El-Bèze, Marc
+Samad Zadeh Kaljahi, Rasul
+Çobanoglu, Onur
+Rusko, Milan
+Kazemi, Mohammad
+Comarela, Giovanni
+Henestroza Anguiano, Enrique
+Rösner, Dietmar
+Durrani, Nadir
+Saeed, Muhammad
+Clark, Robert A. J.
+Nordgård, Torbjørn
+Verbeke, Mathias
+Almeida, Miguel
+Rusk, Bryan
+Marchetti, Alessandro
+Salloum, Wael
+Robledo-Arnuncio, Enrique
+Maly, Ivo
+Hartmann, William
+Alexe, Bogdan
+Reiss, Frederick
+Makino, Takuya
+Miranda-Jiménez, Sabino
+Calders, Toon
+Vetere, Guido
+Beust, Pierre
+Sudhof, Moritz
+Wellens, Pieter
+Ebrahimi, Javid
+Bossy, Robert
+Narayan, Badri
+Schwartz, H. Andrew
+Broscheit, Samuel
+Bauer, Sandro
+Vilares, David
+Köhn, Arne
+Beltagy, Islam
+Issac, Fabrice
+De Vine, Lance
+Maldonado Guerra, Alfredo
+Benson, Edward
+Flach, Peter A.
+Bradshaw, William
+Korkmaz, Turgay
+Gerow, Aaron
+Varga, Viktor
+Schwartz, Roy
+Villalba, Martin
+Mazziotta, Nicolas
+Rankel, Peter
+Ward, Nicolas
+Gross, Justin H.
+Dehkharghani, Rahim
+Stanojević, Miloš
+Lassalle, Emmanuel
+Sorower, Mohammad
+Third, Allan
+Gerighausen, Daniel
+Boytsov, Leonid
+Homan, Christopher
+Goetze, Stefan
+Villazon-Terrazas, Boris
+Moffat, Alistair
+Weisser, Martin
+Novák, Václav
+Brunak, Søren
+Sakaguchi, Keisuke
+Nøklestad, Anders
+Hernández Gomez, Luis A.
+Cantos, Pascual
+R. McGrath, Liam
+Pereira, Fernando
+Lavaee, Rahman
+Pellow, David
+Rudolph, Sebastian
+Schober, Michael F.
+Hardisty, Eric
+Woolford, John L.
+Carter, Simon
+NasrEsfahani, Mohammad
+Kohonen, Oskar
+Kho, Alvin
+Ito, Akinori
+Troncy, Raphael
+Furuhashi, Takeshi
+Völske, Michael
+Duneld, Martin
+Thabet, Ahmed
+El-Desoky, Amr
+Kivimäki, Ilkka
+Tapiovaara, Tero
+Luna, Andrés
+Saerens, Marco
+Jacobs, Robert
+Orwant, Jon
+Oura, Keiichiro
+Hedegaard, Steffen
+Martins, Bruno
+Cromierès, Fabien
+Figueroa, Alejandro
+Petkevič, Vladimír
+Lamar, Thomas
+Chapelle, Olivier
+Morstatter, Fred
+Zalmout, Nasser
+Salama, Ahmed
+Gruzitis, Normunds
+Mogadala, Aditya
+Neuman, Yair
+Rei, Marek
+Zobel, Justin
+Lyons, Kent
+Kriz, Vincent
+Corvey, William J.
+Cabulea, Cosmin
+Kronlid, Fredrik
+Mögele, Hannes
+S., Rajendran
+Astigarraga, Aitzol
+Kameyama, Wataru
+Kitagawa, Kotaro
+Hanke, Florian R.
+Milajevs, Dmitrijs
+Shinoda, Koichi
+Vasilev, Dimitar
+Vrochidis, Stefanos
+Rizzo, Giuseppe
+de Haan, Ferdinand
+Berend, Gábor
+Unal, Erdem
+Irsoy, Ozan
+Rothenhäusler, Klaus
+Dolan, Bill
+Friedman, Menahem
+Hahn, Florian
+Vihavainen, Arto
+Ceballo, Alberto
+Meder, Theo
+Szymanski, Terrence
+Paperno, Denis
+Bharath, Anil
+Perry, Jason
+Vale, Daniel
+Meira Jr., Wagner
+Velcin, Julien
+Diamantopoulos, Themistoklis
+Erickson, Brad
+Tomlinson, Marc
+Halgrim, Scott
+Byrne, Bill
+Zilka, Lukas
+Lussier, Yves
+Chi, Ed
+Östling, Robert
+Rhulmann, Mathieu
+Can, Matthew
+van Halteren, Hans
+Alkharashi, Ibrahim
+Bessières, Philippe
+Brefeld, Ulf
+Horn, Colby
+Sizov, Gleb
+Di Caro, Luigi
+Hruschka, Eduardo
+Cromières, Fabien
+Figueroa, David
+Rokhlenko, Oleg
+Joachims, Thorsten
+San Vicente, Iñaki
+Klapaftis, Ioannis P.
+Neumann, Arne
+Sonntag, Jonathan
+Gusev, Andrey
+Annesi, Paolo
+Vuillerme, Nicolas
 Bouchard-Côté, Alexandre
+Lintean, Mihai
+Balderas Posada, Carlos
+Takegoshi, Daisuke
+Schlögl, Stephan
+Kontonatsios, Georgios
+Ben-Dror, Natan
+Mittmann, Roland
+Banchs, Rafael
+Jarrold, William
+de Paiva Alves, Eduardo
+Stevens, Robert
+Shirley, Kenneth
+Tarelkin, Alexander
+Kozlowski, Marek
+Blei, David M.
+Nalisnick, Eric T.
+de Groote, Philippe
+Dobnik, Simon
+Sykora, Martin
+Yokoi, Keisuke
+Katsos, Napoleon
+Sadeh, Norman
+Hegde, Darshan
+AlTantawy, Mohamed
+Laki, László
+O'Donnell, Mick
+Bhardwaj, Vikas
+Wood, Frank
+Ha Thuc, Viet
+Karnick, Harish
+ten Hacken, Pius
+Socher, Richard
+Temel, Tanel
+Jermann, Patrick
+Vaswani, Ashish
+Kuniyoshi, Yasuo
+Malandrakis, Nikolaos
+Harman, Craig
+Landauer, Thomas K.
+Mungi, Ashish
+Liberato, Frank
+Gottesman, Benjamin
+McCaffery, Martin
+Hoffmann, Achim
+Spitkovsky, Valentin I.
+Dukes, Kais
+Bolaños, Daniel
+Al Tarouti, Feras
+Höglin, Erik
+Littauer, Richard
+Bailly, Raphaël
+Mill, Simon
+Behrooz, Morteza
+Dakota, Daniel
+Seno, Masakazu
+Baly, Ramy
+Frank, Stefan
+Furche, Tim
+Farina, Antonio
+Rashtchian, Cyrus
+Kummerfeld, Jonathan K.
+Marín, Rafael
+Whyatt, Daniel
+Beña, Peter
+Jakubíček, Miloš
+Koch, Mitchell
+Juárez, Antonio
+Neelakantan, Arvind
+Agarwal, Ankit
+Putois, Ghislain
+Sedláček, Radek
+Apers, Peter
+Tsuchida, Masaki
+Shah, Kashif
+Hild, Kenneth
+Koychev, Ivan
+Golland, Dave
+Lauder, Rob
+Silcox, Lucian
+Lipson, Hod
+van Huyssteen, Gerhard B.
+Andreas, Jacob
+Clark, Tom
+Hazem, Amir
+Ramasamy, Loganathan
+Yen, John
+González, Fabio
+García-Varea, Ismael
+Kumar, Manish
+Cunningham, Pádraig
+Prévot, Laurent
+Ruokolainen, Teemu
+Smith, Jason R.
+Haggerty, James
+Barsanti, Igor
+Szymanik, Jakub
+Bartie, Phil
+Keshet, Ezra
+Conrad, Stefan
+Macek, Tomas
+Asakura, Takeshi
+Libbus, Bisharah
+Coppola, Greg
+JÃ¤ger, Gerhard
+Rangarajan, Sudarshan
+Scott, Matthew R.
+Hunter, Tim
+Feely, Weston
+Crescenzi, Pierluigi
+Bauer, John
+Shiga, Yoshinori
+de la Higuera, Colin
+Geist, Matthieu
+Rubino, Raphaël
+Konopnicki, David
+Moreno-Ortiz, Antonio
+Kunc, Ladislav
+Köprü, Selçuk
+Scannell, Kevin
+Meyer, Anthony
+Niekler, Andreas
+Søgaard, Anders
+Milios, Evangelos
+Lawrence, John
+Qureshi, M. Atif
+Peña Saldarriaga, Sebastian
+Kegelmeyer, Philip
+Summers-Stay, Douglas
+Gärtner, Markus
+Salway, Andrew
+Blunsom, Phil
+Dunham, Joel
+Provoost, Thomas
+Green, Matthew
+Speriosu, Michael
+Conrad, Frederick G.
+Shilon, Reshef
+Krupavicius, Algis
+Hintz, Gerold
+Móra, György
+Crasborn, Onno
+Gleim, Rüdiger
+Elkan, Charles
+EngstrÃ¶m, Christopher
+Anastasopoulos, Antonios
+Franky, Franky
+Goth, Julius
+Sánchez, Sebastián
+Mihaila, Claudiu
+Wawer, Aleksander
+Bekavac, Marko
+Chaudhri, Vinay
+Ignat, Eugen
+Nothdurft, Florian
+Baumgaertner, Bert
+Ó Séaghdha, Diarmuid
+Cristi?, Maximiliano
+Moulder, Brad
+Engelbrecht, Herman A.
+Kruger, Justin
+Baikadi, Alok
+Ben-Ami, Zvi
+Licata, Carlyle
+Lundälv, Mats
+Ullman, Edvin
+Rodríguez, Horacio
+Kreuzthaler, Markus
+Diatka, Vojtěch
+Dylla, Maximilian
+Žilka, Lukáš
+Abney, Steven
+Battersby, Stuart
+Cortis, Keith
+Pater, Joe
+Morchid, Mohamed
+Pinkwart, Niels
+Takegata, Seiji
+Acarturk, Cengiz
+Roller, Stefan
+Sanders, Robert
+Meltzer, Jed A.
+Berton, André
+Pennaccchiotti, Marco
+O’Keefe, Tim
+Bøgh, Kenneth S.
+Mankoff, Robert
+Bruno, Emmanuel
+Tzouridis, Emmanouil
+Toda, Tomoki
+Bonev, Boyan
+Garg, Nikhil
+Besançon, Romaric
+Schlü"ter, Ralf
+Björne, Jari
+Steunenberg, Bas
+Grimm, Robert
+Rittberger, Marc
+Díaz, Alberto
+Yeh, Peter
+Khan, Mohammad
+Wheeler, Adam
+Mareček, David
+Flaounas, Ilias
+Gollub, Tim
+Yazıcı, Adnan
+Boyd, Andrew
+Ouchi, Hiroki
+Kiciman, Emre
+Reschke, Kevin
+Blessing, Andre
+Gibson, Matthew
+Clarke, Alasdair
+Mann, Jason
+Hutchinson, Brian
+Morgan, John
+Samih, Younes
+Lebret, Rémi
+Renaud, Alfred
+Saniee Abadeh, Mohammad
+Schulder, Marc
+Breimyer, Paul
+Ustalov, Dmitry
+Germann, Daniel
+Panzner, Maximilian
+Misyurev, Alexey
+Kadlec, Rudolf
+Vanrompay, Yves
 Staubs, Robert
+Kaneji, Kengo
+Ramamoorthy, Subramanian
+Kleinbauer, Thomas
+Arts, Koen
+Ethis, Emmanuel
+Bar, Kfir
+Bhatia, Sumit
+Torregrosa, Daniel
+Lindén, Krister
+Glavaš, Goran
+León, Saul
+Heuss, Timm
+Siersdorfer, Stefan
+Dlougach, Jacob
+Piotrowski, Michael
+Stiehler, Felix
+Umanski, Daniil
+Ruths, Derek
+Walker, Daniel
+Fell, Michael
+Maskharashvili, Aleksandre
+Caines, Andrew
+Weerman, Fred
+Smolentzov, André
+Evans, Dave
+Preoţiuc-Pietro, Daniel
+Pepper, Steve
+Brunello, Marco
+Radeck-Arneth, Stephan
+Mort, Alasdair
+Taei, Ahmed
+Gupta, Anand
+Mediani, Mohammed
+Petrenz, Philipp
+Gödde, Florian
+Ferguson, Michael
+Nicosia, Massimo
+Váradi, Tamás
+Bhagwani, Sumit
+Ell, Basil
+Schwarck, Florian
+Melamud, Oren
+Lieske, Jay
+Csirik, János
+Michelony, Aaron
+van der Goot, Erik
+Hawes, Timothy
+Matchen, Paul
+Bastianelli, Emanuele
+Crossley, Scott
+Bechet, Frédéric
+Mudge, Raphael
+Heimerl, Florian
+van Noord, Gertjan
+Waite, Aurelien
+Nooralahzadeh, Farhad
+Raymond, Rudy
+McKinley, Nathan
+Moore, Joshua
+Bozhanov, Bozhidar
+Arzt, Sebastian
+Banaee, Hadi
+Johnson, W. Lewis
+Moraliyski, Rumen
+Glass, Jim
+Kääriäinen, Matti
+Wärnestål, Pontus
+Lotan, Amnon
+de Oliveira, Rodrigo
+Kimball, Anthony
+van Keulen, Maurice
+Katz-Brown, Jason
+O'Keefe, Timothy
+Michael, Marc
+Žmak, Lovro
+Richardson, Matthew
+Pfeifer, Craig
+Tschuggnall, Michael
+Collet, Christophe
+Visweswariah, Karthik
+Tchechmedjiev, Andon
+Martínez-Hinarejos, Carlos D.
+Tyndall, Stephen
+Garcia, Jorge L.
+Turnbull, Rory
+Jensen, Jacob
+Davis, Anthony
+Ytrestl, Gisle
+Basu, Sumit
+Vicic, Jernej
+ASBAYOU, Omar
+Germesin, Sebastian
+Hdez., S. David
+Williams, Philip
+García-Cuesta, Esteban
+Obozinski, Guillaume
+Reyes, J. Alejandro
+Hakenberg, Jörg
+Grave, Edouard
+Gaillard, Julien
+Jacob, David
+Horvat, Matic
+Moxley, Joe
+Hrúz, Marek
+Arnold, Sebastian
+Newman, David
+Cases, Ignacio
+LeBrun, Jean-Luc
+Varga, István
+Tyrefors Hinnerich, Björn
+Gertz, Michael
+Pao, Henry
+Bosca, Alessio
+Rizzo, Albert
+FernÃ¡ndez-MartÃ­nez, Fernando
+Amir, Silvio
+Lynch, Gerard
+Waldhauser, Christoph
+Baumer, Eric P. S.
+Mehta, Neville
+Sigogne, Anthony
+Kumar, Vineet
+Squillante, Luigi
+Ormándi, Róbert
+Lindberg, David
+Marecek, David
+Tsuchida, Masaaki
+Warner, William
+De Smet, Wim
+Solti, Imre
+Segal-haLevi, Erel
+Wager, Stefan
+Nuhn, Malte
+Espesser, Robert
+Stipicevic, Michael
+FernÃ¡ndez-GonzÃ¡lez, Daniel
+Torki, Marwan
+Petmanson, Timo
+Max, Aurélien
+Pfeiffer, Thies
+Hayashi, Katsuhiko
+Lunney, Tom
+van Beek, Peter
+Reisert, Paul
+Detienne, Boris
+Pan, Jeff Z.
+Schmitz, Michael
+García Pablos, Aitor
+Tamchyna, Aleš
+Agić, Željko
+Svendsen, Torbjørn
+Tresp, Volker
+Lohmann, Steffen
+Zamora-Martinez, Francisco
+Conkie, Alistair
+Martínez-Barco, Patricio
+Panchenko, Alexander
+Bedrick, Steven
+Hofmann-Apitius, Martin
+Al Obaidli, Fahad
+Inoue, Seiki
+van der Werff, Laurens
+Mollá, Diego
+Kloft, Marius
+Fürstenau, Hagen
+Kubina, Jeff
+Kollar, Thomas
+Fernández-González, Daniel
+Littman, Michael
+Finlayson, Mark
+Kalisch, Nicolai
+Calvo, Marcos
+Hoeksema, Jesper
+Csernel, Marc
+Kardes, Hakan
+Gutiérrez, Yoan
+Emerson, Guy
+Swiezinski, Leonard
+Halácsy, Péter
+McMahan, Brian
+Gerner, Martin
+Schler, Jonathan
+Hasanuzzaman, Mohammed
+Galgani, Filippo
+Yoshioka, Masaharu
+Martineau, Justin
+Jourde, Julien
+Fowler, Andrew
+Gader, Nabil
+Cirik, Volkan
+Hammond, Adam
+Alotaiby, Fahad
+Tanaka, Shohei
+Lewis, Justin
+Mills, Daniel P.
+Beschke, Sebastian
+Eger, Steffen
+Perera, Prasad
+Hartshorne, Joshua K.
+Lagoze, Carl
+Zachry, Mark
+Vasilieff, Brant
+Bills, Aric
+Tse, Daniel
+Greenberg, Clayton
+Pasini, Tommaso
+Badaro, Gilbert
+Bauer, Daniel
+Reberšek, Peter
+Kamran, Amir
+Libovický, Jindřich
+Adams, Oliver
+Potthast, Martin
+Tanner, Herbert G.
+Mohamed, Emad
+Massie, Stewart
+Strebkov, Dmitry
+Mielens, Jason
+Mosquera, Alejandro
+Creamer, Germán G.
+Wedekind, Jürgen
+Kasterka, Uwe
+von Waldenfels, Ruprecht
+Lekvam, Torvald
+Wallace, Byron C.
+Jarvis, Scott
+Tanaka, Hiroki
+Hovy, Eduard
+Vaassen, Frederik
+van Deemter, Kees
+Hekler, Eric
+Borisov, Alexey
+Doherty, Gavin
+Parish, Tim
+Corcoran, Thomas
+Beckner, Clayton
+Santus, Enrico
+Trnka, Marián
+Gung, James
+Boltužić, Filip
+Benjamin, Martin
+Sennrich, Rico
+Aha, David W.
+León, Carlos
+Bott, Oliver
+Pécheux, Nicolas
+Bossard, Aurélien
+Pasternack, Jeff
+Vilenius, Mikko
+Balla, Amar
+Shardlow, Matthew
+McCoy, Wilson
+Raybaud, Sylvain
+Elshamy, Wesam
+Salgueiro, Agostinho
+El-Haj, Mahmoud
+MajliÅ¡, Martin
+Darányi, Sándor
+Štefankovič, Daniel
+Joinson, Adam
+Lazer, David
+Berberich, Klaus
+Mackaness, William
+Gehringer, Edward
+Magri, Giorgio
+Shibuki, Hideyuki
+Singh, Amit
+Almeida, Miguel B.
+Hollowood, Fred
+Wright, Jonathan
+Tajiri, Toshikazu
+Perronnin, Florent
+Schäler, Reinhard
+Ackermans, Paul
+Rios, Miguel
+Couto Vale, Daniel
+Rǎschip, Marius
+Esplà-Gomis, Miquel
+Fountain, Trevor
+Falkenjack, Johan
+Von Lunen, Alexander
+Croset, Samuel
+O'Brien-Strain, Eamonn
+J. Silva, Mário
+Patterson, Gary
+Nürnberger, Andreas
+Tchambo, Fred
+Ahmed, Amr
+Barbella, David
+Hughes, Mark
+Kramer, Jared
+Bracewell, David
+Yahya, Mohamed
+Kruszewski, German
+Naresh, Ram
+Wirén, Mats
+White, James P.
+Thomas, Philippe
+Smith, Mason
+Grycner, Adam
+Vydiswaran, V. G. Vinod
+Azab, Mahmoud
+Eldén, Lars
+Ben Aharon, Roni
+Viljanen, Timo
+Preotiuc-Pietro, Daniel
+Kimelfeld, Benny
+Karpathy, Andrej
+Orosz, György
+Ammar, Waleed
+Kobayashi, Hayato
+Koster, Cornelis
+Matoušek, Jindřich
+Schulam, Peter
+Hare, Jonathon
+Crowgey, Joshua
+Yoshino, Koichiro
+Przybyła, Piotr
+Uduka, Kunihiro
+Spaniol, Marc
+Crone, Phil
+Teichmann, Christoph
+Kovachev, Bogomil
+Saz, Oscar
+Kashyap, Abhay
+Rousseau, Anthony
+Whittaker, Edward
+Johanssen, Anders
+Kovář, Vojtěch
+Goldhahn, Dirk
+Wiechmann, Daniel
+Bauer, Bernhard
+Shakhnarovich, Gregory
+Rafea, Ahmed
+Allen, Colin
+Kapre, Nikhil
+Claudino, Leonardo
+Düring, Marten
+Pöllä, Matti
+Kumar, Vinay
+Alhelbawy, Ayman
+KrÃ­Å¾, Vincent
+Malmaud, Jonathan
+Guzmán, Rafael
+Meyer, Timothy J.
+Adams, Keith
+Wueest, Bruno
+Oussalah, Mourad
+Procter, Rob
+Fagerlund, Martin
+Chang, Jim
+ChÃ¡vez, Alexander
+Junczys-Dowmunt, Marcin
+Cornolti, Marco
+Lapponi, Emanuele
+Yang, Min-Chul
+Ehrig, Heiko
+Dawes, Martin
+Dalton, Adam
+Wurfel, Mark
+Bonner, Joshua
+Sloot, Peter M. A.
+Edelstam, Fredrik
+Rood, Travis
+Aransa, Walid
+Alizadeh, Mehrdad
+Seligman, Martin
+Exner, Peter
+Hiraoka, Takuya
+McDowell, Bill
+Hender, Paul
+Hofmann, Florian
+Laroche, Romain
+Gwinnup, Jeremy
+Hennig, Leonhard
+Wang, Josiah
+Fancellu, Federico
+Aharoni, Ehud
+Saralegi, Xabier
+Maillette de Buy Wenniger, Gideon
+Matthews, Austin
+McAlister, Simon
+Meyer, Thomas
+Al-Rfou, Rami
+Krilavičius, Tomas
+BÖrschinger, Benjamin
+Ng, Dominick
+Paassen, Benjamin
+Cohen, Yohai
+Chang, Joseph
+Hiruma, Nobuyuki
+Umeda, Shuichi
+Segouat, Jérémie
+Sensoy, Hüsnü
+Kutuzov, Andrey
+Tiepmar, Jochen
+Polguère, Alain
+Villaseñor, Luis
+Kjersten, Brian
+Van Waes, Luuk
+Kottmann, Jörn
+Modi, Ashutosh
+Huval, Brody
+Saito, Akihiro
+Massidda, Alberto
+Tschirsich, Martin
+Moshtaghi, Masud
+Schneider, Nathan
+Chopra, Sumit
+Acree, Brice D. L.
+Stein, Cliff
+Tayeb, Aharon
+Zwick, Matthias
+Bär, Daniel
+Alonso, Rafael
+MartÃ¬nez-CÃ¡mara, Eugenio
+Korvas, Matej
+Yatskar, Mark
+Boros, Tiberiu
+Rocktäschel, Tim
+Dawborn, Tim
+Calapodescu, Ioan
+Peterson, Daniel
+Wu, Leon
+Débowski, Łukasz
+Wong, Derek F.
+Leskovec, Jure
+Mesnard, Olivier
+Jasso, Miguel
+Fresno, Víctor
+Bodenstab, Nathan
+Chang, Jimmy
+Flanigan, Jeffrey
+Plank, Frans
+Kruszewski, Germán
+Puranam, Dinesh
+Björkelund, Anders
+Jones, Evan
+Zitnik, Slavko
+Mittal, Vipul
+Crabbé, Benoît
+Tomlinson, Bill
+Adalı, Eşref
+Uzdilli, Fatih
+Orr, J. Walker
+Scicluna, James
+Fülöp, Zoltán
+Salaberri, Haritz
+Schnabel, Tobias
+Herder, Eelco
+Del Corro, Luciano
+Schatz, Benjamin
+Obin, Nicolas
+Täckström, Oscar
+O’Donnell, Timothy J.
+Petran, Florian
+Zawadowski, Marek
+Borschinger,Benjamin
+Abd El-Wahab, Mohamed
+Izquierdo, Rubén
+Å ariÄ?, Frane
+Benevenuto, Fabricio
+Ganjigunte Ashok, Vikas
+Žabokrtský, Zdeněk
+Merhav, Yuval
+Hsu, William
+Simion, Andrei
+Martínez Alonso, Héctor
+Westerlund, Torbjörn
+Keller, Nicholas
+Cattelan, Alessandro
+Grieve-Smith, Angus
+Hummel, Shay
+Leixa, Jérémy
+Dunn, Jonathan
+Noji, Hiroshi
+Shein, Fraser
+Gordon, Joshua B.
+Green, Nathan
+Belinkov, Yonatan
+Tiedemann, Jörg
+Kleinberg, Jon
+Hunter, David
+Nickerson, Jeffrey
+Denton, Richard
+Ljunglöf, Peter
+Schiele, Bernt
+Sidorenko, Wladimir
+Li, Daren
+Elghafari, Anas
+Guta, Andreas
+Lecouteux, Benjamin
+Chernobrov, Daniel
+Balasubramanian, Krishnakumar
+Archer, Vincent
+Rychlý, Pavel
+Orland, Luke
+Mackillop, Andrew
+Büchse, Matthias
+Salwen, Jeremy
+Tendulkar, Ashish
+Castellucci, Giuseppe
+Dietterich, Thomas G.
+Bouallegue, Mohamed
+Nilsson, Peter
+Durrell, Martin
+Lévy, François
+Leal, André
+Ben Gur, Assaf
+Richter, Georg
+Azaoui, Brahim
+Flati, Tiziano
+Rushforth, Michael
+Günther, Tobias
+Baskaya, Osman
+Kopeć, Mateusz
+Wombacher, Andreas
+Papalexakis, Evangelos
+Rosenfeld, Binyamin
+Fresko, Moshe
+Berg, Alexander C.
+Hammond, Jeremy
+Möbius, Bernd
+Almási, Attila
+Zarrouk, Manel
+Paulo, Sérgio
+Nisioi, Sergiu
+VÃµhandu, Leo
+Matuschek, Michael
+Voigt, Rob
+Guzman, Francisco
+Hajj, Hazem
+Messiant, Cédric
+Nicolai, Garrett
+Schuster, Sebastian
+Raymond, Geoffrey
+Botvinick, Matthew
+Rao, Rajesh P. N.
+Archambeau, Cedric
+Servan, Christophe
+Barbieri, Francesco
+Crisafulli, Giuseppe
+Bordignon, Ulisse
+Szarvas, György
+Avalos, Santiago
+Hammon, Matthias
+Radziszewski, Adam
+Evans, James
+Somin, Anton
+Schütte, Niels
+E. Banchs, Rafael
+Townsend, Richard
+Mohammady, Ehsan
+Popov, Alexander
+Sert, Enis
+Abowd, Gregory
+Goodwin, Travis
+Alrajeh, Abdullah
+Jans, Bram
+Cornudella, Miquel
+Prochasson, Emmanuel
+Buschmeier, Konstantin
+Tihanyi, László
+Kinnunen, Tomi
+Ilvovsky, Dmitry
+Yadav, Kabir
+Nose, Takashi
+Cohen, Kevin
+Ezra, Jefferson
+García Flores, Jorge
+Jurgens, David
+Baeza-Yates, Ricardo
+Ballesteros, Miguel
+Verlinde, Serge
+Morley, Eric
+Lin, Edward
+Grivolla, Jens
+Akram, Misbah
+Huber, Torsten
+Proano, Ruben A.
+Riedl, Martin
+Whang, Steven
+Barteld, Fabian
+Bryan, Craig
+Silva-Schlenker, Emilio
+Dugast, Loïc
+Boden, Christoph
+Sjöbergh, Jonas
+Souza, Bruno
+Monteleone, Mario
+Tomalin, Marcus
+de Kok, Daniël
+Guadarrama, Sergio
+Goudbeek, Martijn
+Granada, Roger
+Sundermeyer, Martin
+Dufour, Richard
+Cogley, James
+Johnson, Brian
+Kisiel, Bryan
+Krug, Wayne
+Whitt, Richard J.
+Zhang, Owen
+Karami, Amir
+Kornai, András
+Kaye, Jeffrey
+Kachaev, Dmitry
+Kowadlo, Gideon
+Mairesse, François
+Luca, Michael
+Harth, Andreas
+Heskes, Tom
+Akbik, Alan
+Drude, Sebastian
+Brown, Gregory
+Kapukaranov, Borislav
+González-Ibáñez, Roberto
+Jörwall, Jakob
+Nasir, Jamal A.
+Selmer, Øyvind
+Campos, David
+Kågebäck, Mikael
+Gomes, Paulo
+Niehr, Thomas
+Koppermann, Christopher
+Almeida, Virgilio
+Guerra, Raul
+Jackson, Tom
+Ferrone, Lorenzo
+DeYoung, Jay
+Fialho, Pedro
+Klenner, Alexander
+Zapirain, Beñat
+Dubiner, Moshe
+MacGlashan, James
+Makino, Toshiro
+Anderson, Timothy
+Sainz, Iñaki
+Ozaki, Kohei
+Harel, David
+Smith, Phillip
+Takamatsu, Shingo
+Rossi, Riccardo
+Çöltekin, Çağrı
+Corici, Marius
+Goldstein, Guy
+Lofthus, Robert
+Henriksson, Aron
+Jarrar, Mustafa
+Cerruti, Julian
+Dermouche, Mohamed
+Baird, Henry S.
+Gelas, Hadrien
+Keim, Daniel A.
+Vinson, Mark
+Iruskieta, Mikel
 Platt, John C.
-de Malézieux, Guillaume
-Ben Jannet, Mohamed
+Porta, Jordi
+Deveaud, Romain
+Halevy, Alon
+Elkins, Aaron
+Mitsuzawa, Kensuke
+LeÃ³n, Saul
+Mercer, Robert E.
+Agarwalla, Lalit
+Ganesalingam, Mohan
+Gerber, Adam
+Graells, Eduardo
+O'Donnell, Tim
+Rohrbach, Marcus
+Löser, Alexander
+Pham, Peter T.
+Bajec, Marko
+Stein, Benno
+Westerhof, Gerben J.
+Sistla, Prasad
+Chavez, Alexander
+Cuayahuitl, Heriberto
+Letard, Vincent
+Reshetnikov, Kirill
+Kloetzer, Julien
+Garley, Matt
+Briggs, Gordon
+Versloot, Arjen
+Boucher, Mathieu
+Cerňak, Miloš
+Scheutz, Matthias
+Kipersztok, Oscar
+Hewlett, Daniel
+K., Sankar
+Stüber, Torsten
+Jimeno Yepes, Antonio
+Bordes, Antoine
+Mandel, Benjamin
+Zhukov, Eugene
+Corlett, Eric
+Liska, Adam
+Mott, Bradford
+Trieschnigg, Dolf
+Roque, Francisco
+Bart, Robert
+Baugh, Wesley
+Delpeuch, Antonin
+Rodrigue, Jeremy
+Pietquin, Olivier
+Schnelle-Walka, Dirk
+Oberkampf, Heiner
+Alotaibi, Fahd
+Stöckel, Andreas
+Brown, Gavin
+Rosa, Rudolf
+Gormley, Matthew R.
+Kuperman, Victor
+Ipsic, Ivo
+Greenhill, Simon J.
+Jayapal, Arun
+Rüd, Stefan
+Kundu, Amitava
+AlGhamdi, Fahad
+Jakob, Niklas
+Banjade, Rajendra
+Altman, Eitan
+VasiÄ¼jevs, Andrejs
+Lee, Kenton
+Bhat, Mohammad
+Kern, Roman
+Curiel, Arturo
+Maney, Tucker
+Garrido, Guillermo
+Zell, Julian
+Laur, Sven
+Franconi, Enrico
+Farré, Jacques
+El-Hajj, Wassim
+Figueira, Luís
+Obeid, Ossama
+Gambäck, Björn
+Selfridge, Ethan
+Harnly, Aaron
+van Gompel, Maarten
+Yoshimoto, Akifumi
+Muñoz, Rafael
+Zampieri, Marcos
+Kumamoto, Tadahiko
+Kouhestani, Manouchehr
+Dobrinkat, Marcus
+Bessho, Fumihiro
+Gao, Byron J.
+El Maarouf, Ismail
+Saraçlar, Murat
+D’hoore, Bart
+Kruit, Benno
+Prasad, Vinay
+Yazdani, Majid
+Lund, William B.
+Roturier, Johann
+Grefenstette, Edward
+Németh, Géza
+Chikhi, Salim
+Murnane, William
+Almberg, Jørn
+Couto, Francisco
+Lawson, Nolan
+Manion, Steve L.
+Oliveira, Francisco
+Lejeune, Gael
+Rondeau, Gilbert
+Wilkens, Rodrigo
+Gleize, Martin
+Christiansen, Thomas
+Leaman, Robert
+Tagliamonte, Sali
+Potter, Tim
+Lee, Adam
+Toepfer, Martin
+Cronin, Ernest
+Grappy, Arnaud
+Chollet, Gérard
+Novotney, Scott
+King, Simon
+Scholz, Thomas
+Marcheggiani, Diego
+Maharjan, Suraj
+Vitas, Duško
+Lui, Marco
+Revuelta-MartÃ­nez, Alejandro
+Levallois, Clement
+Beller, Charley
+Antoun, Christopher
+Brandes, Jasper
+Papangelis, Alexandros
+van Zaanen, Menno
+Fothergill, Richard
+Fette, Georg
+Olovsson, Tomas
+Beaufort, Richard
+Trenkmann, Martin
+Graves, Roger
+Schatz, Thomas
+Ichikawa, Hiroshi
+Vinicombe, Heath
+Weld, Daniel S.
+Kotelnikov, Eugeny
+Rossi, Gianluca
+Silva, Mário J.
+Moncecchi, Guillermo
+Ombui, Edward
+O'Gorman, Tim
+Bretier, Philippe
+Johnson, Leif
+Henríquez Q., Carlos A.
+Illig, Jens
+Elliott, Desmond
+Blanchon, Hervé
+Mubarak, Hamdy
+Verhagen, Arie
+Sanchez-Cisneros, Daniel
+Lewis, William D.
+Young, Peter
+Eskander, Ramy
+Kalyanpur, Aditya
+Torrent, Tiago
+Abad, Alberto
+Kuipers, Benjamin
+van Cranenburgh, Andreas
+Ghoneim, Mahmoud
+Maamouri, Mohammed
+Lai, Albert M.
+Zerrouki, Taha
+Malon, Christopher
+Gottron, Thomas
+Pereira, Francisco
+Perek, Florent
+Tanaka, Toru
+Revert, Ricardo
+Barbaresi, Adrien
+Mott, Justin
+Mikovec, Zdenek
+Lehmann, Jens
+Bak, Peter
+McDonald, David W.
+Vickers, Lucas
+Chaudhari, Dipak L.
+Wallace, Byron
+Tadić, Marko
+Whitehead, Simon
+Henderson, Matthew
+Compton, Paul
+Luís, Tiago
+Horner, Joshua
+Khasnov, Bakhitdzhan
+Martemianov, Y.
+Attokurov, Ulukbek
 Genov, Angel
 Bulgarov, Florin Adrian
-Dimitrov, Marin
-Skatov, Dan
-Khasnov, Bakhitdzhan
-Karagyozov, Diman
-Borukhov, Bensiin
-Matkarimov, Bakhyt
-Attokurov, Ulukbek
-Mouchanov, Y.
-Martemianov, Y.
 Nakov, Preslav
-Álvez, Javier
-Verhoeven, Ben
-Mariño, José B.
-Fonollosa, José A. R.
-Fox Tree, Jean E.
-Relaño Gil, José
-Audhkhasi, Kartik
-van Santen, Jan
-Novak, Michal
-Pérez, Javier
-Rishj, Christian
-Wartena, Christian
-Hardmeier, Christian
-C. de Souza, José G.
-Whyatt, Dan
-Hermida, Jesús M.
-Venugopal, Deepak
-Han, Dan
-Chambers, Nate
-Torres-del-Rey, Jesús
-Padró, Lluís
-Calacci, Dan
-Fitzgerald, Will
-Saias, José
-Chowdhary, Vishal
-Ptáček, Jan
-Wu, Jean
-Bulgarov, Florin Adrian
-Roberts, Will
-Abreu, José I.
-Martínez, José Manuel
-Hixon, Ben
-Chalendar, Gaël de
-Vancoppenolle, Jean
-Miranda, João
-Feblowitz, Dan
-San Pedro, Jose
-Konkol, Michal
-Alcázar, José
-Leal, João
-Leong, Ben
-Hänig, Christian
-Wirth, Christian
-Soni, Sandeep
-Formiga, Lluís
-Kocoń, Jan
-Moreno, Jose G.
-Macek, Jan
-Vovsha, Ilia
+Borukhov, Bensiin
+Dimitrov, Marin
+Karagyozov, Diman
+Matkarimov, Bakhyt
+Mouchanov, Y.
 Skatov, Dan
-Filgueiras, João
-Gutiérrez-Rexach, Javier
+Patin, Gaël
+Zafiu, Adrian
+Hardmeier, Christian
+Meyer, Christian M.
+Bedrosian, Jan
+P, Deepak
+Agarwal, Deepak
+Wirth, Christian
+Poelitz, Christian
+Sutton, Nate
+Pellegrino, FranÃ§ois
+Fox Tree, Jean E.
+Ptaszynski, Michal
+Tournier, Ronan
+Tufiš, Dan
+Bar, FranÃ§ois
+Esparza, Javier
+Mitra, Ritwik
+González-Rubio, Jesús
+Juneja, Vishal
+Maillard, Jean
+Silva, João
+Ptáček, Jan
+Pogrebezky, Ilia
+Botha, Jan A.
+Stab, Christian
+Gómez, José M.
+Venugopal, Deepak
+He, Ben
+Bickerstaffe, Adrian
+Han, Dan
+Schunn, Christian
+Verhoeven, Ben
+Fügen, Christian
+Graça, João
+Zou, Will Y.
+Saias, José
+Kosinski, Michal
+Calacci, Dan
+Oliveira, José Luís
+Smeddinck, Jan
+Lebiere, Christian
+Bílek, Karel
+Bulgarov, Florin Adrian
+Martínez, José Manuel
+Ramos, José
+Kleindienst, Jan
+Konkol, Michal
+Goyal, Vishal
+Leal, João
+Ramachandran, Deepak
+Sripada, Sandeep
+Abreu, José I.
+Hänig, Christian
+Hixon, Ben
+Hermida, Jesús M.
+Swanson, Ben
+Volín, Jan
 de Gispert, Adri?
+Casteleiro, João
+Pokkunuri, Sandeep
+Göpfert, Jan Philip
+Santhanam, Deepak
+Màrquez, Lluís
+Relaño Gil, José
+Le Nagard, Ronan
+Gutiérrez-Rexach, Javier
+Goyal, Kartik
+Vystrcil, Jan
+Konidena, Deepak
+Kors, Jan
+Carazo, José
+Nieke, Christian
+Padró, Lluís
+Fitzgerald, Will
+Rishøj, Christian
+Santamaría, Jesús
+Bose, Ritwik
+Crawford, Jean
+Brockman, Will
+Chowdhary, Vishal
+Alcázar, José
+Pérez, Javier
+Leong, Ben
+Rouš, Jan
+Fonollosa, José A. R.
+Asooja, Kartik
+Balata, Jan
+Chalendar, Gaël de
+Tomás, Jesús
+Novak, Michal
+Mĕchura, Michal Boleslav
+Neto, João Paulo
+Pouget-Abadie, Jean
+Souza, José G.C.
+Iria, José
+Huang, Dan
+Kohler, Christian G.
+Pomikálek, Jan
+Hurtado, Lluís F.
+Mittal, Deepak
+C. de Souza, José G.
+Fonollosa, José
+Buys, Jan
+Cordeiro, João Paulo
+Dias, Gaël
+Álvez, Javier
+Chambers, Nate
+Deulofeu, José
 Sullivan, Dan
 Moldovan, Dan
-Goyal, Kartik
-P, Deepak
-Schunn, Christian
-Crawford, Jean
-Tufiš, Dan
-Fonseca, José
-Schallhart, Christian
-Hurtado, Lluís F.
-Mĕchura, Michal Boleslav
-Santamaría, Jesús
-Pogrebezky, Ilia
-Graça, João
-Neto, João Paulo
-Camargo de Souza, José Guilherme
-Esparza, Javier
-Moldovan, Christian
-Brockman, Will
-Smeddinck, Jan
-Silva, João
-Ježek, Karel
-Chetviorkin, Ilia
-Casteleiro, João
-Pouget-Abadie, Jean
-Cordeiro, João Paulo
-Mac an tSaoir, Ronan
-Lefebvre-Albaret, FranÃ§ois
-Fonollosa, José
-González-Cristóbal, José Carlos
-Silovsky, Jan
-Meyer, Christian M.
-Tomás, Jesús
-Dias, Gaël
-Zou, Will Y.
-Gómez, José M.
-Sutton, Nate
-King, Ben
-Müller, Christian
-Volín, Jan
-Huang, Dan
-Ptaszynski, Michal
-Ijdens, Jan
-Ramachandran, Deepak
-Monroe, Will
-Maillard, Jean
-Pomikálek, Jan
-Bílek, Karel
-Iria, José
-Kushman, Nate
-Radford, Will
-Gómez, Jose Manuel
-Deulofeu, José
-Fügen, Christian
-Poelitz, Christian
-Asooja, Kartik
-Santhanam, Deepak
-Vachhani, Vishal
-Gutfreund, Dan
-Mittal, Deepak
-Hadiwinoto, Christian
-Kosinski, Michal
-Bickerstaffe, Adrian
-Bar, FranÃ§ois
-Bedrosian, Jan
-Kors, Jan
-Sripada, Sandeep
-González-Rubio, Jesús
-Vystrcil, Jan
-Zafiu, Adrian
-Patin, Gaël
-Ramos, José
-Kohler, Christian G.
-Ambite, Jose Luis
-Bose, Ritwik
-Bentz, Christian
-Stab, Christian
-Pokkunuri, Sandeep
-Guirao, José
-Carazo, José
-Tournier, Ronan
-Pellegrino, FranÃ§ois
-Buck, Christian
-Mitra, Ritwik
-Panchal, Vishal
-Le Nagard, Ronan
-Balata, Jan
-Assaf, Dan
-Lebiere, Christian
-Rouš, Jan
-Banerjee, Ritwik
-Agarwal, Deepak
-He, Ben
-Goyal, Vishal
-Souza, José G.C.
-Botha, Jan A.
-Rohrdantz, Christian
-Kleindienst, Jan
-Juneja, Vishal
-Novák, Michal
-Malladi, Deepak Kumar
-Styler, Will
-Konidena, Deepak
-Fonseca Bruzón, Adrian
-Nieke, Christian
-Buys, Jan
-Oliveira, José Luís
-Göpfert, Jan Philip
-Rishøj, Christian
-NovÃ¡k, Michal
 Abreu, Jose I.
-Chobotsky, Jan
-Màrquez, Lluís
-Swanson, Ben
-Pathak, Parth
-Surve, Prafulla
-Bansal, Gagan
-Pimpale, Prakash B.
-Rai, Piyush
-Chawla, Karan
-Das, Abhimanyu
-Agarwal, Basant
-Elchuri, Harsha
-Prabhavalkar, Rohit
-Audhkhasi, Kartik
-Gajulapalli, Kailash
-Popat, Kashyap
-Singla, Karan
-Malkarnenkar, Girish
-Selvarajan, Raja
-Bakliwal, Akshat
-Vahid, Ali
-Sarkar, Kamal
-Shankar, Jeevan
-Joshi, Mandar
-Venugopal, Deepak
-G. S. K., Chaitanya
-Kulkarni, Ojas
-Narang, Nalin
-Elluru, Naresh Kumar
-Batra, Dhruv
-Sinha, Gaurav
-Kambhampati, Subbarao
-Chowdhary, Vishal
-Gupta, Parth
-Bellur, Ashwin
-Kolan, Prakash
-Hürriyetoğlu, Ali
-Chatterjee, Arindam
-Deshmukh, Amol
-Honavar, Vasant
-Rachakonda, Ravi Teja
-Mitra, Sunny
-Malu, Akshat
-Mishra, Abhijit
-Gautam, Shubham
-Shrivastava, Shashank
-Elluru, Raghavendra
-Sapkota, Upendra
-Bysani, Praveen
-Balasubramanian, Niranjan
-Mehrotra, Rishabh
-Jain, Sambhav
-Bairi, Ramakrishna
-Sinha, Tanmay
-Ansari, Sam
-El Kahki, Ali
-Chandrashekaran, Akshay
-Anzaroot, Sam
-Soni, Sandeep
-Sahakian, Sam
-Jindal, Prateek
-Chopra, Harshit
-Biggins, Sam
-Goyal, Aseem
-Kotalwar, Anup
-Gupta, Anubhav
-Ambati, Bharat Ram
-Bhattacharya, Arindam
-Goyal, Kartik
-Chandibhamar, Ravi
-Dharkar, Ankush
-Reddy, Ravi Shankar
-P, Deepak
-Shah, Jatin
-Kharkwal, Gaurav
-Dungarwal, Piyush
-Rastogi., Vibhor
-Jain, Harshit
-Al-Saif, Amal
-Pakray, Partha
-Parikh, Ankur
-Rawal, Chetan
-Patel, Raj Nath
-Soundrarajan, Balaji
-K. V., Subbarao
-Gayen, Vivekananda
-Sikdar, Utpal Kumar
-Arora, Piyush
-Jain, Naman
-Gandhe, Ankur
-Hardwick, Sam
-Samal, Ashok
-Hingmire, Swapnil
-Bhavsar, Krishna
-Sharma, Jatin
-Deoras, Anoop
-Shrestha, Niraj
-Joglekar, Hrishikesh
-Tumuluru, Anand Karthik
-Agrawal, Siddharth
-V., Ravi Kiran
-Bhatt, Brijesh
-Teregowda, Pradeep
-Kumar, Abhishek
-Hadjarian, Ali
-Singh, Adarsh
-Hadian, Ali
-Naidu, Suresh
-Pedanekar, Niranjan
-Minocha, Akshay
-Ramachandran, Deepak
-Mitra, Prasenjit
-Nelakanti, Anil Kumar
-Mishra, Kshitij
-Oakley, Sam
-Ittoo, Ashwin
-Kulkarni, Girish
-GSK, Santosh
-Balasubramanyan, Ramnath
-Talukdar, Partha P.
-Jauhar, Sujay Kumar
-Sondhi, Parikshit
-Krishnamurthy, Jayant
-Ponnamperuma, Kapila
-Sohoney, Saurabh
-Natarajan, Prem
-Jindal, Karan
-Asooja, Kartik
-Inumella, Abhilash
-Ertugrul, Ali Mert
-Santhanam, Deepak
-Vachhani, Vishal
-Bharadwaj G, Rohit
-Soni, Ankush
-Mittal, Deepak
-Vadlapudi, Ravikiran
-Chaudhury, Sriram
-Ghosh, Riddhiman
-Gandhi, Sunil
-Bhaskar, Pinaki
-V., Surya Ganesh
-Sripada, Sandeep
-Nandan, Naveen
-Aggarwal, Nitish
-R. J., Rama Sree
-Sachdeva, Kunal
-Singh Lehal, Gurpreet
-Sharma, Harsh Vardhan
-Kulkarni, Anup
-Thomson, Sam
-Clark, Sam
-Pokkunuri, Sandeep
-Iyyer, Mohit
-Kunchukuttan, Anoop
-Jonnagaddala, Jitendra
-Mehta, Neel
+Miranda, João
+Assaf, Dan
+Mac an tSaoir, Ronan
+Müller, Christian
+Ježek, Karel
+Kushman, Nate
+San Pedro, Jose
+Buck, Christian
+Whyatt, Dan
+van Santen, Jan
+Feblowitz, Dan
 Panchal, Vishal
-Rallapalli, Sarat
-Prahallad, Kishore
-Shivade, Chaitanya
-Agarwal, Deepak
-Goyal, Vishal
-Sundar Ram R., Vijay
-Ghosh, Aniruddha
-Srivastava, Shashank
-P., Praveen
-Ranade, Sarvesh
-Salaka, Vamsi
-Verma, Kunal
-Kolya, Anup Kumar
-Juneja, Vishal
-Dash, Sarthak
+Macek, Jan
+Torres-del-Rey, Jesús
+Soni, Sandeep
+Gómez, Jose Manuel
+Rohrdantz, Christian
+Formiga, Lluís
+Audhkhasi, Kartik
+Wu, Jean
+González-Cristóbal, José Carlos
+Hadiwinoto, Christian
+Guirao, José
+Silovsky, Jan
+Banerjee, Ritwik
+Fonseca Bruzón, Adrian
+Radford, Will
+Chobotsky, Jan
+Vovsha, Ilia
+Ambite, Jose Luis
+Wartena, Christian
+Camargo de Souza, José Guilherme
+Chetviorkin, Ilia
+Schallhart, Christian
 Malladi, Deepak Kumar
-Konidena, Deepak
-Hurriyetoglu, Ali
-Grewal, Ajeet
+Filgueiras, João
+Mariño, José B.
+Kocoń, Jan
+Bentz, Christian
+Rishj, Christian
+Styler, Will
+Vancoppenolle, Jean
+Vachhani, Vishal
+Lefebvre-Albaret, FranÃ§ois
+Moreno, Jose G.
+Ijdens, Jan
+Monroe, Will
+Skatov, Dan
+Roberts, Will
+King, Ben
+Gutfreund, Dan
+Fonseca, José
+Novák, Michal
+Moldovan, Christian
+NovÃ¡k, Michal
+Mishra, Abhijit
+Verma, Kunal
+Ittoo, Ashwin
+Agarwal, Basant
+V., Surya Ganesh
+Sapkota, Upendra
+Batra, Dhruv
 Mahgoub, Ashraf
-Das Mandal, Shyamal Kumar
-Saleh, Iman
-Gupta, Rohit
-Farhadi, Ali
+Hurriyetoglu, Ali
+Al-Saif, Amal
+P, Deepak
+Sondhi, Parikshit
+Agarwal, Deepak
 Lall, Ashwin
-Khaitan, Pranav
-Bhole, Abhijit
 Dasigi, Pradeep
-Chittaranjan, Gokul
+Juneja, Vishal
+Gandhi, Sunil
+Grewal, Ajeet
+Shah, Jatin
+Kulkarni, Ojas
+Shrivastava, Shashank
+Sharma, Harsh Vardhan
+Agrawal, Siddharth
+Sohoney, Saurabh
+Venugopal, Deepak
+Parikh, Ankur
+G. S. K., Chaitanya
+Saleh, Iman
+Mitra, Prasenjit
 Bhat, Riyaz Ahmad
+Shivade, Chaitanya
+Hürriyetoğlu, Ali
+Elluru, Raghavendra
+Farhadi, Ali
+El Kahki, Ali
+Dharkar, Ankush
+Bairi, Ramakrishna
+Pathak, Parth
+Tumuluru, Anand Karthik
+Kolan, Prakash
+Clark, Sam
+Soni, Ankush
+Mitra, Sunny
+Goyal, Vishal
+Ramachandran, Deepak
+Sripada, Sandeep
+Pedanekar, Niranjan
+Sundar Ram R., Vijay
+Balasubramanyan, Ramnath
+Gupta, Rohit
+Pokkunuri, Sandeep
+Bhatt, Brijesh
+Kolya, Anup Kumar
+Ansari, Sam
+Dungarwal, Piyush
+Kotalwar, Anup
+Jain, Naman
+Kharkwal, Gaurav
+Kulkarni, Anup
+Das Mandal, Shyamal Kumar
+Santhanam, Deepak
+Hadjarian, Ali
+Teregowda, Pradeep
+Bharadwaj G, Rohit
+Goyal, Kartik
+Konidena, Deepak
+Rawal, Chetan
+Rallapalli, Sarat
+Rachakonda, Ravi Teja
+Narang, Nalin
+Singla, Karan
+Chandrashekaran, Akshay
+Bhole, Abhijit
+Chatterjee, Arindam
+Bansal, Gagan
+Nandan, Naveen
+Ghosh, Riddhiman
+Chowdhary, Vishal
+Selvarajan, Raja
+Sahakian, Sam
+Asooja, Kartik
+Patel, Raj Nath
+Ponnamperuma, Kapila
+Chawla, Karan
+Bhaskar, Pinaki
+Vadlapudi, Ravikiran
+Ertugrul, Ali Mert
+Rastogi., Vibhor
+Mishra, Kshitij
+Kulkarni, Girish
+Kambhampati, Subbarao
+Sinha, Gaurav
+Ambati, Bharat Ram
+V., Ravi Kiran
+Jain, Harshit
+Arora, Piyush
+Das, Abhimanyu
+Chaudhury, Sriram
+Bysani, Praveen
+Mittal, Deepak
+Rai, Piyush
+Khaitan, Pranav
+Krishnamurthy, Jayant
+Pakray, Partha
+Anzaroot, Sam
+Joshi, Mandar
+Ranade, Sarvesh
+Sinha, Tanmay
+Chittaranjan, Gokul
+GSK, Santosh
+Goyal, Aseem
+Honavar, Vasant
+Gautam, Shubham
+Pimpale, Prakash B.
+Iyyer, Mohit
+Singh, Adarsh
+Elluru, Naresh Kumar
+Jindal, Prateek
+Bakliwal, Akshat
+Mehta, Neel
+Gandhe, Ankur
+Chopra, Harshit
+Gayen, Vivekananda
+Reddy, Ravi Shankar
+Gajulapalli, Kailash
+Deoras, Anoop
+Mehrotra, Rishabh
+Elchuri, Harsha
+Minocha, Akshay
+Naidu, Suresh
+Malkarnenkar, Girish
+Panchal, Vishal
+Gupta, Anubhav
+Jain, Sambhav
+Soni, Sandeep
+Gupta, Parth
+Thomson, Sam
+Natarajan, Prem
+Prahallad, Kishore
+Audhkhasi, Kartik
+Malu, Akshat
+Jauhar, Sujay Kumar
+Hadian, Ali
+Samal, Ashok
+Bellur, Ashwin
+Chandibhamar, Ravi
+Talukdar, Partha P.
+Shankar, Jeevan
+Biggins, Sam
+R. J., Rama Sree
+Hingmire, Swapnil
+Kumar, Abhishek
+Bhattacharya, Arindam
+Bhavsar, Krishna
+Jindal, Karan
+Oakley, Sam
+Hardwick, Sam
+Jonnagaddala, Jitendra
+Sachdeva, Kunal
+Popat, Kashyap
+Salaka, Vamsi
+Nelakanti, Anil Kumar
+K. V., Subbarao
+Kunchukuttan, Anoop
+Sarkar, Kamal
+Sharma, Jatin
+Malladi, Deepak Kumar
+Vahid, Ali
+Srivastava, Shashank
+Surve, Prafulla
+Inumella, Abhilash
+Dash, Sarthak
+Balasubramanian, Niranjan
+Shrestha, Niraj
+Aggarwal, Nitish
+Prabhavalkar, Rohit
+Vachhani, Vishal
+Deshmukh, Amol
+P., Praveen
+Sikdar, Utpal Kumar
+Singh Lehal, Gurpreet
+Ghosh, Aniruddha
 Agarwal, Nitin
+Soundrarajan, Balaji
+Joglekar, Hrishikesh

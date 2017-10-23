@@ -3,7 +3,7 @@ from enum import Enum
 import pandas as pd
 import re
 from collections import Counter
-from html.parser import HTMLParser
+import html
 
 class Gender(Enum):
     male = 0
@@ -134,9 +134,9 @@ def map_titles():
             values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
             
             values["authors"] = values["authors"].split("; ")
-            for auth in values["authors"]:  
+            for i,auth in enumerate(values["authors"]):  
                 auth = auth.strip() 
-                auth = pars.unescape(auth)
+                auth = html.unescape(auth)
                 auths.add(auth)
                 gender = Gender.unknown
                 if auth in females:
@@ -153,6 +153,7 @@ def map_titles():
             prev = values
             #if idx==5:
             #    break
+        print(idx)
         print(len(auths))
         print(len(known))
         print(len(new_unkown))
