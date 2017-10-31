@@ -1,0 +1,5 @@
+README.md
+pdftotext.egg-info/PKG-INFO
+pdftotext.egg-info/SOURCES.txt
+pdftotext.egg-info/dependency_links.txt
+pdftotext.egg-info/top_level.txt

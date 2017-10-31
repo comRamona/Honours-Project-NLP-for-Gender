@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pdftotext
+Version: 1.0.0
+Summary: Simple PDF text extraction
+Home-page: https://github.com/jalan/pdftotext
+Author: Jason Alan Palmer
+Author-email: jalanpalmer@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3

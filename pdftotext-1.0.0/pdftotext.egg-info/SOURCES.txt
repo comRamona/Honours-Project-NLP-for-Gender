@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pdftotext/pdftotext.cpp
+pdftotext.egg-info/PKG-INFO
+pdftotext.egg-info/SOURCES.txt
+pdftotext.egg-info/dependency_links.txt
+pdftotext.egg-info/top_level.txt
+tests/__init__.py
+tests/abcde.pdf
+tests/blank.pdf
+tests/corrupt.pdf
+tests/corrupt_page.pdf
+tests/test_pdf.py
+tests/two_page.pdf

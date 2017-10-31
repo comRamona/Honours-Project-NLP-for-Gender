@@ -8,7 +8,7 @@ import sys
 import os
 from time import time
 
-def get_test(fn="W04-0205"):
+def get_test(fn="E03-1029"):
     tool = pyocr.get_available_tools()[0]
     lang = tool.get_available_languages()[1]
 

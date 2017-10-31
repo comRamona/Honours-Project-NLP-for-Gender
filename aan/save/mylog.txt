@@ -116,5 +116,7 @@ INDIAN NAMES:
 
 #remove jesus, ronan: left iwth 2739
 
+##### 329 bad pdfs
+
 
 
