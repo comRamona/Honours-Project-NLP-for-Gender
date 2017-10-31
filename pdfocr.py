@@ -7,34 +7,28 @@ import wget
 import sys
 import os
 from time import time
+from tqdm import tqdm
+import _pickle as pkl
 
-def get_test(fn="E03-1029"):
+
+
+def get_test(fn):
     tool = pyocr.get_available_tools()[0]
     lang = tool.get_available_languages()[1]
 
     req_image = []
     final_text = []
-
-    #get pdf
+    
     file_path = os.path.join(os.environ["AAN_DIR"],"papers_pdf/{0}.pdf".format(fn))
-    if not os.path.isfile(file_path):
-        path = "http://aclweb.org/anthology/{0}".format(fn)
-        wget.download(path, out=file_path)
-
+   
     #convert to jpeg
-    t0 = time()
     image_pdf = Image(filename=file_path,resolution=300)
     image_jpeg = image_pdf.convert('jpeg')
 
-    print("done converting to jpeg %0.3fs." % (time() - t0))
-
-    t1 = time()
 
     for img in image_jpeg.sequence:
         img_page = Image(image=img)
         req_image.append(img_page.make_blob('jpeg'))
-  
-    print("done req image %0.3fs." % (time() - t1))
 
     with open(os.path.join(os.environ["AAN_DIR"],"papers_ocr/{0}.txt".format(fn)), "w") as text_file:
 
@@ -49,12 +43,35 @@ def get_test(fn="E03-1029"):
             text_file.write(str(txt))
 
 
+def ocr_bad_files():
+    with open("bad_pdfs.pkl","rb") as f:
+        ids = pkl.load(f)
+
+    for idx in tqdm(ids):
+        i = idx[0].strip()
+        file_path = os.path.join(os.environ["AAN_DIR"],"papers_pdf/{0}.pdf".format(i))
+        if not os.path.isfile(file_path):
+            path = "http://aclweb.org/anthology/{0}.pdf".format(i)
+            try:
+                wget.download(path, out=file_path)
+            except:
+                print("Failed to download",i)
+
+         
+        try:
+            get_test(i)
+        except Exception as e:
+            print(e)
+       
+
+
+
 
 
 def main():
 
-    
-    get_test(sys.argv[1]) if len(sys.argv)>1 else get_test()
+    #ocr_bad_files()
+    get_test("E03-1022")
  
  
 if __name__ == '__main__':

@@ -7,6 +7,7 @@ import re
 from collections import Counter
 import html
 from enum import Enum
+import _pickle as pkl
 
 
 
@@ -32,20 +33,12 @@ class ACL_metadata():
 		self.train_files = [join(environ["AAN_DIR"],"papers_text/{0}".format(fn)) 
 		for fn in listdir(join(environ["AAN_DIR"],"papers_text/")) if isfile(join(train_dirpath, fn)) and "txt" in fn]
 
+		tf  = set()
+		for f in self.train_files:
+			i = self.get_id(f)
+			tf.add(i)
+
 		self.metadata_path = os.path.join(os.environ["AAN_DIR"],"release/2014/acl-metadata.txt")
-
-
-		self.papers_idx = []
-		fields = ["id", "authors", "title", "venue", "year","genders"]
-		with open(self.metadata_path,"r", encoding="utf-8") as f:
-			paper_data = f.read().split("\n\n")
-		for idx,paper in enumerate(paper_data):
-			values = paper.split("\n")[:len(fields)-1]
-
-			values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
-
-			self.papers_idx.append(values["id"])
-
 
 
 		female_paths = [os.path.join(os.environ["AAN_DIR"],"save",f) for f in ["acl-female.txt", "machine_females.txt", "machine_femalesNAM.txt"]]
@@ -69,8 +62,11 @@ class ACL_metadata():
 		self.known = set()
 		# all authors in our papers
 		self.auths = set()
+		ids = set()
 
 		dic = []
+
+		fields = ["id", "authors", "title", "venue", "year","genders"]
 
 		with open(self.metadata_path,"r", encoding="utf-8") as f:
 			paper_data = f.read().split("\n\n")
@@ -78,6 +74,11 @@ class ACL_metadata():
 			values = paper.split("\n")[:len(fields)-1]
 
 			values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
+			if(values["id"]) in ids:
+				continue
+			if(values["id"]) not in tf:
+				continue
+			ids.add(values["id"])
 
 			values["authors"] = values["authors"].split("; ")
 			values["genders"] = []
@@ -97,6 +98,14 @@ class ACL_metadata():
 
 		# pandas dataframe to hold our papers and gender
 		self.df = pd.DataFrame(dic).set_index(["id"])
+
+		with open("bad_pdfs.pkl","rb") as f:
+			ids = pkl.load(f)
+			ids = list(map(lambda x: x[0], ids))
+			
+		self.df = self.df.drop(ids)
+		self.train_files = [join(environ["AAN_DIR"],"papers_text/{0}.txt".format(fn)) 
+		for fn in list(self.df.index)]
 
 	def get_id(self,f):
 		return f.split("/")[-1][:-4]
