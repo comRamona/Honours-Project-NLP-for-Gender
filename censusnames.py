@@ -16,10 +16,10 @@ def gender_machine():
 
     machine_unknown = open(os.path.join(os.environ["AAN_DIR"],"machine_unknown.txt"),"w", encoding="utf-8")
 
-    with open(os.path.join(os.environ["AAN_DIR"],"femalesfn1.txt"),"r", encoding="utf-8") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"save/femalesfn1.txt"),"r", encoding="utf-8") as f:
         names = f.read()
         machine_females.write(names)
-    with open(os.path.join(os.environ["AAN_DIR"],"malesfn1.txt"),"r", encoding="utf-8") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"save/malesfn1.txt"),"r", encoding="utf-8") as f:
         names = f.read()
         machine_males.write(names)
     with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown1.txt"),"r", encoding="utf-8") as f:

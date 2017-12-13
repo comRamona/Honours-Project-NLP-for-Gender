@@ -4,6 +4,8 @@ import pandas as pd
 import re
 from collections import Counter
 import html
+import re
+from nametools import process_str
 
 class Gender(Enum):
     male = 0
@@ -95,28 +97,31 @@ class NameClassifier():
 
 def map_titles():
 
-    pars = HTMLParser()
 
     ids_path = os.path.join(os.environ["AAN_DIR"],
         "release/2014/acl-metadata.txt")
 
-    female_paths = [os.path.join(os.environ["AAN_DIR"],
-        f) for f in ["acl-female.txt", "machine_females.txt", "machine_femalesNAM.txt"]]
+    female_paths = [os.path.join(os.environ["AAN_DIR"], "save/",
+        f) for f in ["acl-female.txt", "machine_females.txt", "machine_femalesNAM.txt", "femalesfn1.txt"]]
 
-    male_paths = [os.path.join(os.environ["AAN_DIR"],
-        f) for f in ["acl-male.txt", "machine_males.txt", "machine_malesNAM.txt"]]
+    male_paths = [os.path.join(os.environ["AAN_DIR"], "save/",
+        f) for f in ["acl-male.txt", "machine_males.txt", "machine_malesNAM.txt","malesfn1.txt"]]
 
     females = set()
     males = set()
     for file in female_paths:
         with open(file, 'r', encoding = "utf-8") as f:
-            females.update(map(lambda x:  pars.unescape(x.strip()), f.read().split("\n")))
+            females.update(map(lambda x:  process_str(x), f.read().split("\n")))
 
     for file in male_paths:
         with open(file, 'r', encoding = "utf-8") as f:
-            males.update(map(lambda x:  pars.unescape(x.strip()), f.read().split("\n")))
+            males.update(map(lambda x: process_str(x), f.read().split("\n")))
 
+    unsure = set()
+    with open(os.path.join(os.environ["AAN_DIR"],"save/","acl-unknown.txt"),"r", encoding="utf-8") as f:
+        unsure.update(map(lambda x:  process_str(x), f.read().split("\n")))
 
+    print(unsure)
     new_unkown = set()
     dic = []
     fields = ["id", "authors", "title", "venue", "year","genders"]
@@ -132,11 +137,12 @@ def map_titles():
             values = paper.split("\n")[:len(fields)-1]
 
             values = dict(zip(fields,[re.search(r'{(.*?)}',s).group(1) for s in values]+[[]]))
+            if int(values["year"])<=2008:
+                continue
             
             values["authors"] = values["authors"].split("; ")
             for i,auth in enumerate(values["authors"]):  
-                auth = auth.strip() 
-                auth = html.unescape(auth)
+                auth = process_str(auth)
                 auths.add(auth)
                 gender = Gender.unknown
                 if auth in females:
@@ -147,6 +153,8 @@ def map_titles():
                     known.add(auth)
                 # elif auth not in known_unknowns:
                 else:
+                    if auth in unsure:
+                        continue
                     new_unkown.add(auth)
                 values["genders"].append(gender)
             #dic.append(values)
@@ -159,7 +167,7 @@ def map_titles():
         print(len(new_unkown))
           
     #df = pd.DataFrame(dic)#.set_index(["id"])
-    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown2.txt"),"w", encoding="utf-8") as f:
+    with open(os.path.join(os.environ["AAN_DIR"],"aclr_unknown_after_2009_norm.txt"),"w", encoding="utf-8") as f:
         f.write("\n".join(new_unkown))
 
 

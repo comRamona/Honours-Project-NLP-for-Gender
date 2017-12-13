@@ -1,0 +1,246 @@
+n_layers = 6
+learning_rate = 0.04
+num_epochs = 100
+results_B2 = defaultdict()
+results_B2["inout"] = defaultdict()
+results_B2["in"] = defaultdict()
+results_B2["out"] = defaultdict()
+
+import math
+from mlp.initialisers import UniformInit
+
+
+print('-' * 80)
+print('Fan in')
+print('-' * 80)
+
+rng.seed(seed)
+train_data.reset()
+valid_data.reset()
+results_B2["FanIn"] = []
+results_B2["in"] = defaultdict()
+
+
+biases_init = ConstantInit(0.)
+layers = [AffineLayer(input_dim, hidden_dim, UniformInit(- math.sqrt(3. / input_dim), 
+                                                   math.sqrt(3. / input_dim), rng=rng), biases_init),
+              SELULayer()]
+for i in range(n_layers-1):
+      layers.append(AffineLayer(hidden_dim, hidden_dim, UniformInit(- math.sqrt(3. / hidden_dim), 
+                                               math.sqrt(3. / hidden_dim), rng=rng), biases_init))
+      layers.append(SELULayer())
+        
+layers.append(AffineLayer(hidden_dim, output_dim, UniformInit(- math.sqrt(3. / hidden_dim), 
+                                           math.sqrt(3. / hidden_dim), rng=rng), biases_init))
+model = MultipleLayerModel(layers)
+
+error = CrossEntropySoftmaxError()
+# Use a basic gradient descent learning rule
+learning_rule = GradientDescentLearningRule(learning_rate=learning_rate)
+
+stats, keys, run_time, fig_1, ax_1, ax_2 = train_model_and_plot_stats(
+        model, error, learning_rule, train_data, valid_data, num_epochs, stats_interval)
+
+results_B2["FanIn"].append(stats[-1, keys['error(train)']])
+results_B2["FanIn"].append(stats[-1, keys['error(valid)']])
+results_B2["FanIn"].append(stats[-1, keys['acc(train)']])
+results_B2["FanIn"].append(stats[-1, keys['acc(valid)']])
+results_B2["in"] = stats
+plt.suptitle("SELU Fan In")
+plt.savefig("PartB2_UniformFanInSELU.pdf")
+plt.show()
+
+print('    final error(train) = {0:.2e}'.format(stats[-1, keys['error(train)']]))
+print('    final error(valid) = {0:.2e}'.format(stats[-1, keys['error(valid)']]))
+print('    final acc(train)   = {0:.2e}'.format(stats[-1, keys['acc(train)']]))
+print('    final acc(valid)   = {0:.2e}'.format(stats[-1, keys['acc(valid)']]))
+print('    run time per epoch = {0:.2f}'.format(run_time * 1. / num_epochs))
+    
+
+
+print('-' * 80)
+print('Fan out')
+print('-' * 80)
+
+rng.seed(seed)
+train_data.reset()
+valid_data.reset()
+results_B2["FanOut"] = []
+results_B2["out"] = defaultdict()
+
+biases_init = ConstantInit(0.)
+
+layers = [AffineLayer(input_dim, hidden_dim, UniformInit(- math.sqrt(3. / hidden_dim), 
+                                                   math.sqrt(3. / hidden_dim), rng=rng), biases_init),
+              SELULayer()]
+for i in range(n_layers-1):
+      layers.append(AffineLayer(hidden_dim, hidden_dim, UniformInit(- math.sqrt(3. / hidden_dim), 
+                                               math.sqrt(3. / hidden_dim), rng=rng), biases_init))
+      layers.append(SELULayer())
+        
+layers.append(AffineLayer(hidden_dim, output_dim, UniformInit(- math.sqrt(3. / output_dim), 
+                                           math.sqrt(3. / output_dim), rng=rng), biases_init))
+model = MultipleLayerModel(layers)
+
+
+error = CrossEntropySoftmaxError()
+# Use a basic gradient descent learning rule
+learning_rule = GradientDescentLearningRule(learning_rate=learning_rate)
+
+stats, keys, run_time, fig_1, ax_1, ax_2 = train_model_and_plot_stats(
+        model, error, learning_rule, train_data, valid_data, num_epochs, stats_interval)
+
+
+results_B2["FanOut"].append(stats[-1, keys['error(train)']])
+results_B2["FanOut"].append(stats[-1, keys['error(valid)']])
+results_B2["FanOut"].append(stats[-1, keys['acc(train)']])
+results_B2["FanOut"].append(stats[-1, keys['acc(valid)']])
+results_B2["out"] = stats
+plt.suptitle("SELU Uniform Fan Out")
+plt.savefig("PartB2_UniformFanOutSELU.pdf")
+plt.show()
+
+print('    final error(train) = {0:.2e}'.format(stats[-1, keys['error(train)']]))
+print('    final error(valid) = {0:.2e}'.format(stats[-1, keys['error(valid)']]))
+print('    final acc(train)   = {0:.2e}'.format(stats[-1, keys['acc(train)']]))
+print('    final acc(valid)   = {0:.2e}'.format(stats[-1, keys['acc(valid)']]))
+print('    run time per epoch = {0:.2f}'.format(run_time * 1. / num_epochs))
+    
+
+
+print('-' * 80)
+print('Fan in out')
+print('-' * 80)
+results_B2["FanInOut"] = []
+rng.seed(seed)
+train_data.reset()
+valid_data.reset()
+
+weights_init = GlorotUniformInit(rng=rng)
+biases_init = ConstantInit(0.)
+# prepare layers      
+layers = [AffineLayer(input_dim, hidden_dim, weights_init, biases_init),
+          LeakyReluLayer()]
+for i in range(n_layers-1):
+      layers.append(AffineLayer(hidden_dim, hidden_dim, weights_init, biases_init))
+      layers.append(LeakyReluLayer())
+
+layers.append(AffineLayer(hidden_dim, output_dim, weights_init, biases_init))
+model = MultipleLayerModel(layers)
+
+
+error = CrossEntropySoftmaxError()
+# Use a basic gradient descent learning rule
+learning_rule = GradientDescentLearningRule(learning_rate=learning_rate)
+
+stats, keys, run_time, fig_1, ax_1, ax_2 = train_model_and_plot_stats(
+        model, error, learning_rule, train_data, valid_data, num_epochs, stats_interval)
+
+
+results_B2["FanInOut"].append(stats[-1, keys['error(train)']])
+results_B2["FanInOut"].append(stats[-1, keys['error(valid)']])
+results_B2["FanInOut"].append(stats[-1, keys['acc(train)']])
+results_B2["FanInOut"].append(stats[-1, keys['acc(valid)']])
+results_B2["inout"] = stats
+
+plt.suptitle("SELU Fan In Out")
+plt.savefig("PartB2_UniformFanInOutSELU.pdf")
+plt.show()
+
+print('    final error(train) = {0:.2e}'.format(stats[-1, keys['error(train)']]))
+print('    final error(valid) = {0:.2e}'.format(stats[-1, keys['error(valid)']]))
+print('    final acc(train)   = {0:.2e}'.format(stats[-1, keys['acc(train)']]))
+print('    final acc(valid)   = {0:.2e}'.format(stats[-1, keys['acc(valid)']]))
+print('    run time per epoch = {0:.2f}'.format(run_time * 1. / num_epochs))
+    
+
+
+print('-' * 80)
+print('Fan in out normal')
+print('-' * 80)
+
+rng.seed(seed)
+train_data.reset()
+valid_data.reset()
+results_B2["FanNormal"] = []
+results_B2["glorotnormal"] = defaultdict()
+weights_init = GlorotNormalInit(rng=rng)
+biases_init = ConstantInit(0.)
+# prepare layers      
+layers = [AffineLayer(input_dim, hidden_dim, weights_init, biases_init),
+          SELULayer()]
+for i in range(n_layers-1):
+      layers.append(AffineLayer(hidden_dim, hidden_dim, weights_init, biases_init))
+      layers.append(SELULayer())
+
+layers.append(AffineLayer(hidden_dim, output_dim, weights_init, biases_init))
+model = MultipleLayerModel(layers)
+
+error = CrossEntropySoftmaxError()
+# Use a basic gradient descent learning rule
+learning_rule = GradientDescentLearningRule(learning_rate=learning_rate)
+
+stats, keys, run_time, fig_1, ax_1, ax_2 = train_model_and_plot_stats(
+        model, error, learning_rule, train_data, valid_data, num_epochs, stats_interval)
+
+results_B2["FanNormal"].append(stats[-1, keys['error(train)']])
+results_B2["FanNormal"].append(stats[-1, keys['error(valid)']])
+results_B2["FanNormal"].append(stats[-1, keys['acc(train)']])
+results_B2["FanNormal"].append(stats[-1, keys['acc(valid)']])
+results_B2["glorotnormal"] = stats
+plt.suptitle("SELU Glorot Normal")
+plt.savefig("PartB2_NormalFanInOutGlorotSelu.pdf")
+plt.show()
+
+print('    final error(train) = {0:.2e}'.format(stats[-1, keys['error(train)']]))
+print('    final error(valid) = {0:.2e}'.format(stats[-1, keys['error(valid)']]))
+print('    final acc(train)   = {0:.2e}'.format(stats[-1, keys['acc(train)']]))
+print('    final acc(valid)   = {0:.2e}'.format(stats[-1, keys['acc(valid)']]))
+print('    run time per epoch = {0:.2f}'.format(run_time * 1. / num_epochs))
+    
+
+print('|Initialisation   | final error(train) | final error(valid) | final acc(train) | final acc(valid) |')
+print('|-----------------|--------------------|--------------------|------------------|------------------|')
+inits = ["in","out","inout","glorotnormal","seluinit"]
+names = ["Fan In", "Fan Out", "Fan In-Out","Glorot Normal","SELU Init"]
+
+
+for idx,i in enumerate(inits):
+    stats = results_B2[i]
+    c=colors[idx]
+    name=names[idx]
+    print("{0} & {1:.2f} & {2:.2f} & {3:.3f} & {4:.3f}\\\\".format(name,stats[-1,keys["error(train)"]],stats[-1,keys["error(valid)"]],
+                                               stats[-1,keys["acc(train)"]], stats[-1,keys["acc(valid)"]]
+                                              ))
+
+fig1, ax1 = plt.subplots(figsize=(8,8))
+for idx,i in enumerate(inits):
+    stats = results_B2[i]
+    c=colors[idx]
+    name=names[idx]
+    ax1.plot(np.arange(1, stats.shape[0]) * stats_interval, 
+                  stats[1:, keys["acc(train)"]],label=name, linestyle = '-',color=c)
+    
+    ax1.plot(np.arange(1, stats.shape[0]) * stats_interval, 
+                  stats[1:, keys["acc(valid)"]], linestyle = '--',color=c)
+    
+ax1.set_xlabel("Epoch")
+ax1.set_ylabel("Accuracy")
+plt.legend(loc=0)
+plt.savefig("CompareInitsAccAllValTrain.pdf")
+
+
+
+fig1, ax1 = plt.subplots(figsize=(8,8))
+for idx,i in enumerate(inits):
+    stats = results_B2[i][:,:]
+    c=colors[idx]
+    name=names[idx]    
+    ax1.plot(np.arange(1, stats.shape[0]) * stats_interval, 
+                  stats[1:, keys["acc(valid)"]], label=name,linestyle = '-',color=c)
+
+ax1.set_xlabel("Epoch")
+ax1.set_ylabel("Accuracy")
+ax1.set_title("Validation")
+plt.legend(loc=0)
+plt.savefig("CompareInitsAccAllEpochsValidation.pdf")

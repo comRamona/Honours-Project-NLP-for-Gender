@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: cognitive-face
+Version: 1.3.1
+Summary: Python SDK for the Cognitive Face API
+Home-page: https://github.com/Microsoft/Cognitive-Face-Python
+Author: Microsoft
+Author-email: UNKNOWN
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: # UG4 dissertation project
+        
+        ```
+        source activate lda
+        cd ~/miniconda3/envs/mlp
+        mkdir -p ./etc/conda/activate.d
+        mkdir -p ./etc/conda/deactivate.d
+        echo -e '#!/bin/sh\n' >> ./etc/conda/activate.d/env_vars.sh
+        echo "export AAN_DIR=$HOME/lda/aan/" >> ./etc/conda/activate.d/env_vars.sh
+        echo -e '#!/bin/sh\n' >> ./etc/conda/deactivate.d/env_vars.sh
+        echo 'unset AAN_DIR' >> ./etc/conda/deactivate.d/env_vars.sh
+        export AAN_DIR=$HOME/lda/aan
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Image Recognition

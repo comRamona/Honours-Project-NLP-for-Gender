@@ -1,0 +1,6 @@
+README.md
+cognitive_face.egg-info/PKG-INFO
+cognitive_face.egg-info/SOURCES.txt
+cognitive_face.egg-info/dependency_links.txt
+cognitive_face.egg-info/requires.txt
+cognitive_face.egg-info/top_level.txt

@@ -88,6 +88,8 @@ class Detector:
 
         return gender if len(genders) == 1 else self.unknown_value
 
+
+
     def get_gender(self, name, country=None):
         """Returns best gender for the given name and country pair"""
         if not self.case_sensitive:

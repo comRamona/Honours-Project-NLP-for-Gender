@@ -9,9 +9,9 @@ import os
 from pprint import pprint
 from html.parser import HTMLParser
 
-machine_females = open(os.path.join(os.environ["AAN_DIR"],"machine_femalesNAM.txt"),"w", encoding="utf-8")
-machine_males = open(os.path.join(os.environ["AAN_DIR"],"machine_malesNAM.txt"),"w", encoding="utf-8")
-machine_unsure = open(os.path.join(os.environ["AAN_DIR"],"machine_unsure.txt"),"w", encoding="utf-8")
+machine_females = open(os.path.join(os.environ["AAN_DIR"],"save/machine_femalesNAM.txt"),"w", encoding="utf-8")
+machine_males = open(os.path.join(os.environ["AAN_DIR"],"save/machine_malesNAM.txt"),"w", encoding="utf-8")
+machine_unsure = open(os.path.join(os.environ["AAN_DIR"],"save/machine_nochanceNAM.txt"),"w", encoding="utf-8")
 pars = HTMLParser()
 with open(os.path.join(os.environ["AAN_DIR"],"namresults.txt"),"r", encoding="utf-8") as f:
     unknown_names = f.read().split("\n")
@@ -30,9 +30,11 @@ with open(os.path.join(os.environ["AAN_DIR"],"namresults.txt"),"r", encoding="ut
         name = pars.unescape(m.group(1))
         gender = m.group(2).strip()
         scale = float(m.group(3))
-        if gender == "unknown": continue
-        if(abs(scale) < 0.5): 
-            machine_unsure.write(line + "\n")
+        if gender == "unknown": 
+            machine_unsure.write(name+ " " + str(scale) + "\n")
+            continue
+        if(abs(scale) < 0.2): 
+            machine_unsure.write(name+ "\n")
             continue
         if gender == "female":
             machine_females.write(name + "\n")

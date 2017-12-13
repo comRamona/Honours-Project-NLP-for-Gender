@@ -8,6 +8,8 @@ from collections import Counter
 import html
 from enum import Enum
 import _pickle as pkl
+import unidecode
+from nametools import process_str_for_similarity_cmp
 
 
 
@@ -25,7 +27,8 @@ known
 auths
 df
 """
-class ACL_metadata():
+class ACL_fulltext():
+
 
 	def __init__(self):
 
@@ -49,11 +52,11 @@ class ACL_metadata():
 		self.males = set()
 		for file in female_paths:
 			with open(file, 'r', encoding = "utf-8") as f:
-				self.females.update(map(lambda x:  html.unescape(x.strip()), f.read().split("\n")))
+				self.females.update(map(lambda x:  process_str_for_similarity_cmp(x), f.read().split("\n")))
 
 		for file in male_paths:
 			with open(file, 'r', encoding = "utf-8") as f:
-				self.males.update(map(lambda x:  html.unescape(x.strip()), f.read().split("\n")))
+				self.males.update(map(lambda x:  process_str_for_similarity_cmp(x), f.read().split("\n")))
 
 
 
@@ -80,11 +83,12 @@ class ACL_metadata():
 				continue
 			ids.add(values["id"])
 
-			values["authors"] = values["authors"].split("; ")
+			values["not_normalised"] = values["authors"].split("; ")
+			values["authors"] = []
 			values["genders"] = []
-			for i,auth in enumerate(values["authors"]):  
-				auth = auth.strip() 
-				auth = html.unescape(auth)
+			for i,auth in enumerate(values["not_normalised"]):
+				auth = process_str_for_similarity_cmp(auth)
+				values["authors"].add(auth)
 				self.auths.add(auth)
 				gender = Gender.unknown
 				if auth in self.females:
@@ -102,6 +106,8 @@ class ACL_metadata():
 		with open("bad_pdfs.pkl","rb") as f:
 			ids = pkl.load(f)
 			ids = list(map(lambda x: x[0], ids))
+
+		self.meta_df = self.df
 			
 		self.df = self.df.drop(ids)
 		self.train_files = [join(environ["AAN_DIR"],"papers_text/{0}.txt".format(fn)) 
