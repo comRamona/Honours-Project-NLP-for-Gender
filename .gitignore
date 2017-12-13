@@ -4,3 +4,5 @@ aan/papers_pdf
 aan/papers*
 aan/citation_summaries
 aan/author_affiliations
+models/*
+*.pkl
