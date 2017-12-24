@@ -7,6 +7,7 @@ import re
 from collections import Counter
 import html
 from enum import Enum
+from metadata import Gender
 import _pickle as pkl
 import unidecode
 from _data_cleaning.nametools import process_str
@@ -14,42 +15,24 @@ from _data_cleaning.nametools import process_str
 
 #constructs dataframe with authors papers and names
 
-class Gender(Enum):
-    male = 0
-    female = 1
-    unknown = 2
-""""
-train_files 
-metadata_path
-papers_idx
-females
-males
-known
-auths
-df
-"""
 class ACL_metadata():
 
 
 	def __init__(self):
 
 		train_dirpath = os.path.join(os.environ["AAN_DIR"],"papers_text")
-		self.train_files = [join(environ["AAN_DIR"],"papers_text/{0}".format(fn)) 
-		for fn in listdir(join(environ["AAN_DIR"],"papers_text/")) if isfile(join(train_dirpath, fn)) and "txt" in fn]
+		self.train_files = [join(environ["AAN_DIR"],"papers_text",fn) 
+		for fn in listdir(join(environ["AAN_DIR"],"papers_text")) if isfile(join(train_dirpath, fn)) and "txt" in fn]
 
 		tf  = set()
 		for f in self.train_files:
 			i = self.get_id(f)
 			tf.add(i)
 
-		self.metadata_path = os.path.join(os.environ["AAN_DIR"],"release/2014/acl-metadata.txt")
+		self.metadata_path = os.path.join(os.environ["AAN_DIR"],"release","2014","acl-metadata.txt")
 
-
-		with open("known_names.pkl","rb") as file:
+		with open(os.path.join(os.environ['AAN_DIR'],"save","known_names.pkl"),"rb") as file:
 			dicty = pkl.load(file)
-
-		with open("bingclassif.pkl","rb") as file:
-			dicty2 = pkl.load(file)
 
 		# known authors
 		self.known = set()
@@ -81,9 +64,6 @@ class ACL_metadata():
 				auth = auth.strip()
 				self.auths.add(auth)
 				gender = dicty.get(auth, Gender.unknown)
-				if gender == Gender.unknown:
-					gender = dicty2.get(auth, Gender.unknown)
-				auth = process_str(auth)
 				if gender == Gender.female:
 					self.known.add(auth)
 					self.known_f.add(auth)

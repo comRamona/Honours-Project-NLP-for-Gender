@@ -1,9 +1,9 @@
 
 import os
-from affiliations import affiliations
-from lookup import BingImageSearch
-from faces import BingFaceDetection
-from nametools import process_str
+from _name_classification.affiliations import affiliations
+from _name_classification.lookup import BingImageSearch
+from _name_classification.faces import BingFaceDetection
+from _name_classification.nametools import process_str
 
 class ClassifyFace():
 	def __init__(self):

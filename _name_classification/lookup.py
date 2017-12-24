@@ -1,5 +1,4 @@
-from nametools import process_str
-from affiliations import affiliations
+from _name_classification.nametools import process_str
 import os
 import http.client, urllib.parse, json
 

@@ -1,22 +1,34 @@
 #combine files classified with classifier and those from Jurafsky and from crowdsourcing
 
-def main():
-    import os
-    from enum import Enum
-    import pandas as pd
-    import re
-    from collections import Counter
-    import html
-    import re
-    from nametools import process_str
-    from metadata import Gender
-    import _pickle as pkl
-    from classifyname import NC
-    from pathlib import Path
+import os
+from enum import Enum
+import pandas as pd
+import re
+from collections import Counter
+import html
+import re
+from _name_classification.nametools import process_str
+from metadata import Gender
+import _pickle as pkl
+from _name_classification.classifyname import NC
+from _name_classification import main_classify_all
+import logging
 
-    import logging
-    logging.basicConfig(level=logging.INFO)
-    logger = logging.getLogger(__name__)
+
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+
+if not os.path.isfile(os.path.join(os.environ['AAN_DIR'],"save","classifier_results.pkl")):
+    logger.info("Classifier has not been run. This may take some time.")
+    import main_classify_all as mca 
+    mca.classify()
+
+if not os.path.isfile(os.path.join(os.environ['AAN_DIR'],"save","known_names.pkl")):
+
+    with open(os.path.join(os.environ['AAN_DIR'],"save","classifier_results.pkl"),"rb") as file:
+        dic = pkl.load(file)
 
     nc = NC()
 
@@ -39,21 +51,10 @@ def main():
         with open(file, 'r', encoding = "utf-8") as f:
             males.update(map(lambda x: x, f.read().split("\n")))
 
-
-    dic = {}
     c=0
     new_unkown = set()
     processed = set()
     fields = ["id", "authors", "title", "venue", "year","genders"]
-    
-    if not Path("knownpluss.pkl").is_file():
-        logger.info("Classifier has not been run. This may take some time.")
-        import main_classify_all as mca 
-        mca.classify()
-
-
-    with open("knownpluss.pkl","rb") as file:
-        dic = pkl.load(file)
 
     with open(ids_path,"r", encoding="utf-8") as f:
         paper_data = f.read().split("\n\n")
@@ -79,29 +80,18 @@ def main():
                 elif auth not in dic:
                     c += 1
                     continue
-                    if int(values["year"]) > 2008:
-                        gender = nc.classify_name(auth, False)
-                        if gender[0] != Gender.unknown:
-                            dic[auth] = gender[0]
-                            print(auth,gender)
-                        else:
-                            new_unkown.add(auth)
-                            c += 1
      
           
     #df = pd.DataFrame(dic)#.set_index(["id"])
     with open(os.path.join(os.environ["AAN_DIR"],"idk2008.txt"),"w", encoding="utf-8") as f:
         f.write("\n".join(new_unkown))
 
-    print(len(dic))
-    print(c)
-    with open("../honours/known_names.pkl","wb") as file:
+    logger.info("CLassified:",len(dic))
+    logger.info("Unknown:", len(c))
+    with open(os.path.join(os.environ['AAN_DIR'],"save","known_names.pkl"),"wb") as file:
         pkl.dump(dic,file)
-    logger.info("Known names saved successfully in knownplusss.pkl")
+    logger.info("Known names saved successfully in aan/save/known_names.pkl")
 
-
-if __name__ == "__main__":
-    main()
 
 
 

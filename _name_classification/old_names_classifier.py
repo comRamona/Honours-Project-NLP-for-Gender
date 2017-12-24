@@ -5,7 +5,7 @@ import re
 from collections import Counter
 import html
 import re
-from nametools import process_str
+from _name_classification.nametools import process_str
 
 class Gender(Enum):
     male = 0

@@ -4,10 +4,10 @@ from io import open
 import re
 from collections import Counter, defaultdict
 import sexmachine.detector as gd
-from cleanname import clean
+from _name_classification.cleanname import clean
 from metadata import Gender
 import html
-from classifyface import ClassifyFace
+from _name_classification.classifyface import ClassifyFace
 import codecs
 from urllib.request import Request, urlopen  # Python 3
 

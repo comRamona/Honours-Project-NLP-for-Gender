@@ -1,4 +1,4 @@
-from nametools import process_str
+from _name_classification.nametools import process_str
 # Request headers.
 ########### Python 3.6 #############
 import http.client, urllib.request, urllib.parse, urllib.error, base64, requests, json

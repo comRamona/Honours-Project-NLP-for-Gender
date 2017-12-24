@@ -9,18 +9,11 @@ from nametools import process_str
 from metadata import Gender
 
 
+#generate names we couldn't classify to be classified by crowdsourcing
 
 def map_titles():
 
     momdad = {}
-
-    with open ("/home/rama/Desktop/names-names.csv") as f:
-        names = f.read.split("\n")
-        for n in names:
-            l, f, g = n.split(",")
-            if g.strip()=="m":
-                
-
 
     ids_path = os.path.join(os.environ["AAN_DIR"],
         "release/2014/acl-metadata.txt")
