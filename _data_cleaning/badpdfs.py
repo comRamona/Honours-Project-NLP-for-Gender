@@ -1,6 +1,6 @@
 import langid 
 from langid.langid import LanguageIdentifier, model
-from indexes import ACL_metadata
+from metadata.metadata import ACL_metadata
 from tqdm import tqdm
 
 
