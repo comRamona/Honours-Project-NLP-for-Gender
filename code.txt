@@ -1,0 +1,67 @@
+import _pickle as pkl
+from gensim.models import Phrases
+from gensim.corpora import Dictionary
+from tqdm import tqdm
+import gensim
+import itertools
+import logging
+logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
+logging.root.level = logging.INFO  # ipython sometimes messes up the logging setup; restore
+
+with open("notebooks/docs.pkl", "rb") as f:
+    docs = pkl.load(f)
+
+bigram = Phrases(tqdm(docs), min_count=20)
+
+for idx in tqdm(range(len(docs))):
+    for token in bigram[docs[idx]]:
+        if '_' in token:
+            # Token is a bigram, add to document.
+            docs[idx].append(token)
+
+dictionary = Dictionary(tqdm(docs))
+
+max_freq = 0.5
+min_wordcount = 20
+
+dictionary.filter_extremes(no_below=min_wordcount, no_above=max_freq)
+ _ = dictionary[0]  # This sort of "initializes" dictionary.id2token.
+corpus = [dictionary.doc2bow(doc) for doc in docs]
+
+print('Number of unique tokens: %d' % len(dictionary))
+#Number of unique tokens: 60434
+print('Number of documents: %d' % len(corpus))
+#Number of documents: 23595
+
+gensim.corpora.MmCorpus.serialize('acl_bow.mm', corpus)
+
+id2word=dictionary.id2token
+
+mm_corpus = gensim.corpora.MmCorpus('acl_bow.mm')
+
+lda_model = gensim.models.LdaModel(corpus, num_topics=100, id2word=id2word, passes=300, alpha="auto", eta="auto")
+
+
+###################################
+
+from gensim.models.ldamodel import LdaModel
+from gensim.corpora import MmCorpus
+from gensim.corpora import Dictionary
+from numpy.random import seed
+seed(1)
+import logging
+logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
+logging.root.level = logging.INFO
+
+corpus = MmCorpus('acl_bow.mm')
+dictionary = Dictionary.from_corpus(corpus)
+_ = dictionary[0]
+id2word = dictionary.id2token
+del dictionary
+lda_model = LdaModel(corpus, id2word=id2word, num_topics=100, passes=1000, iterations = 100, alpha="auto", eta="auto")
+lda_model.save("model500.pkl")
+
+
+
+#LdaModel.load(fname)
+
