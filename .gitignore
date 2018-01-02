@@ -6,3 +6,6 @@ aan/citation_summaries
 aan/author_affiliations
 models/*
 *.pkl
+*.mm
+*.pdf
+*.mm.index
