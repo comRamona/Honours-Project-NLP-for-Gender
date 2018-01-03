@@ -6,10 +6,9 @@ from gensim.models import Phrases
 from gensim.corpora import Dictionary
 from tqdm import tqdm
 import gensim
-import logging
-
-logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
-logging.root.level = logging.INFO  # ipython sometimes messes up the logging setup; restore
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+logger.handlers = [logging.StreamHandler()]
 
 with open("notebooks/docs.pkl", "rb") as f:
     docs = pkl.load(f)
@@ -22,6 +21,7 @@ for idx in tqdm(range(len(docs))):
             # Token is a bigram, add to document.
             docs[idx].append(token)
 
+del bigram
 dictionary = Dictionary(tqdm(docs))
 
 max_freq = 0.5
@@ -37,3 +37,4 @@ print('Number of documents: %d' % len(corpus))
 # Number of documents: 23595
 
 gensim.corpora.MmCorpus.serialize('acl_bow.mm', corpus)
+dictionary.save('dict.pkl')

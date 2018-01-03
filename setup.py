@@ -1,10 +1,9 @@
 """ Setup script for mlp package. """
 
 from setuptools import setup
-
-from setuptools import setup
 from setuptools.command.develop import develop
 from setuptools.command.install import install
+
 
 def friendly(command_subclass):
     """A decorator for classes subclassing one of the setuptools commands.
@@ -25,16 +24,17 @@ def friendly(command_subclass):
 class CustomDevelopCommand(develop):
     pass
 
+
 @friendly
 class CustomInstallCommand(install):
     pass
 
+
 setup(
-    name = "honours",
-    author = "Ramona Comanescu",
-    description = ("Honours Project code for University of Edinburgh "
-                   "School of Informatics"),
-    url = "https://github.com/comRamona/Honours-LDA",
+    name="honours",
+    author="Ramona Comanescu",
+    description=("Honours Project code for University of Edinburgh "
+                 "School of Informatics"),
+    url="https://github.com/comRamona/Honours-LDA",
     packages=['metadata', '_name_classification', '_data_cleaning', '_topic_modeling']
 )
-

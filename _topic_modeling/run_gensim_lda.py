@@ -15,3 +15,5 @@ id2word = dictionary.id2token
 del dictionary
 lda_model = LdaModel(corpus, id2word=id2word, num_topics=100, passes=1000, iterations=100, alpha="auto", eta="auto")
 lda_model.save("model500.pkl")
+
+# lda = gensim.models.ldamodel.LdaModel.load('lda.model')
