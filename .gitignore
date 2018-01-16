@@ -4,6 +4,7 @@ aan/papers_pdf
 aan/papers*
 aan/citation_summaries
 aan/author_affiliations
+arxiv/data.arxiv.io/data
 models/*
 *.pkl
 *.mm
