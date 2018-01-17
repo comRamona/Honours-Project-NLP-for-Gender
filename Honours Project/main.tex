@@ -1,0 +1,113 @@
+
+% to choose your degree
+% please un-comment just one of the following
+\documentclass[bsc,frontabs,twoside,singlespacing,parskip,deptreport]{infthesis}     % for BSc, BEng etc.
+\usepackage[T1]{fontenc}
+\usepackage{amssymb,amsmath}
+\usepackage{txfonts}
+\usepackage{microtype}
+
+% For figures
+\usepackage{graphicx}
+\usepackage{subfigure} 
+
+% For citations
+\usepackage{natbib}
+
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+% the hyperref package is used to produce hyperlinks in the
+% resulting PDF.  If this breaks your system, please commend out the
+% following usepackage line and replace \usepackage{mlp2017} with
+% \usepackage[nohyperref]{mlp2017} below.
+\usepackage{hyperref}
+\usepackage{url}
+\urlstyle{same}
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\begin{document}
+
+\title{Why is AI "a sea of dudes"? Using data science and NLP methods to understand gender imbalance in a scientific community.}
+
+\author{Ramona Comanescu}
+
+% to choose your course
+% please un-comment just one of the following
+\course{Computer Science}
+
+% please un-comment just one of the following
+\project{Undergraduate Dissertation} % CS&E, E&SE, AI&L
+
+\project{4th Year Project Report}
+
+\date{\today}
+
+\abstract{
+This project carries an in-depth study of gender in the field of computation linguistics. There has been an undeniable raise of deep learning methods in every field, including computational linguistics. We investigate how machine learning affects the gender gap in natural language processing. We perform name classification on a corpus of computational linguistic papers. We start by comparing career progression of men an women: we find that they have similar collaboration networks, but women's publishing patterns tend to be more sparse. We employ topic modeling to capture the shift of approaches in the field towards deep learning and contrast these with earlier findings.
+}
+
+\maketitle
+
+\section*{Acknowledgements}
+% I would like to thank my superviser, Dr. Adam Lopez for his unvaluable time and guidance during my project.
+% My parents for their immense support and also for the unexpected help with annotating my data. Francisco Vargas for the insightful brainstorming and motivation, especially regarding name classification and helping me understand LDA.
+
+\tableofcontents
+
+%\pagenumbering{arabic}
+
+
+\chapter{Introduction}
+\section{Motivation}
+\section{Background}
+
+ The resulting picture closely resembles and adds to that arrived at through qualitative analysis, showing that this form of topic modeling could be useful for sifting through datasets that had not previously been subject to any analysis. The strength of the relationships between topics illustrates the fluid and ubiquitous nature of sexism, with no single experience being unrelated to another.
+
+Topic models for text corpora comprise a popular family of methods that have inspired many extensions to encode properties such as sparsity, interactions with covariates, and the gradual evolution of topics.
+\section{Why gender balance matters}
+
+Divide your chapters into sub-parts as appropriate.
+
+\section{Outline}
+
+\chapter{Data}
+\section{Corpus}
+We use The ACL anthology network corpus \cite{aan} with the lastest release being 2014. 
+
+The  ACL 2012 Contributed Task \cite{contributed} outlines some of the problems that make maintaining an up to date and error-free ACL collection difficult. We make our own attempt at cleaning and preprocessing the data, before starting doing any analysis.
+We remove all duplicate ids(papers published in multiple publication) and we are left with 22944 papers. 
+
+The source dataset describes both automatic conversion from pdf to text and OCR techinques. However, we discover files for which conversion has failed, spitting out random character.
+In order to detect malfunctioning conversion, we do automatic language detection, using \textbf{langid.py.} \cite{langid}
+Pdf to text conversion only works for born digital pdf papers. Once we identify the files for which pdftotxt failed, we used OCR with Tesseract. In the process, we also discover some papers where in french and we need to discard them. Actually 515 were corrupted, even though pdf2text works.
+Of course
+you may want to use several chapters and much more text than here.
+
+\section{Name classification}
+\section{Extension: ArXiv corpus and double blind reviews}
+
+\chapter{Career paths}
+\section{Summary statistics}
+\section{Publishing patterns}
+\section{Collaboration network}
+
+\chapter{Topic modelling}
+\section{Latent Dirichlet Allocation}
+\section{Experiments}
+\subsection{Results}
+% use the following and \cite{} as above if you use BibTeX
+% otherwise generate bibtem entries
+
+\chapter{Conclusion}
+
+\bibliographystyle{plain}
+\bibliography{mybibfile}
+
+\chapter{Appendix}
+
+\end{document}
+

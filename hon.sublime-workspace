@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"arx",
+				"arxiv_id"
+			],
+			[
+				"fi",
+				"firstname\tstatement"
+			],
+			[
+				"str",
+				"strptime\tfunction"
+			],
+			[
 				"pro",
 				"process_str\tfunction"
 			],
@@ -20,15 +32,6 @@
 			"settings":
 			{
 				"buffer_size": 3045,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_topic_modeling/old_sklearn_lda.py",
-			"settings":
-			{
-				"buffer_size": 3008,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -53,10 +56,40 @@
 			}
 		},
 		{
-			"file": "_topic_modeling/__init__.py",
+			"contents": "from os.path import join\nfrom os import environ\nimport pandas\n\nwith open(join(environ[\"AAN_DIR\"], 'arxiv_data.csv'), 'r') as file:\n    data = pandas.read_csv(file)\n\nprint(data)\n",
+			"file": "arxiv/parse_kaggle_data.py",
+			"file_size": 177,
+			"file_write_time": 131601624512471526,
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 177,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "arxiv/arxiv_collect_metadata.py",
+			"settings":
+			{
+				"buffer_size": 5625,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "arxiv/data.arxiv.io/scrape.py",
+			"settings":
+			{
+				"buffer_size": 4832,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "aan/release/2014/acl-metadata.txt",
+			"settings":
+			{
+				"buffer_size": 4982846,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -175,11 +208,14 @@
 	[
 		"/home/ramona/Desktop/Honours-LDA",
 		"/home/ramona/Desktop/Honours-LDA/aan",
-		"/home/ramona/Desktop/Honours-LDA/aan/save",
-		"/home/ramona/Desktop/Honours-LDA/metadata"
+		"/home/ramona/Desktop/Honours-LDA/aan/release",
+		"/home/ramona/Desktop/Honours-LDA/aan/release/2014",
+		"/home/ramona/Desktop/Honours-LDA/arxiv"
 	],
 	"file_history":
 	[
+		"/home/ramona/Desktop/Honours-LDA/_topic_modeling/old_sklearn_lda.py",
+		"/home/ramona/Desktop/Honours-LDA/_topic_modeling/__init__.py",
 		"/home/ramona/Desktop/Honours-LDA/setup.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/__init__.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/censusnames.py",
@@ -213,7 +249,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -227,6 +263,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"record_",
 			"process",
 			"proces",
 			"Oliva, Karel",
@@ -252,7 +289,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -289,7 +326,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 450.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -297,36 +334,6 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_topic_modeling/old_sklearn_lda.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3008,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2744,
-								2744
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "_topic_modeling/run_gensim_lda.py",
 					"semi_transient": false,
 					"settings":
@@ -366,7 +373,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "_topic_modeling/lda_loader.py",
 					"semi_transient": false,
 					"settings":
@@ -378,8 +385,8 @@
 						"selection":
 						[
 							[
-								477,
-								477
+								366,
+								403
 							]
 						],
 						"settings":
@@ -401,39 +408,149 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "_topic_modeling/__init__.py",
+					"buffer": 3,
+					"file": "arxiv/parse_kaggle_data.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 177,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								175,
+								175
 							]
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "arxiv/arxiv_collect_metadata.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5625,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1936,
+								1936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "arxiv/data.arxiv.io/scrape.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4183,
+								4183
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1485.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "aan/release/2014/acl-metadata.txt",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4982846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144287,
+								144287
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 74391.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "_topic_modeling/lda_script.sh",
 					"semi_transient": false,
 					"settings":
@@ -457,11 +574,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "_topic_modeling/create_corpus.py",
 					"semi_transient": false,
 					"settings":
@@ -485,11 +602,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "_topic_modeling/tokenize.py",
 					"semi_transient": false,
 					"settings":
@@ -527,11 +644,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "_topic_modeling/plot_ldavis.py",
 					"semi_transient": false,
 					"settings":
@@ -557,11 +674,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "indexes.py",
 					"semi_transient": false,
 					"settings":
@@ -597,11 +714,11 @@
 						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"file": "career/Collaboration Graph.py",
 					"semi_transient": false,
 					"settings":
@@ -627,11 +744,11 @@
 						"translation.y": 630.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 13,
 					"file": "/home/ramona/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -655,11 +772,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 14,
 					"file": "/home/ramona/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 					"semi_transient": false,
 					"settings":
@@ -683,7 +800,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 14,
 					"type": "text"
 				}
 			]
@@ -770,7 +887,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 422.0,
+	"side_bar_width": 334.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
