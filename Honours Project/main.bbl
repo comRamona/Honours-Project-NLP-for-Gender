@@ -1,0 +1,50 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Blei et~al.(2003)Blei, Ng, and Jordan]{Blei_LDA}
+David~M. Blei, Andrew~Y. Ng, and Michael~I. Jordan.
+\newblock Latent dirichlet allocation.
+\newblock \emph{J. Mach. Learn. Res.}, 3:\penalty0 993--1022, March 2003.
+\newblock ISSN 1532-4435.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=944919.944937}.
+
+\bibitem[Clark()]{seaofdudes}
+Jack Clark.
+\newblock Artificial intelligence has a.
+
+\bibitem[Lui and Baldwin(2011)]{langid}
+Marco Lui and Timothy Baldwin.
+\newblock Cross-domain feature selection for language identification.
+\newblock In \emph{In Proceedings of 5th International Joint Conference on
+  Natural Language Processing}, pages 553--561, 2011.
+
+\bibitem[Radev et~al.(2013)Radev, Muthukrishnan, Qazvinian, and Abu-Jbara]{aan}
+Dragomir~R. Radev, Pradeep Muthukrishnan, Vahed Qazvinian, and Amjad Abu-Jbara.
+\newblock The acl anthology network corpus.
+\newblock \emph{Language Resources and Evaluation}, pages 1--26, 2013.
+\newblock ISSN 1574-020X.
+\newblock \doi{10.1007/s10579-012-9211-2}.
+\newblock URL \url{http://dx.doi.org/10.1007/s10579-012-9211-2}.
+
+\bibitem[Sch\"{a}fer et~al.(2012)Sch\"{a}fer, Read, and Oepen]{contributed}
+Ulrich Sch\"{a}fer, Jonathon Read, and Stephan Oepen.
+\newblock Towards an acl anthology corpus with logical document structure: An
+  overview of the acl 2012 contributed task.
+\newblock In \emph{Proceedings of the ACL-2012 Special Workshop on
+  Rediscovering 50 Years of Discoveries}, ACL '12, pages 88--97, Stroudsburg,
+  PA, USA, 2012. Association for Computational Linguistics.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2390507.2390520}.
+
+\bibitem[Vogel and Jurafsky(2012)]{Jurafsky_Hesaid}
+Adam Vogel and Dan Jurafsky.
+\newblock He said, she said: Gender in the acl anthology.
+\newblock In \emph{Proceedings of the ACL-2012 Special Workshop on
+  Rediscovering 50 Years of Discoveries}, ACL '12, pages 33--41, Stroudsburg,
+  PA, USA, 2012. Association for Computational Linguistics.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2390507.2390512}.
+
+\end{thebibliography}

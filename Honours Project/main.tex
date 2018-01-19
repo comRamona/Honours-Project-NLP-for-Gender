@@ -47,14 +47,15 @@
 \date{\today}
 
 \abstract{
-This project carries an in-depth study of gender in the field of computation linguistics. There has been an undeniable raise of deep learning methods in every field, including computational linguistics. We investigate how machine learning affects the gender gap in natural language processing. We perform name classification on a corpus of computational linguistic papers. We start by comparing career progression of men an women: we find that they have similar collaboration networks, but women's publishing patterns tend to be more sparse. We employ topic modeling to capture the shift of approaches in the field towards deep learning and contrast these with earlier findings.
+This dissertation carries an in-depth study of gender in the field of computation linguistics. There has been an undeniable raise of deep learning methods in every field, including computational linguistics. We investigate how machine learning affects the gender gap in natural language processing. We perform name classification on a corpus of computational linguistic papers. We start by comparing career progression of men an women: we find that they have similar collaboration networks, but women's publishing patterns tend to be more sparse. We employ topic modeling to capture the shift of approaches in the field towards deep learning and contrast these with earlier findings.
 }
 
 \maketitle
 
 \section*{Acknowledgements}
 % I would like to thank my superviser, Dr. Adam Lopez for his unvaluable time and guidance during my project.
-% My parents for their immense support and also for the unexpected help with annotating my data. Francisco Vargas for the insightful brainstorming and motivation, especially regarding name classification and helping me understand LDA.
+% My parents for the unexpected help with labeling names for gender and for the immense support. 
+%Francisco Vargas for the insightful brainstorming, especially regarding name classification and helping me understand details of LDA.
 
 \tableofcontents
 
@@ -63,7 +64,11 @@ This project carries an in-depth study of gender in the field of computation lin
 
 \chapter{Introduction}
 \section{Motivation}
-\section{Background}
+Artificial intelligence (AI) has been growing rapidly in recent years. However, just 13q1.7 percent of one of 2015's biggest AI conferences (NIPS) were women, according to Bloomberg. \cite{seaofdudes}
+Microsoft researcher Margaret Mitchell calls Artificial Intelligence "a sea of dudes". \cite{seaofdudes} 
+\section{Previous work}
+
+Most studies of gender balance in computer science are based on reporting statistics on enrolment. \cite{Jurafsky_Hesaid} go beyond the surface and study the difference in topics that different genders write about. They perform a "mostly-manual annotation" of the gender of each author, which we also use as a starting point for our name classification. They use Latent Dirichlet Allocation(LDA) topic models \citep{Blei_LDA} to study the difference in topics genders write about. Their study is conducted on the Association of Computational Linguistics Anthology Network (AAN) corpus \citep{aan}, using papers from 1965 to 2008. They find that "women publish more on dialog, discourse, and sentiment, while men publish more than women in parsing, formal semantics and finite state models". They also find that the participation of females in the field has been steadily increasing.
 
  The resulting picture closely resembles and adds to that arrived at through qualitative analysis, showing that this form of topic modeling could be useful for sifting through datasets that had not previously been subject to any analysis. The strength of the relationships between topics illustrates the fluid and ubiquitous nature of sexism, with no single experience being unrelated to another.
 
@@ -104,10 +109,9 @@ you may want to use several chapters and much more text than here.
 
 \chapter{Conclusion}
 
-\bibliographystyle{plain}
+\bibliographystyle {plainnat}
 \bibliography{mybibfile}
 
-\chapter{Appendix}
 
 \end{document}
 
