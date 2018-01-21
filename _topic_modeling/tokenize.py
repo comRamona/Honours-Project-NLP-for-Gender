@@ -20,7 +20,7 @@ nlp = spacy.load('en')
 
 # Remove hyphens from words, to solve cases like he-llo
 def dehyphenate(s):
-    return s.replace('-\n', '').lower()
+    return s.replace('-\n', '')
 
 
 acl = ACL_metadata()
@@ -58,6 +58,7 @@ for file in tqdm(acl.modeling_files[:10]):
             logger.info("Couldn't find references for document " + str(file))
             last = len(txt)
         txt = txt[first: last]
+        txt = txt.lower()
 
         docs.append(txt)
 
