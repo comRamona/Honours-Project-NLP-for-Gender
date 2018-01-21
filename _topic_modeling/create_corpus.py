@@ -6,6 +6,8 @@ from gensim.models import Phrases
 from gensim.corpora import Dictionary
 from tqdm import tqdm
 import gensim
+
+
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.handlers = [logging.StreamHandler()]

@@ -1,6 +1,7 @@
 from os import listdir
 from os.path import isfile, join
 from os import environ
+import logging
 import os
 import pandas as pd
 import re
@@ -9,11 +10,16 @@ import _pickle as pkl
 from _name_classification.nametools import process_str as process_str
 
 
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+logger.handlers = [logging.StreamHandler()]
 # constructs dataframe with authors papers and names
 
 class ACL_metadata():
 
     def __init__(self):
+
+        logger.warning("Remember to use acl.modeling_files and modeling_df for topic modeling")
 
         with open("bad_pdfs.pkl", "rb") as f:
             bad_ids = pkl.load(f)
@@ -23,7 +29,7 @@ class ACL_metadata():
         self.train_files = [join(environ["AAN_DIR"], "papers_text",
                                  fn) for fn in listdir(join(environ["AAN_DIR"],
                                                             "papers_text")) if isfile(join(train_dirpath,
-                                                                                           fn)) and "txt" in fn and fn not in bad_ids]
+                                                                                           fn)) and "txt" in fn and fn[:-4] not in bad_ids]
 
         tf = set()
         for f in self.train_files:
@@ -94,7 +100,7 @@ class ACL_metadata():
 
         interesting = tf.intersection(ids)
 
-        self.unique_df = self.meta_df.loc[interesting]
+        self.modeling_df = self.meta_df.loc[interesting]
         self.modeling_files = [join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
                                for fn in list(self.unique_df.index)]
 
