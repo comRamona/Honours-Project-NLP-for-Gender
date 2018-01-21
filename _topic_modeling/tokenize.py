@@ -39,7 +39,7 @@ for file in tqdm(sorted(acl.modeling_files[:10])):
             first = first + len("abstract")
         else:
             first = 0
-            logger.info("Couldn't find abstract for document " + str(doc_ids))
+            logger.info("Couldn't find abstract for document " + str(fid))
         last = lwr.rfind("references")
         if last != -1:
             last == last - len("references")
@@ -49,7 +49,7 @@ for file in tqdm(sorted(acl.modeling_files[:10])):
                 last == last - len("bibliography")
             else:
                 last = 0
-                logger.info("Couldn't find references for document " + str(doc_ids))
+                logger.info("Couldn't find references for document " + str(fid))
         txt = txt[first: last]
 
         # Replace any whitespace (newline, tabs, etc.) by a single space.
@@ -81,7 +81,7 @@ for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
 docs = processed_docs
 del processed_docs
 
-logger.INFO("Saving tokenized documents")
+logger.info("Saving tokenized documents")
 with open("docs2.pkl", "wb") as f:
     pkl.dump(docs, f)
 
