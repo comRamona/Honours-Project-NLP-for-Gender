@@ -10,7 +10,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.handlers = [logging.StreamHandler()]
 
-with open("notebooks/docs.pkl", "rb") as f:
+with open("docs2.pkl", "rb") as f:
     docs = pkl.load(f)
 
 bigram = Phrases(tqdm(docs), min_count=20)
@@ -24,10 +24,11 @@ for idx in tqdm(range(len(docs))):
 del bigram
 dictionary = Dictionary(tqdm(docs))
 
-max_freq = 0.5
-min_wordcount = 20
-
-dictionary.filter_extremes(no_below=min_wordcount, no_above=max_freq)
+max_freq = 0.4
+min_wordcount = 15
+max_number = 10000
+logger.INFO("Filtering extremes in dictionary..")
+dictionary.filter_extremes(no_below=min_wordcount, no_above=max_freq, keep_n=max_number)
 _ = dictionary[0]  # This sort of "initializes" dictionary.id2token.
 corpus = [dictionary.doc2bow(doc) for doc in docs]
 
@@ -36,5 +37,5 @@ print('Number of unique tokens: %d' % len(dictionary))
 print('Number of documents: %d' % len(corpus))
 # Number of documents: 23595
 
-gensim.corpora.MmCorpus.serialize('acl_bow.mm', corpus)
-dictionary.save('dict.pkl')
+gensim.corpora.MmCorpus.serialize('acl_bow2.mm', corpus, id2word=dictionary)
+dictionary.save('dict2.pkl')

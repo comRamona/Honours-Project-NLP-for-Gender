@@ -39,7 +39,7 @@ for file in tqdm(sorted(acl.train_files)):
             first = first + len("abstract")
         else:
             first = 0
-            logger.INFO("Couldn't find abstract for document " + doc_ids)
+            logger.info("Couldn't find abstract for document " + doc_ids)
         last = lwr.rfind("references")
         if last != -1:
             last == last - len("references")
@@ -49,7 +49,7 @@ for file in tqdm(sorted(acl.train_files)):
                 last == last - len("bibliography")
             else:
                 last = 0
-                logger.INFO("Couldn't find references for document " + doc_ids)
+                logger.info("Couldn't find references for document " + doc_ids)
         txt = txt[first: last]
 
         # Replace any whitespace (newline, tabs, etc.) by a single space.
@@ -58,7 +58,7 @@ for file in tqdm(sorted(acl.train_files)):
         docs.append(txt)
 
 
-logger.INFO("Starting Tokenization..")
+logger.info("Starting Tokenization..")
 
 processed_docs = []
 for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
