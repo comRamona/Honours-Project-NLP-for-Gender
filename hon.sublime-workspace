@@ -48,10 +48,10 @@
 			}
 		},
 		{
-			"file": "arxiv/data.arxiv.io/scrape.py",
+			"file": "setup.py",
 			"settings":
 			{
-				"buffer_size": 4832,
+				"buffer_size": 989,
 				"line_ending": "Unix"
 			}
 		},
@@ -141,6 +141,7 @@
 	[
 		"/home/ramona/Desktop/Honours-LDA",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification",
+		"/home/ramona/Desktop/Honours-LDA/_topic_modeling",
 		"/home/ramona/Desktop/Honours-LDA/aan",
 		"/home/ramona/Desktop/Honours-LDA/aan/release",
 		"/home/ramona/Desktop/Honours-LDA/aan/release/2014",
@@ -234,7 +235,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -318,24 +319,24 @@
 						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "arxiv/data.arxiv.io/scrape.py",
+					"file": "setup.py",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 4832,
+						"buffer_size": 989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4810,
-								4831
+								989,
+								989
 							]
 						],
 						"settings":
@@ -345,10 +346,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{

@@ -28,14 +28,37 @@ acl = ACL_metadata()
 # Get all document texts and their corresponding IDs.
 docs = []
 doc_ids = []
-for file in acl.train_files:
+for file in tqdm(sorted(acl.train_files)):
     doc_ids.append(acl.get_id(file))
     with open(file, errors='ignore', encoding='utf-8') as fid:
         txt = fid.read()
+        lwr = txt.lower()
+        # keep only text between abstract and references, if possible
+        first = lwr.find("abstract")
+        if first != -1:
+            first = first + len("abstract")
+        else:
+            first = 0
+            logger.INFO("Couldn't find abstract for document " + doc_ids)
+        last = lwr.rfind("references")
+        if last != -1:
+            last == last - len("references")
+        else:
+            last = lwr.rfind("bibliography")
+            if last != -1:
+                last == last - len("bibliography")
+            else:
+                last = 0
+                logger.INFO("Couldn't find references for document " + doc_ids)
+        txt = txt[first: last]
+
         # Replace any whitespace (newline, tabs, etc.) by a single space.
         txt = re.sub('\s', ' ', txt)
         txt = dehyphenate(txt)
         docs.append(txt)
+
+
+logger.INFO("Starting Tokenization..")
 
 processed_docs = []
 for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
@@ -58,5 +81,10 @@ for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
 docs = processed_docs
 del processed_docs
 
-with open("docs.pkl", "wb") as f:
+logger.INFO("Saving tokenized documents")
+with open("docs2.pkl", "wb") as f:
     pkl.dump(docs, f)
+
+with open("doc2_ids.pkl", "wb") as f:
+    pkl.dump(doc_ids, f)
+

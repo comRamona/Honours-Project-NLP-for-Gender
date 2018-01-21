@@ -47,7 +47,7 @@
 \date{\today}
 
 \abstract{
-This dissertation carries an in-depth study of gender in the field of computation linguistics. There has been an undeniable raise of deep learning methods in every field, including computational linguistics. We investigate how machine learning affects the gender gap in natural language processing. We perform name classification on a corpus of computational linguistic papers. We start by comparing career progression of men an women: we find that they have similar collaboration networks, but women's publishing patterns tend to be more sparse. We employ topic modeling to capture the shift of approaches in the field towards deep learning and contrast these with earlier findings.
+This dissertation carries an in-depth study of gender in the field of computation linguistics. There has been an undeniable raise of deep learning methods in every field, including computational linguistics. We investigate how machine learning affects the gender gap in natural language processing. We perform name classification on a corpus of computational linguistic papers. There are three main topic we analyse: publication patterns, topic modeling and stylometry. We start by comparing career progression of men an women: we find that they have similar collaboration networks, but women's publishing patterns tend to be more sparse. We employ topic modeling to capture the shift of approaches in the field towards deep learning and contrast these with earlier findings.
 }
 
 \maketitle
@@ -64,50 +64,75 @@ This dissertation carries an in-depth study of gender in the field of computatio
 
 \chapter{Introduction}
 \section{Motivation}
-Artificial intelligence (AI) has been growing rapidly in recent years. However, just 13q1.7 percent of one of 2015's biggest AI conferences (NIPS) were women, according to Bloomberg. \cite{seaofdudes}
+Artificial intelligence (AI) has been growing rapidly in recent years. However, just 13\% percent of one of 2015's biggest AI conferences (NIPS) were women, according to Bloomberg. \cite{seaofdudes}
 Microsoft researcher Margaret Mitchell calls Artificial Intelligence "a sea of dudes". \cite{seaofdudes} 
+\section{Outline}
+The main goal of this thesis is to analyse gender imbalance in the field of computational linguistics. We go beyond surface statistics and try to understand gender from multiple points of views.
+
+\begin{itemize}
+\item In chapter \ref{ch:publ} we compare publishing patterns of men and women. 
+    \begin{itemize}
+    \item Single authored papers and coauthorship
+    \item Collaboration network
+    \item 
+    \end{itemize}
+\end{itemize}
+
+\chapter{Background}
+
 \section{Previous work}
 
-Most studies of gender balance in computer science are based on reporting statistics on enrolment. \cite{Jurafsky_Hesaid} go beyond the surface and study the difference in topics that different genders write about. They perform a "mostly-manual annotation" of the gender of each author, which we also use as a starting point for our name classification. They use Latent Dirichlet Allocation(LDA) topic models \citep{Blei_LDA} to study the difference in topics genders write about. Their study is conducted on the Association of Computational Linguistics Anthology Network (AAN) corpus \citep{aan}, using papers from 1965 to 2008. They find that "women publish more on dialog, discourse, and sentiment, while men publish more than women in parsing, formal semantics and finite state models". They also find that the participation of females in the field has been steadily increasing.
+Most studies of gender balance in computer science are based on reporting statistics on enrolment. \cite{Jurafsky_Hesaid} go beyond the surface and study the difference in topics that different genders write about. They perform a "mostly-manual annotation" of the gender of each author, which we also use as a starting point for our name classification. They use Latent Dirichlet Allocation(LDA) topic models \citep{Blei_LDA} to study the difference in topics genders write about. Their study is conducted on the Association of Computational Linguistics Anthology Network (AAN) corpus \citep{aan}, using papers from 1965 to 2008. They find that "women publish more on dialogue, discourse, and sentiment, while men publish more than women in parsing, formal semantics and finite state models". They also find that the participation of females in the field has been steadily increasing.
 
  The resulting picture closely resembles and adds to that arrived at through qualitative analysis, showing that this form of topic modeling could be useful for sifting through datasets that had not previously been subject to any analysis. The strength of the relationships between topics illustrates the fluid and ubiquitous nature of sexism, with no single experience being unrelated to another.
 
 Topic models for text corpora comprise a popular family of methods that have inspired many extensions to encode properties such as sparsity, interactions with covariates, and the gradual evolution of topics.
+
 \section{Why gender balance matters}
 
-Divide your chapters into sub-parts as appropriate.
+\section{Ethical concerns}
 
-\section{Outline}
+\chapter{Methodology}
 
-\chapter{Data}
 \section{Corpus}
+\subsection{ACL Anthology Network Corpus}
 We use The ACL anthology network corpus \cite{aan} with the lastest release being 2014. 
 
 The  ACL 2012 Contributed Task \cite{contributed} outlines some of the problems that make maintaining an up to date and error-free ACL collection difficult. We make our own attempt at cleaning and preprocessing the data, before starting doing any analysis.
 We remove all duplicate ids(papers published in multiple publication) and we are left with 22944 papers. 
 
-The source dataset describes both automatic conversion from pdf to text and OCR techinques. However, we discover files for which conversion has failed, spitting out random character.
+The source dataset describes both automatic conversion from pdf to text and OCR techniques. However, we discover files for which conversion has failed, spitting out random character.
 In order to detect malfunctioning conversion, we do automatic language detection, using \textbf{langid.py.} \cite{langid}
-Pdf to text conversion only works for born digital pdf papers. Once we identify the files for which pdftotxt failed, we used OCR with Tesseract. In the process, we also discover some papers where in french and we need to discard them. Actually 515 were corrupted, even though pdf2text works.
-Of course
-you may want to use several chapters and much more text than here.
+Pdf to text conversion only works for born digital pdf papers. Once we identify the files for which pdftotext failed, we used OCR with Tesseract. In the process, we also discover some papers where in french and we need to discard them. We eliminate 515 corrupted papers.
+\subsection{ArXiv Corpus}
 
 \section{Name classification}
-\section{Extension: ArXiv corpus and double blind reviews}
+\subsection{Methods}
+\subsection{Evaluation}
 
-\chapter{Career paths}
+\chapter{Publishing patterns}
+\label{ch:publ}
 \section{Summary statistics}
-\section{Publishing patterns}
+\section{Single authored papers and coauthorship}
 \section{Collaboration network}
 
 \chapter{Topic modelling}
+\label{ch:topics}
 \section{Latent Dirichlet Allocation}
+% what it is
+\section{Author-topic models}
 \section{Experiments}
-\subsection{Results}
-% use the following and \cite{} as above if you use BibTeX
-% otherwise generate bibtem entries
+\section{Results}
+
+\chapter{Stylometry}
+\label{ch:style}
+\subsection{Features}
 
 \chapter{Conclusion}
+As there is limited quantitative analysis of women and
+men's scholarly output computer science(most analysis just report statistics on the number of graduates), this project
+fills a gap in our knowledge about sex and publication productivity. We also analysed sex differences in single authorship and co-authorship
+of journal articles.
 
 \bibliographystyle {plainnat}
 \bibliography{mybibfile}
