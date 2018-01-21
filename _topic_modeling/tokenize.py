@@ -28,7 +28,7 @@ acl = ACL_metadata()
 # Get all document texts and their corresponding IDs.
 docs = []
 doc_ids = []
-for file in tqdm(sorted(acl.train_files)):
+for file in tqdm(sorted(acl.modeling_files[:10])):
     doc_ids.append(acl.get_id(file))
     with open(file, errors='ignore', encoding='utf-8') as fid:
         txt = fid.read()
@@ -39,7 +39,7 @@ for file in tqdm(sorted(acl.train_files)):
             first = first + len("abstract")
         else:
             first = 0
-            logger.info("Couldn't find abstract for document " + doc_ids)
+            logger.info("Couldn't find abstract for document " + str(doc_ids))
         last = lwr.rfind("references")
         if last != -1:
             last == last - len("references")
@@ -49,7 +49,7 @@ for file in tqdm(sorted(acl.train_files)):
                 last == last - len("bibliography")
             else:
                 last = 0
-                logger.info("Couldn't find references for document " + doc_ids)
+                logger.info("Couldn't find references for document " + str(doc_ids))
         txt = txt[first: last]
 
         # Replace any whitespace (newline, tabs, etc.) by a single space.

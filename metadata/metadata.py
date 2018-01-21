@@ -15,11 +15,15 @@ class ACL_metadata():
 
     def __init__(self):
 
+        with open("bad_pdfs.pkl", "rb") as f:
+            bad_ids = pkl.load(f)
+            bad_ids = set(map(lambda x: x[0], bad_ids))
+
         train_dirpath = os.path.join(os.environ["AAN_DIR"], "papers_text")
         self.train_files = [join(environ["AAN_DIR"], "papers_text",
                                  fn) for fn in listdir(join(environ["AAN_DIR"],
-                                                       "papers_text")) if isfile(join(train_dirpath,
-                                                                                 fn)) and "txt" in fn]
+                                                            "papers_text")) if isfile(join(train_dirpath,
+                                                                                           fn)) and "txt" in fn and fn not in bad_ids]
 
         tf = set()
         for f in self.train_files:
@@ -80,6 +84,19 @@ class ACL_metadata():
 
         self.meta_files = [join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
                            for fn in list(self.meta_df.index)]
+
+
+        ids = set(self.meta_df.index)
+        tf = set()
+        for f in self.train_files:
+            i = self.get_id(f)
+            tf.add(i)
+
+        interesting = tf.intersection(ids)
+
+        self.unique_df = self.meta_df.loc[interesting]
+        self.modeling_files = [join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
+                               for fn in list(self.unique_df.index)]
 
     def get_id(self, f):
         return f.split("/")[-1][:-4]
