@@ -26,10 +26,11 @@ class ACL_metadata():
             bad_ids = set(map(lambda x: x[0], bad_ids))
 
         train_dirpath = os.path.join(os.environ["AAN_DIR"], "papers_text")
-        self.train_files = [join(environ["AAN_DIR"], "papers_text",
+        self.train_files = sorted([join(environ["AAN_DIR"], "papers_text",
                                  fn) for fn in listdir(join(environ["AAN_DIR"],
                                                             "papers_text")) if isfile(join(train_dirpath,
-                                                                                           fn)) and "txt" in fn and fn[:-4] not in bad_ids]
+                                                                                           fn)) and "txt" in fn and fn[:-4] not in bad_ids],
+                                                                                            key = lambda x: self.get_id(x))
 
         tf = set()
         for f in self.train_files:
@@ -88,8 +89,8 @@ class ACL_metadata():
         # pandas dataframe to hold our papers and gender
         self.meta_df = pd.DataFrame(dic).set_index(["id"])
 
-        self.meta_files = [join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
-                           for fn in list(self.meta_df.index)]
+        self.meta_files = sorted([join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
+                           for fn in list(self.meta_df.index)], key = lambda x: self.get_id(x))
 
 
         ids = set(self.meta_df.index)
@@ -101,8 +102,8 @@ class ACL_metadata():
         interesting = tf.intersection(ids)
 
         self.modeling_df = self.meta_df.loc[interesting]
-        self.modeling_files = [join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
-                               for fn in list(self.modeling_df.index)]
+        self.modeling_files = sorted([join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
+                               for fn in list(self.modeling_df.index)], key = lambda x: self.get_id(x))
 
     def get_id(self, f):
         return f.split("/")[-1][:-4]
