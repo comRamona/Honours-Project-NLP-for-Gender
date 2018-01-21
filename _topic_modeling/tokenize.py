@@ -17,7 +17,8 @@ logger.handlers = [logging.StreamHandler()]
 np.random.seed(18101995)
 nlp = spacy.load('en')
 
-
+v = 2
+logging.info("Tokenize Version " + v)
 # Remove hyphens from words, to solve cases like he-llo
 def dehyphenate(s):
     return s.replace('-\n', '')
@@ -87,9 +88,9 @@ docs = processed_docs
 del processed_docs
 
 logger.info("Saving tokenized documents")
-with open("docs2.pkl", "wb") as f:
+with open("docs" + str(v) + ".pkl", "wb") as f:
     pkl.dump(docs, f)
 
-with open("doc2_ids.pkl", "wb") as f:
+with open("doc" +str(v) + "_ids.pkl", "wb") as f:
     pkl.dump(doc_ids, f)
 
