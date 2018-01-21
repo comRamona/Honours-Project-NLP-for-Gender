@@ -40,7 +40,7 @@ for file in tqdm(acl.modeling_files[:10]):
         
         # keep only text between abstract and references, if possible
         first = 0
-        for first_word in ["Abstract", "Introduction"]:
+        for first_word in ["Abstract", "Abst ract", "Introduction"]:
             first = txt.find(first_word)
             if first != -1:
                 first = first - len(first_word)
@@ -60,6 +60,7 @@ for file in tqdm(acl.modeling_files[:10]):
             last = len(txt)
         txt = txt[first: last]
         txt = txt.lower()
+        print(txt)
 
         docs.append(txt)
 
@@ -94,3 +95,5 @@ with open("docs" + str(v) + ".pkl", "wb") as f:
 with open("doc" +str(v) + "_ids.pkl", "wb") as f:
     pkl.dump(doc_ids, f)
 
+
+logger.info("Sanity test:\n" + docs[0])

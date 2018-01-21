@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"wa",
+				"warning\tfunction"
+			],
+			[
+				"max",
+				"max_number\tstatement"
+			],
+			[
 				"arx",
 				"arxiv_id"
 			],
@@ -39,27 +47,28 @@
 			}
 		},
 		{
-			"file": "_name_classification/classifyname.py",
+			"file": "_topic_modeling/create_corpus.py",
 			"settings":
 			{
-				"buffer_size": 8461,
+				"buffer_size": 1334,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "setup.py",
+			"file": "_topic_modeling/tokenize.py",
 			"settings":
 			{
-				"buffer_size": 989,
+				"buffer_size": 2783,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "aan/release/2014/acl-metadata.txt",
+			"file": "metadata/metadata.py",
 			"settings":
 			{
-				"buffer_size": 4982846,
+				"buffer_size": 4060,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -142,15 +151,15 @@
 		"/home/ramona/Desktop/Honours-LDA",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification",
 		"/home/ramona/Desktop/Honours-LDA/_topic_modeling",
-		"/home/ramona/Desktop/Honours-LDA/aan",
-		"/home/ramona/Desktop/Honours-LDA/aan/release",
-		"/home/ramona/Desktop/Honours-LDA/aan/release/2014",
 		"/home/ramona/Desktop/Honours-LDA/arxiv",
 		"/home/ramona/Desktop/Honours-LDA/arxiv/data.arxiv.io",
-		"/home/ramona/Desktop/Honours-LDA/arxiv/data.arxiv.io/data"
+		"/home/ramona/Desktop/Honours-LDA/arxiv/data.arxiv.io/data",
+		"/home/ramona/Desktop/Honours-LDA/metadata"
 	],
 	"file_history":
 	[
+		"/home/ramona/Desktop/Honours-LDA/_name_classification/classifyname.py",
+		"/home/ramona/Desktop/Honours-LDA/aan/release/2014/acl-metadata.txt",
 		"/home/ramona/Desktop/Honours-LDA/arxiv/data.arxiv.io/scrape.py",
 		"/home/ramona/Desktop/Honours-LDA/_topic_modeling/plot_ldavis.py",
 		"/home/ramona/Desktop/Honours-LDA/_topic_modeling/tokenize.py",
@@ -171,7 +180,6 @@
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/run_face_classif.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/old_names_classifier.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/main_classify_all.py",
-		"/home/ramona/Desktop/Honours-LDA/_name_classification/classifyname.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/faces.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/lookup.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/classifyface.py",
@@ -194,7 +202,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -274,24 +282,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "_name_classification/classifyname.py",
+					"file": "_topic_modeling/create_corpus.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8461,
+						"buffer_size": 1334,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3636,
-								3636
+								756,
+								756
 							]
 						],
 						"settings":
@@ -305,6 +313,41 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_topic_modeling/tokenize.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2783,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								430
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
 								},
 								{
 									"characters": ".",
@@ -316,37 +359,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "setup.py",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								989,
-								989
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -354,34 +367,43 @@
 				},
 				{
 					"buffer": 3,
-					"file": "aan/release/2014/acl-metadata.txt",
+					"file": "metadata/metadata.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4982846,
+						"buffer_size": 4060,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							],
-							[
-								986,
-								986
+								3548,
+								3548
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
