@@ -102,7 +102,7 @@ class ACL_metadata():
 
         self.modeling_df = self.meta_df.loc[interesting]
         self.modeling_files = [join(environ["AAN_DIR"], "papers_text/{0}.txt".format(fn))
-                               for fn in list(self.unique_df.index)]
+                               for fn in list(self.modeling_df.index)]
 
     def get_id(self, f):
         return f.split("/")[-1][:-4]
