@@ -1,7 +1,3 @@
-"""
-Tokenize acl.train_files and saves tokenized document matrix in ./docs.pkl
-
-"""
 import re
 from metadata.metadata import ACL_metadata
 import logging
@@ -17,7 +13,7 @@ logger.handlers = [logging.StreamHandler()]
 np.random.seed(18101995)
 nlp = spacy.load('en')
 
-v = 2
+v = 4
 logging.info("Tokenize Version " + str(v))
 # Remove hyphens from words, to solve cases like he-llo
 def dehyphenate(s):
@@ -60,11 +56,13 @@ for file in tqdm(acl.modeling_files[:10]):
             last = len(txt)
         txt = txt[first: last]
         txt = txt.lower()
-        print(txt)
-
         docs.append(txt)
 
-
+with open("doc" +str(v) + "_ids.pkl", "wb") as f:
+    pkl.dump(doc_ids, f)
+del doc_ids
+del acl 
+del txt
 logger.info("Starting Tokenization..")
 
 processed_docs = []
@@ -85,15 +83,12 @@ for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
 
     processed_docs.append(doc)
 
-docs = processed_docs
-del processed_docs
-
+del docs 
 logger.info("Saving tokenized documents")
 with open("docs" + str(v) + ".pkl", "wb") as f:
-    pkl.dump(docs, f)
+    pkl.dump(processed_docs, f)
 
-with open("doc" +str(v) + "_ids.pkl", "wb") as f:
-    pkl.dump(doc_ids, f)
+logger.info("Sanity test:\n") 
+print(processed_docs[0])
+del processed_docs
 
-
-logger.info("Sanity test:\n" + docs[0])
