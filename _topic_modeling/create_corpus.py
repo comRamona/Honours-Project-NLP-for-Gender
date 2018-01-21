@@ -13,7 +13,7 @@ logger.setLevel(logging.INFO)
 logger.handlers = [logging.StreamHandler()]
 
 v = 2
-logging.info("Corpus Version " + v)
+logging.info("Corpus Version " + str(v))
 with open("docs" + str(v) + ".pkl", "rb") as f:
     docs = pkl.load(f)
 
@@ -29,7 +29,7 @@ del bigram
 dictionary = Dictionary(tqdm(docs))
 
 max_freq = 0.4
-min_wordcount = 15
+min_wordcount = 5
 max_number = 10000
 logger.info("Filtering extremes in dictionary..")
 dictionary.filter_extremes(no_below=min_wordcount, no_above=max_freq, keep_n=max_number)

@@ -18,7 +18,7 @@ np.random.seed(18101995)
 nlp = spacy.load('en')
 
 v = 2
-logging.info("Tokenize Version " + v)
+logging.info("Tokenize Version " + str(v))
 # Remove hyphens from words, to solve cases like he-llo
 def dehyphenate(s):
     return s.replace('-\n', '')
