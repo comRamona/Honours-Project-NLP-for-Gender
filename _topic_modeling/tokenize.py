@@ -32,24 +32,26 @@ for file in tqdm(sorted(acl.modeling_files[:10])):
     doc_ids.append(acl.get_id(file))
     with open(file, errors='ignore', encoding='utf-8') as fid:
         txt = fid.read()
-        lwr = txt.lower()
         # keep only text between abstract and references, if possible
-        first = lwr.find("abstract")
-        if first != -1:
-            first = first + len("abstract")
-        else:
+        first = 0
+         for first_word in ["Abstract", "Introduction"]:
+            first= txt.find(end_word)
+            if first != -1:
+                first = first - len(first_word)
+                break
+        if first == -1:
+            logger.info("Couldn't find abstract for document " + str(file))
             first = 0
-            logger.info("Couldn't find abstract for document " + str(fid))
-        last = lwr.rfind("references")
-        if last != -1:
-            last == last - len("references")
-        else:
-            last = lwr.rfind("bibliography")
+
+        last = len(txt)
+        for end_word in ["References", "Bibliography", "Acknowledgments"]:
+            last = txt.rfind(end_word)
             if last != -1:
-                last == last - len("bibliography")
-            else:
-                last = 0
-                logger.info("Couldn't find references for document " + str(fid))
+                last = last - len(end_word)
+                break
+        if last == -1:
+            logger.info("Couldn't find references for document " + str(file))
+            last = len(txt)
         txt = txt[first: last]
 
         # Replace any whitespace (newline, tabs, etc.) by a single space.
