@@ -30,12 +30,16 @@ docs = []
 doc_ids = []
 for file in tqdm(sorted(acl.modeling_files[:10])):
     doc_ids.append(acl.get_id(file))
+    txt = file.read()
+    # Replace any whitespace (newline, tabs, etc.) by a single space.
+    txt = re.sub('\s', ' ', txt)
+    txt = dehyphenate(txt)
     with open(file, errors='ignore', encoding='utf-8') as fid:
         txt = fid.read()
         # keep only text between abstract and references, if possible
         first = 0
-         for first_word in ["Abstract", "Introduction"]:
-            first= txt.find(end_word)
+        for first_word in ["Abstract", "Introduction"]:
+            first = txt.find(first_word)
             if first != -1:
                 first = first - len(first_word)
                 break
@@ -44,7 +48,7 @@ for file in tqdm(sorted(acl.modeling_files[:10])):
             first = 0
 
         last = len(txt)
-        for end_word in ["References", "Bibliography", "Acknowledgments"]:
+        for end_word in ["References", "Bibliography", "Acknowledgments", "Acknowledgment"]:
             last = txt.rfind(end_word)
             if last != -1:
                 last = last - len(end_word)
@@ -54,9 +58,6 @@ for file in tqdm(sorted(acl.modeling_files[:10])):
             last = len(txt)
         txt = txt[first: last]
 
-        # Replace any whitespace (newline, tabs, etc.) by a single space.
-        txt = re.sub('\s', ' ', txt)
-        txt = dehyphenate(txt)
         docs.append(txt)
 
 
