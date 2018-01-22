@@ -2,12 +2,11 @@ from gensim.models.ldamodel import LdaModel
 from gensim.models import LdaMulticore
 from gensim.corpora import MmCorpus
 from gensim.corpora import Dictionary
-from numpy.random import seed
 import numpy as np
 import random
 import logging
 
-seed(1)
+random.seed(1)
 logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
 logging.root.level = logging.INFO
 v = 8
@@ -22,7 +21,7 @@ train_index = sorted(random.sample(range(len(corpus)), train_size))
 test_index = sorted(set(range(len(corpus)))-set(train_index))
 train_corpus = [corpus[i] for i in train_index]
 test_corpus = [corpus[j] for j in test_index]
-
+print(test_index[:10])
 # model = models.LdaMulticore(corpus=corpus, workers=None, id2word=id2word, num_topics=100, iterations=500, passes=1000, alpha="auto", eta="auto")
    
 model = LdaModel(corpus=corpus, id2word=id2word, num_topics=100, iterations=500, passes=1000, alpha="auto", eta="auto")
