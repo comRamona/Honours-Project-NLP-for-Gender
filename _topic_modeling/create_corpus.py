@@ -12,7 +12,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.handlers = [logging.StreamHandler()]
 
-v = 2
+v = 8
 logging.info("Corpus Version " + str(v))
 with open("docs" + str(v) + ".pkl", "rb") as f:
     docs = pkl.load(f)

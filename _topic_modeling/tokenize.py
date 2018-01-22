@@ -13,7 +13,7 @@ logger.handlers = [logging.StreamHandler()]
 np.random.seed(18101995)
 nlp = spacy.load('en')
 
-v = 4
+v = 8
 logging.info("Tokenize Version " + str(v))
 # Remove hyphens from words, to solve cases like he-llo
 def dehyphenate(s):
@@ -25,7 +25,7 @@ acl = ACL_metadata()
 # Get all document texts and their corresponding IDs.
 docs = []
 doc_ids = []
-for file in tqdm(acl.modeling_files[:10]):
+for file in tqdm(acl.modeling_files):
     doc_ids.append(acl.get_id(file))
     with open(file, errors='ignore', encoding='utf-8') as fid:
         txt = fid.read()

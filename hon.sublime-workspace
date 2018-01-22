@@ -48,7 +48,7 @@
 			"file": "_topic_modeling/tokenize.py",
 			"settings":
 			{
-				"buffer_size": 2731,
+				"buffer_size": 2792,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -268,15 +268,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2731,
+						"buffer_size": 2792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2596,
-								2517
+								2771,
+								2771
 							]
 						],
 						"settings":
@@ -294,6 +294,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"syntax": "Packages/Python/Python.sublime-syntax",
@@ -301,7 +305,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 714.0,
+						"translation.y": 1020.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
