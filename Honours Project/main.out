@@ -18,9 +18,10 @@
 \BOOKMARK [1][-]{section.4.3}{Collaboration network}{chapter.4}% 18
 \BOOKMARK [0][-]{chapter.5}{Topic modelling}{}% 19
 \BOOKMARK [1][-]{section.5.1}{Latent Dirichlet Allocation}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.2}{Time evolution}{chapter.5}% 21
-\BOOKMARK [2][-]{subsection.5.2.1}{Results}{section.5.2}% 22
-\BOOKMARK [0][-]{chapter.6}{Stylometry}{}% 23
-\BOOKMARK [1][-]{subsection.6.0.1}{Features}{chapter.6}% 24
-\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 25
-\BOOKMARK [0][-]{chapter*.3}{Bibliography}{}% 26
+\BOOKMARK [1][-]{section.5.2}{Author-topic models}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.3}{Experiments}{chapter.5}% 22
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.6}{Stylometry}{}% 24
+\BOOKMARK [1][-]{section.6.1}{Features}{chapter.6}% 25
+\BOOKMARK [0][-]{chapter.7}{Conclusion}{}% 26
+\BOOKMARK [0][-]{chapter*.3}{Bibliography}{}% 27

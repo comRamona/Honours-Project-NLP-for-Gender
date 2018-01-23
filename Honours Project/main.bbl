@@ -1,50 +1,52 @@
-\begin{thebibliography}{6}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[Blei et~al.(2003)Blei, Ng, and Jordan]{Blei_LDA}
-David~M. Blei, Andrew~Y. Ng, and Michael~I. Jordan.
+\bibitem[\protect\astroncite{BBC}{2016}]{tay}
+BBC (24 March 2016).
+\newblock Microsoft chatbot is taught to swear on twitter.
+
+\bibitem[\protect\astroncite{Blei et~al.}{2003}]{Blei_LDA}
+Blei, D.~M., Ng, A.~Y., and Jordan, M.~I. (2003).
 \newblock Latent dirichlet allocation.
-\newblock \emph{J. Mach. Learn. Res.}, 3:\penalty0 993--1022, March 2003.
-\newblock ISSN 1532-4435.
-\newblock URL \url{http://dl.acm.org/citation.cfm?id=944919.944937}.
+\newblock {\em J. Mach. Learn. Res.}, 3:993--1022.
 
-\bibitem[Clark()]{seaofdudes}
-Jack Clark.
-\newblock Artificial intelligence has a.
+\bibitem[\protect\astroncite{Bloomberg}{2016}]{seaofdudes}
+Bloomberg (23 June 2016).
+\newblock Artificial intelligence has a sea of dudes problem.
 
-\bibitem[Lui and Baldwin(2011)]{langid}
-Marco Lui and Timothy Baldwin.
+\bibitem[\protect\astroncite{Bolukbasi et~al.}{2016}]{homemaker}
+Bolukbasi, T., Chang, K., Zou, J.~Y., Saligrama, V., and Kalai, A. (2016).
+\newblock Man is to computer programmer as woman is to homemaker? debiasing
+  word embeddings.
+\newblock {\em CoRR}, abs/1607.06520.
+
+\bibitem[\protect\astroncite{Guardian}{2015}]{gorilla}
+Guardian, T. (1 July 2015).
+\newblock Google photos labels black people as 'gorillas'.
+
+\bibitem[\protect\astroncite{Lui and Baldwin}{2011}]{langid}
+Lui, M. and Baldwin, T. (2011).
 \newblock Cross-domain feature selection for language identification.
-\newblock In \emph{In Proceedings of 5th International Joint Conference on
-  Natural Language Processing}, pages 553--561, 2011.
+\newblock In {\em In Proceedings of 5th International Joint Conference on
+  Natural Language Processing}, pages 553--561.
 
-\bibitem[Radev et~al.(2013)Radev, Muthukrishnan, Qazvinian, and Abu-Jbara]{aan}
-Dragomir~R. Radev, Pradeep Muthukrishnan, Vahed Qazvinian, and Amjad Abu-Jbara.
+\bibitem[\protect\astroncite{Radev et~al.}{2013}]{aan}
+Radev, D.~R., Muthukrishnan, P., Qazvinian, V., and Abu-Jbara, A. (2013).
 \newblock The acl anthology network corpus.
-\newblock \emph{Language Resources and Evaluation}, pages 1--26, 2013.
-\newblock ISSN 1574-020X.
-\newblock \doi{10.1007/s10579-012-9211-2}.
-\newblock URL \url{http://dx.doi.org/10.1007/s10579-012-9211-2}.
+\newblock {\em Language Resources and Evaluation}, pages 1--26.
 
-\bibitem[Sch\"{a}fer et~al.(2012)Sch\"{a}fer, Read, and Oepen]{contributed}
-Ulrich Sch\"{a}fer, Jonathon Read, and Stephan Oepen.
+\bibitem[\protect\astroncite{Sch\"{a}fer et~al.}{2012}]{contributed}
+Sch\"{a}fer, U., Read, J., and Oepen, S. (2012).
 \newblock Towards an acl anthology corpus with logical document structure: An
   overview of the acl 2012 contributed task.
-\newblock In \emph{Proceedings of the ACL-2012 Special Workshop on
-  Rediscovering 50 Years of Discoveries}, ACL '12, pages 88--97, Stroudsburg,
-  PA, USA, 2012. Association for Computational Linguistics.
-\newblock URL \url{http://dl.acm.org/citation.cfm?id=2390507.2390520}.
+\newblock In {\em Proceedings of the ACL-2012 Special Workshop on Rediscovering
+  50 Years of Discoveries}, ACL '12, pages 88--97, Stroudsburg, PA, USA.
+  Association for Computational Linguistics.
 
-\bibitem[Vogel and Jurafsky(2012)]{Jurafsky_Hesaid}
-Adam Vogel and Dan Jurafsky.
+\bibitem[\protect\astroncite{Vogel and Jurafsky}{2012}]{Jurafsky_Hesaid}
+Vogel, A. and Jurafsky, D. (2012).
 \newblock He said, she said: Gender in the acl anthology.
-\newblock In \emph{Proceedings of the ACL-2012 Special Workshop on
-  Rediscovering 50 Years of Discoveries}, ACL '12, pages 33--41, Stroudsburg,
-  PA, USA, 2012. Association for Computational Linguistics.
-\newblock URL \url{http://dl.acm.org/citation.cfm?id=2390507.2390512}.
+\newblock In {\em Proceedings of the ACL-2012 Special Workshop on Rediscovering
+  50 Years of Discoveries}, ACL '12, pages 33--41, Stroudsburg, PA, USA.
+  Association for Computational Linguistics.
 
 \end{thebibliography}

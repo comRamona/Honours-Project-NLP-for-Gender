@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"LdaM",
+				"LdaMulticore"
+			],
+			[
+				"LD",
+				"LdaMulticore"
+			],
+			[
 				"wa",
 				"warning\tfunction"
 			],
@@ -48,33 +56,25 @@
 			"file": "_topic_modeling/tokenize.py",
 			"settings":
 			{
-				"buffer_size": 2792,
+				"buffer_size": 2787,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "career/Collaboration Graph.py",
+			"file": "_topic_modeling/run_gensim_lda.py",
 			"settings":
 			{
-				"buffer_size": 2415,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/ramona/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 74,
+				"buffer_size": 1580,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/ramona/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+			"file": "_topic_modeling/plot_ldavis.py",
 			"settings":
 			{
-				"buffer_size": 31,
+				"buffer_size": 2014,
 				"line_ending": "Unix"
 			}
 		}
@@ -120,7 +120,6 @@
 	"expanded_folders":
 	[
 		"/home/ramona/Desktop/Honours-LDA",
-		"/home/ramona/Desktop/Honours-LDA/_name_classification",
 		"/home/ramona/Desktop/Honours-LDA/_topic_modeling",
 		"/home/ramona/Desktop/Honours-LDA/arxiv",
 		"/home/ramona/Desktop/Honours-LDA/arxiv/data.arxiv.io",
@@ -129,6 +128,9 @@
 	],
 	"file_history":
 	[
+		"/home/ramona/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/ramona/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/ramona/Desktop/Honours-LDA/career/Collaboration Graph.py",
 		"/home/ramona/Desktop/Honours-LDA/arxiv/parse_kaggle_data.py",
 		"/home/ramona/Desktop/Honours-LDA/indexes.py",
 		"/home/ramona/Desktop/Honours-LDA/metadata/metadata.py",
@@ -147,7 +149,6 @@
 		"/home/ramona/Desktop/Honours-LDA/setup.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/__init__.py",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/censusnames.py",
-		"/home/ramona/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/affiliations.py",
 		"/home/ramona/Desktop/Honours-LDA/hon.sublime-project",
 		"/home/ramona/Desktop/Honours-LDA/_name_classification/run_face_classif.py",
@@ -189,6 +190,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"import",
 			"chandler",
 			"record_",
 			"process",
@@ -233,7 +235,7 @@
 						[
 							[
 								1333,
-								1333
+								1292
 							]
 						],
 						"settings":
@@ -256,10 +258,10 @@
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 51.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -268,15 +270,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2792,
+						"buffer_size": 2787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2771,
-								2771
+								0,
+								6
 							]
 						],
 						"settings":
@@ -305,7 +307,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1020.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -313,19 +315,58 @@
 				},
 				{
 					"buffer": 2,
-					"file": "career/Collaboration Graph.py",
+					"file": "_topic_modeling/run_gensim_lda.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2415,
+						"buffer_size": 1580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								2415
+								1293,
+								1293
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_topic_modeling/plot_ldavis.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1905,
+								1905
 							]
 						],
 						"settings":
@@ -335,66 +376,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 630.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/ramona/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 74,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								72,
-								72
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/ramona/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]

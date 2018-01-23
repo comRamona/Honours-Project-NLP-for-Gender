@@ -1,54 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: main.aux
-The style file: plainnat.bst
+The style file: apa.bst
 Database file #1: mybibfile.bib
-I was expecting a `,' or a `}'---line 89 of file mybibfile.bib
- :     title     = "Artificial Intelligence Has a "
- :                                                 Sea of Dudes" Problem,
-I'm skipping whatever remains of this entry
+Warning--empty journal in tay
 Warning--empty journal in seaofdudes
-Warning--empty year in seaofdudes
-Warning--empty year in seaofdudes
-You've used 6 entries,
-            2773 wiz_defined-function locations,
-            637 strings with 6070 characters,
-and the built_in function-call counts, 3231 in all, are:
-= -- 314
-> -- 151
-< -- 7
-+ -- 51
-- -- 45
-* -- 246
-:= -- 476
+Warning--empty journal in gorilla
+You've used 9 entries,
+            1940 wiz_defined-function locations,
+            526 strings with 5075 characters,
+and the built_in function-call counts, 3700 in all, are:
+= -- 366
+> -- 134
+< -- 9
++ -- 46
+- -- 44
+* -- 296
+:= -- 622
 add.period$ -- 26
-call.type$ -- 6
-change.case$ -- 33
-chr.to.int$ -- 6
-cite$ -- 15
-duplicate$ -- 159
-empty$ -- 263
-format.name$ -- 55
-if$ -- 707
+call.type$ -- 9
+change.case$ -- 67
+chr.to.int$ -- 9
+cite$ -- 12
+duplicate$ -- 162
+empty$ -- 261
+format.name$ -- 57
+if$ -- 746
 int.to.chr$ -- 1
-int.to.str$ -- 1
-missing$ -- 6
-newline$ -- 44
-num.names$ -- 24
-pop$ -- 67
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 45
+num.names$ -- 27
+pop$ -- 68
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 67
 quote$ -- 0
-skip$ -- 125
+skip$ -- 132
 stack$ -- 0
-substring$ -- 135
-swap$ -- 35
+substring$ -- 233
+swap$ -- 43
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 66
+type$ -- 54
 warning$ -- 3
 while$ -- 31
 width$ -- 0
-write$ -- 101
-(There was 1 error message)
+write$ -- 116
+(There were 3 warnings)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.18)  19 JAN 2018 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.1.18)  22 JAN 2018 21:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,13 +634,13 @@ LaTeX Info: Redefining \nameref on input line 32.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Try loading font information for T1+txss on input line 54.
+LaTeX Font Info:    Try loading font information for T1+txss on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txss.fd
 File: t1txss.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 19.70294pt on input line 54.
+(Font)              scaled to size 19.70294pt on input line 49.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `txss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -651,121 +651,115 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 ]
 LaTeX Font Info:    Font shape `T1/txss/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 54.
+(Font)              scaled to size 11.39996pt on input line 49.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 11.39996pt on input line 54.
+(Font)              scaled to size 11.39996pt on input line 49.
 LaTeX Font Info:    Font shape `T1/txss/m/it' in size <12> not available
-(Font)              Font shape `T1/txss/m/sl' tried instead on input line 54.
+(Font)              Font shape `T1/txss/m/sl' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/txss/m/sl' will be
-(Font)              scaled to size 11.39996pt on input line 54.
+(Font)              scaled to size 11.39996pt on input line 49.
  [3]
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 16.41594pt on input line 55.
+(Font)              scaled to size 16.41594pt on input line 50.
  [4]
+Chapter 1.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 23.63593pt on input line 60.
- (./main.toc
-LaTeX Font Info:    Try loading font information for OT1+txr on input line 2.
-
+(Font)              scaled to size 23.63593pt on input line 56.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 61.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
-LaTeX Font Info:    Try loading font information for U+txsya on input line 2.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for U+txsya on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyb on input line 2.
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txmia on input line 2.
+LaTeX Font Info:    Try loading font information for U+txmia on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Try loading font information for U+txsyc on input line 2.
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 61.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-))
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
- [5
+) [5
 
 ] [6
 
 ]
-Chapter 1.
-[7] [8
-
-]
 Chapter 2.
-[9] [10
+[7] [8
 
 ]
 Chapter 3.
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
-(Font)              scaled to size 13.67995pt on input line 88.
-[11] [12
+(Font)              scaled to size 13.67995pt on input line 95.
+[9] [10
 
 ]
 Chapter 4.
-[13] [14
+[11] [12
 
 ]
 Chapter 5.
-[15] [16
+[13] [14
 
 ]
 Chapter 6.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 114.
-
-[17] [18
+[15] [16
 
 ]
 Chapter 7.
-(./main.bbl [19] [20
+[17] [18
+
+] (./main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ (./main.bbl [19] [20
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
  [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 89FF92C7D91E75C22751C7A78A8C18DB;1553.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+(rerunfilecheck)             Checksum: 17D7F13BEE43360FF0D584B2481FF4EB;1604.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
  ) 
 Here is how much of TeX's memory you used:
- 11094 strings out of 492990
- 164774 string characters out of 6135005
- 277844 words of memory out of 5000000
- 14252 multiletter control sequences out of 15000+600000
- 69502 words of font info for 190 fonts, out of 8000000 for 9000
+ 11122 strings out of 492990
+ 165050 string characters out of 6135005
+ 277959 words of memory out of 5000000
+ 14265 multiletter control sequences out of 15000+600000
+ 70292 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,5n,40p,913b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,13n,40p,913b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (21 pages, 76899 bytes).
+/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
+c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (21 pages, 80030 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 56 named destinations out of 1000 (max. 500000)
- 41681 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 307 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 41689 words of extra memory for PDF output out of 42996 (max. 10000000)
 
