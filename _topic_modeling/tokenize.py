@@ -5,15 +5,26 @@ import _pickle as pkl
 from tqdm import tqdm
 import numpy as np
 import spacy
+from _storage.storage import FileDir
 
+fd = FileDir()
+v = 10
+import logging
+logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s]  %(message)s")
 logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-logger.handlers = [logging.StreamHandler()]
+
+fileName = "tokenizer"+str(v)
+fileHandler = logging.FileHandler("{0}.log".format(fileName))
+fileHandler.setFormatter(logFormatter)
+logger.addHandler(fileHandler)
+
+consoleHandler = logging.StreamHandler()
+consoleHandler.setFormatter(logFormatter)
+logger.addHandler(consoleHandler)
 
 np.random.seed(18101995)
 nlp = spacy.load('en')
 
-v = 8
 logging.info("Tokenize Version " + str(v))
 # Remove hyphens from words, to solve cases like he-llo
 def dehyphenate(s):
@@ -58,8 +69,8 @@ for file in tqdm(acl.modeling_files):
         txt = txt.lower()
         docs.append(txt)
 
-with open("doc" +str(v) + "_ids.pkl", "wb") as f:
-    pkl.dump(doc_ids, f)
+
+fd.save_pickle(doc_ids, "doc" +str(v) + "_ids")
 del doc_ids
 del acl 
 del txt
@@ -69,7 +80,7 @@ processed_docs = []
 for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
     # Process document using Spacy NLP pipeline.
 
-    ents = doc.ents  # Named entities.
+    #ents = doc.ents  # Named entities.
 
     # Keep only words (no numbers, no punctuation).
     # Lemmatize tokens, remove punctuation and remove stopwords.
@@ -79,14 +90,13 @@ for doc in nlp.pipe(tqdm(docs), n_threads=4, batch_size=100):
     # doc = [token for token in doc if token not in STOPWORDS]
 
     # Add named entities, but only if they are a compound of more than word.
-    doc.extend([str(entity) for entity in ents if len(entity) > 1])
+    #doc.extend([str(entity) for entity in ents if len(entity) > 1])
 
     processed_docs.append(doc)
 
 del docs 
 logger.info("Saving tokenized documents")
-with open("docs" + str(v) + ".pkl", "wb") as f:
-    pkl.dump(processed_docs, f)
+fd.save_pickle(processed_docs, "docs" + str(v))
 
 logger.info("Sanity test:\n") 
 print(processed_docs[0])
