@@ -8,7 +8,7 @@ import re
 from metadata import Gender
 import _pickle as pkl
 from _name_classification.nametools import process_str as process_str
-
+from _storage.storage import FileDir
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
@@ -21,15 +21,19 @@ class ACL_metadata():
 
         logger.warning("Remember to use acl.modeling_files and modeling_df for topic modeling")
 
-        with open("bad_pdfs.pkl", "rb") as f:
-            bad_ids = pkl.load(f)
-            bad_ids = set(map(lambda x: x[0], bad_ids))
+        self.AAN_DIR = os.path.join(os.environ["AAN_DIR"])
+        self.fd = FileDir()
+
+        bad_ids = self.fd.load_pickle("bad_pdfs")
+        bad_ids = set(map(lambda x: x[0], bad_ids))
+        short_ids = self.fd.load_pickle("short_pdfs")
+        short_ids = set(map(lambda x: x[0], short_ids))
 
         train_dirpath = os.path.join(os.environ["AAN_DIR"], "papers_text")
         self.train_files = sorted([join(environ["AAN_DIR"], "papers_text",
                                  fn) for fn in listdir(join(environ["AAN_DIR"],
                                                             "papers_text")) if isfile(join(train_dirpath,
-                                                                                           fn)) and "txt" in fn and fn[:-4] not in bad_ids],
+                                                                                           fn)) and "txt" in fn and fn[:-4] not in bad_ids and fn[:-4] not in short_ids],
                                                                                             key = lambda x: self.get_id(x))
 
         tf = set()

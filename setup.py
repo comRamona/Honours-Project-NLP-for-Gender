@@ -36,5 +36,5 @@ setup(
     description=("Honours Project code for University of Edinburgh "
                  "School of Informatics"),
     url="https://github.com/comRamona/Honours-LDA",
-    packages=['metadata', '_name_classification', '_data_cleaning', '_topic_modeling']
+    packages=['metadata', '_name_classification', '_data_cleaning', '_topic_modeling', '_storage']
 )
