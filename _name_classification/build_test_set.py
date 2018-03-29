@@ -35,7 +35,7 @@ class TestSet():
                     labeled_set.append((m, Gender.male))
 
         n = len(labeled_set)
-        sample_size = int(round(n*0.2))
+        sample_size = int(round(n*0.1))
         sample_index = sorted(random.sample(range(n), sample_size))
         self.sample_corpus = [labeled_set[j] for j in sample_index]
 
@@ -74,3 +74,6 @@ class TestSet():
                 else:
                     fem_as_male += 1
         logger.info("Correct: {0}, Fem as male: {1}, Male as female: {2}, Unknown{3}".format(correct, fem_as_male, male_as_fem, unk))
+
+t = TestSet()
+t.test_classifier()
